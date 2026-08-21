@@ -1,0 +1,14 @@
+- Actividad: "Nombre: Proyecto o Certificación\nDescripción: Un proyecto representativo,
+    a cualquier vertiente de la IA. o Tomar un curso de certificación y aprobarlo\n\
+    Notas: El alumno debe elegir que proyecto\nElementos Clave: Redes Neuronales,
+    Sistemas Expertos, LLMS\nSEAES_CACEI: CD1-3,CD2-3,CD2-5,AE1,AE2,AE5, Compromiso
+    con responsabilidad Social."
+  Reactivos:
+  - ID: R001
+    Ponderacion: 50
+    Reactivo: "Descripción: Video Documentando el Proceso o Certificado de Terminacion
+      de Curso\nRestricciones: Las que el Docente decida."
+  - ID: R002
+    Ponderacion: 50
+    Reactivo: "Descripción: Ejecución del proyecto o Certificado de aprobacion de
+      la certificación\nRestricciones: Las que el Docente decida."

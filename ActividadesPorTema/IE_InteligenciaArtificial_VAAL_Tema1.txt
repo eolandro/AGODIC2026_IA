@@ -1,0 +1,85 @@
+###--
+'''
+Nombre: Podcast
+Descripción: Realizar un podcast, sobre la visión de inteligencia según la lógica, la matemática, la filosofía y la psicología.
+Notas: 
+= Si bien, cada uno de estos temas, son extensos, la idea es investigar y platicar sobre las visiones de inteligencia.
+= Es un podcast los estudiantes deben rebotar ideas entre ellos no leer cada quien una parte.
+= Deben entregar el enlace del archivo y la transcripción con marcas de tiempo.
+= En la transcripcion deben colocar las fuentes en formato APA que utilizaron.
+Elementos Clave: Conductismo y Condicionamiento, Autoreferencia, Paradoja del Barbero, Godel, Turing, Church, Post, Cognitivismo, Conocimiento segun Kant, prensión algoritmica y aprensión,
+SEAES_CACEI: NA
+'''
+##R001##
+##30##
+"""
+Descripción: Presentación de la información y manejo del tema
+Restricciones: NA.
+"""
+##R002##
+##10##
+"""
+Descripción: Calidad de audio y producción
+Restricciones: NA.
+"""
+###--
+'''
+Nombre: Agente Inteligente (Boome)
+Descripción: Realizar Interprete del lenguaje de boome a partir de la gramatica vista en el Tema 4 de programación lógica y funcional.
+Notas: 
+= Dado el programa que presenta el docente, completarlo para obtener el interprete completo.
+= Hay que recalcar que este interprete es la representacion abstracta del robot boome el cual es un agente inteligente.
+= Si Necesitan la gramatica correspondiente a la materia de Programación Lógica y Funcional
+= Idealmente el interprete se compone de dos partes el analizador-lexico semantico esta programado en un enfoque logico (Traduccion de codigo prolog), y la máquina virtual que ejecuta el código de boome, esta ultima con enfoque orientado a Objeto
+Elementos Clave: Python, Pattern matching.
+SEAES_CACEI: CD1-3, AE1, Vanguadia.
+'''
+##R003##
+##15##
+"""
+Descripción: Representacion adecuada en consola.
+Restricciones: 
+= Se debe mostrar en consola el valor de los registros, el mapa, la posición de boome y los obstaculos
+"""
+##R004##
+##15##
+"""
+Descripción: Ejecución completa del programa
+Restricciones: 
+= El interprete debe sobrevivir a la ejecucion del codigo fuente.
+"""
+##R005##
+##15##
+"""
+Reactivo: Estructura del código
+Restricciones: 
+= El interprete deberia tener código legible y bien estructurado.
+"""
+###--
+'''
+Nombre: Linea del Tiempo.
+Descripción: Realizar una Linea del tiempo fisica o digital de la historia de la inteligencia artificial.
+Notas:
+= La linea deberia incluir elementos de las ultimas dos decadas
+= Hay Lenguajes que fueron asociados a la IA tambien deberian estar ahi
+= Según que autor verifiquen existen 1 0 2 Inviernos de la IA
+= Bibliografia y Fuentes en APA
+Elementos Clave: Los Inviernos de la IA Pedro miramontes, Prolog, Lisp, Neurona Artificial, Minsky, Transformers, Redes Adversarias, Modelos probabilisticos de Difusion, LLM.
+SEAES_CACEI: CD1-3, AE1, Vanguadia.
+'''
+##R006##
+##10##
+"""
+Descripción: Información y Contenido.
+Restricciones: 
+= La información y contenido no deberia ser superficial, ejemplo de mala información; "Facebook apaga dos IA por que inventan su propio lenguaje", esta fue una noticia superflua, que exagera lo sucedido. 
+= Los LLMs no siempre citan a fuentes confiables, vayan a la fuente original
+"""
+##R007##
+##5##
+"""
+Descripción: Presentación
+Restricciones: 
+= Que la presentación de la información sea creativa, hojas de calculo deberian ser omitidas.
+= Se puede usar plataformas en linea pero el entregable debe ser una imagen o pdf.
+"""

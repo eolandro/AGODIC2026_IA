@@ -1,0 +1,64 @@
+- Actividad: "Nombre: Podcast\nDescripción: Realizar un podcast, sobre la visión de
+    inteligencia según la lógica, la matemática, la filosofía y la psicología.\nNotas:\
+    \ \n= Si bien, cada uno de estos temas, son extensos, la idea es investigar y
+    platicar sobre las visiones de inteligencia.\n= Es un podcast los estudiantes
+    deben rebotar ideas entre ellos no leer cada quien una parte.\n= Deben entregar
+    el enlace del archivo y la transcripción con marcas de tiempo.\n= En la transcripcion
+    deben colocar las fuentes en formato APA que utilizaron.\nElementos Clave: Conductismo
+    y Condicionamiento, Autoreferencia, Paradoja del Barbero, Godel, Turing, Church,
+    Post, Cognitivismo, Conocimiento segun Kant, prensión algoritmica y aprensión,\n\
+    SEAES_CACEI: NA"
+  Reactivos:
+  - ID: R001
+    Ponderacion: 30
+    Reactivo: "Descripción: Presentación de la información y manejo del tema\nRestricciones:
+      NA."
+  - ID: R002
+    Ponderacion: 10
+    Reactivo: "Descripción: Calidad de audio y producción\nRestricciones: NA."
+- Actividad: "Nombre: Agente Inteligente (Boome)\nDescripción: Realizar Interprete
+    del lenguaje de boome a partir de la gramatica vista en el Tema 4 de programación
+    lógica y funcional.\nNotas: \n= Dado el programa que presenta el docente, completarlo
+    para obtener el interprete completo.\n= Hay que recalcar que este interprete es
+    la representacion abstracta del robot boome el cual es un agente inteligente.\n\
+    = Si Necesitan la gramatica correspondiente a la materia de Programación Lógica
+    y Funcional\n= Idealmente el interprete se compone de dos partes el analizador-lexico
+    semantico esta programado en un enfoque logico (Traduccion de codigo prolog),
+    y la máquina virtual que ejecuta el código de boome, esta ultima con enfoque orientado
+    a Objeto\nElementos Clave: Python, Pattern matching.\nSEAES_CACEI: CD1-3, AE1,
+    Vanguadia."
+  Reactivos:
+  - ID: R003
+    Ponderacion: 15
+    Reactivo: "Descripción: Representacion adecuada en consola.\nRestricciones: \n\
+      = Se debe mostrar en consola el valor de los registros, el mapa, la posición
+      de boome y los obstaculos"
+  - ID: R004
+    Ponderacion: 15
+    Reactivo: "Descripción: Ejecución completa del programa\nRestricciones: \n= El
+      interprete debe sobrevivir a la ejecucion del codigo fuente."
+  - ID: R005
+    Ponderacion: 15
+    Reactivo: "Reactivo: Estructura del código\nRestricciones: \n= El interprete deberia
+      tener código legible y bien estructurado."
+- Actividad: "Nombre: Linea del Tiempo.\nDescripción: Realizar una Linea del tiempo
+    fisica o digital de la historia de la inteligencia artificial.\nNotas:\n= La linea
+    deberia incluir elementos de las ultimas dos decadas\n= Hay Lenguajes que fueron
+    asociados a la IA tambien deberian estar ahi\n= Según que autor verifiquen existen
+    1 0 2 Inviernos de la IA\n= Bibliografia y Fuentes en APA\nElementos Clave: Los
+    Inviernos de la IA Pedro miramontes, Prolog, Lisp, Neurona Artificial, Minsky,
+    Transformers, Redes Adversarias, Modelos probabilisticos de Difusion, LLM.\nSEAES_CACEI:
+    CD1-3, AE1, Vanguadia."
+  Reactivos:
+  - ID: R006
+    Ponderacion: 10
+    Reactivo: "Descripción: Información y Contenido.\nRestricciones: \n= La información
+      y contenido no deberia ser superficial, ejemplo de mala información; \"Facebook
+      apaga dos IA por que inventan su propio lenguaje\", esta fue una noticia superflua,
+      que exagera lo sucedido. \n= Los LLMs no siempre citan a fuentes confiables,
+      vayan a la fuente original"
+  - ID: R007
+    Ponderacion: 5
+    Reactivo: "Descripción: Presentación\nRestricciones: \n= Que la presentación de
+      la información sea creativa, hojas de calculo deberian ser omitidas.\n= Se puede
+      usar plataformas en linea pero el entregable debe ser una imagen o pdf."

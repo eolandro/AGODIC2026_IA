@@ -1,0 +1,71 @@
+###--
+'''
+Nombre: Busqueda local
+Descripción: Diversos demostraciones de algorimos de búsqueda local.
+Notas: La idea es explicar el algorimo y que cada alumno realice su interpretación
+Elementos Clave: Primero Profundidad, Primero Anchura, Subir la colina.
+SEAES_CACEI: CD1-3,CD2-3,AE1,AE2, Compromiso con responsabilidad Social.
+'''
+##R001##
+##05##
+"""
+Descripción: Un programa que aplique Primero en Profundidad
+Restricciones: NA.
+"""
+##R002##
+##05##
+"""
+Descripción: Un programa que aplique Primero en Anchura
+Restricciones: NA.
+##R003##
+##10##
+"""
+Descripción: Un programa que aplique Subir la colina
+Restricciones: NA.
+"""
+###--
+'''
+Nombre: Espacios de estados
+Descripción: Diversos demostraciones de algorimos de espacios de estados.
+Notas: La idea es explicar el algorimo y que cada alumno realice su interpretación
+Elementos Clave: Algoritmos de ajedrez y juegos de mesa.
+SEAES_CACEI: CD1-3, AE1,Compromiso con responsabilidad Social.
+'''
+##R004##
+##15##
+"""
+Descripción: Demostración del problema de las N reinas.
+Restricciones: 4 reinas son suficientes.
+"""
+##R005##
+##15##
+"""
+Descripción: Problema de los caballos 1
+Restricciones: Cuatro caballos 2 negros, 2 blancos intercambian sus lugares en un tablero de  de 6x6
+"""
+##R006##
+##15##
+"""
+Descripción: Problema de los caballos 2
+Restricciones: Un caballo entra en tablero completo y debe recorrelo todo imprimir el recorrido en pantalla
+"""
+##R007##
+##15##
+"""
+Descripción: Come solo
+Restricciones: Un programa que resuelva el juego del comesolo dada la pieza faltante en el tablero
+"""
+###--
+'''
+Nombre: Pathfinding A*
+Descripción: Realizar un programa que aplique A* en un escenario específico.
+Notas: Ultimo programa de boome lee el tablero desde un archivo y busca la bomba con A*.
+Elementos Clave: Heurística, A*, pathfinding.
+SEAES_CACEI: CD1-3,CD2-3,AE1,AE2, Compromiso con responsabilidad Social.
+'''
+##R008##
+##15##
+"""
+Descripción: Aplicacion de pathfinding A*.
+Restricciones: NA
+"""

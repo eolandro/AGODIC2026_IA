@@ -1,0 +1,20 @@
+###--
+'''
+Nombre: Proyecto o Certificación
+Descripción: Un proyecto representativo, a cualquier vertiente de la IA. o Tomar un curso de certificación y aprobarlo
+Notas: El alumno debe elegir que proyecto
+Elementos Clave: Redes Neuronales, Sistemas Expertos, LLMS
+SEAES_CACEI: CD1-3,CD2-3,CD2-5,AE1,AE2,AE5, Compromiso con responsabilidad Social.
+'''
+##R001##
+##50##
+"""
+Descripción: Video Documentando el Proceso o Certificado de Terminacion de Curso
+Restricciones: Las que el Docente decida.
+"""
+##R002##
+##50##
+"""
+Descripción: Ejecución del proyecto o Certificado de aprobacion de la certificación
+Restricciones: Las que el Docente decida.
+"""

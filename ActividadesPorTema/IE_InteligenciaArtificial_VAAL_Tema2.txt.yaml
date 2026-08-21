@@ -1,0 +1,85 @@
+- Actividad: "Nombre: Red semántica con Teoria de la Información (RSTeoriaInfo)\n\
+    Descripción: Realizar un pequeño sistema experto basado en redes semanticas y
+    en la teoria de la información\nNotas: \n= La idea es realizar un SE tipo \"adivina
+    quien\" con animales que la clase haya seleccionado haciendo una tabla de pesos
+    y seleccionado las preguntas necesarias. \n= Debe tener tres etapas secuenciales
+    idealmente cada una puede ser ejecutada individialmente si se cumplen los requisitos\n\
+    = Los animales seran definidos en clase\nElementos Clave: Teoria de información,
+    Redes semanticas, Ordenamiento, Optimización\nSEAES_CACEI: CD1-3,CD2-3,AE1,AE2,
+    Compromiso con responsabilidad Social."
+  Reactivos:
+  - ID: R001
+    Ponderacion: 10
+    Reactivo: "Descripción: Generar programa \"inicializador\"\nRestricciones: NA."
+  - ID: R002
+    Ponderacion: 10
+    Reactivo: "Descripción: Generar programa \"entrenador\"\nRestricciones: NA."
+  - ID: R003
+    Ponderacion: 10
+    Reactivo: "Descripción: Adivinar el animal con el minimo de preguntas en el programa
+      \"adivinar\"\nRestricciones: NA."
+- Actividad: "Nombre: Razonamiento Monótono con grafos. (RM_Graph)\nDescripción: Realizar
+    un programa clasificador donde usado un arbol no binario cargado en un archivo
+    externo, con una serie de preguntas clasifique o adivine un objeto.\nNotas: \n\
+    = Retomando la linea de adivinar objetos, se propone adivinar figuras geometricas
+    que por medio de preguntas el programa resuelva de que figura se esta hablando.\
+    \ \n= El grafo de preguntas y transiciones deberia estar en archivo externo en
+    una estructura key-value.\nElementos Clave: key-value, Arboles no binarios, yaml,
+    json, grafos, razonamiento monótono.\nSEAES_CACEI: CD1-3, AE1,Compromiso con responsabilidad
+    Social."
+  Reactivos:
+  - ID: R004
+    Ponderacion: 10
+    Reactivo: "Descripción: Leer el archvo externo con el grafo.\nRestricciones: NA"
+  - ID: R005
+    Ponderacion: 10
+    Reactivo: "Descripción: Minimizacion de If.\nRestricciones: No tener un arbol
+      basado en multiple sentencias de control.(Exceso de If-else)"
+- Actividad: "Nombre: Clasificador basado en Probabilidad Condicional. (Class_Prob)\n\
+    Descripción: Realizar un Sistema de clasificación siguendo la arquitectura propuesta,
+    que tome como eje el uso de la probabilidad condicional y un método de consenso.\n\
+    Notas: \n= Generamente se hace con Detección de Spam, la idea es obtener la probabilidad
+    condicional de que un mensaje sea spam, dado que tiene X palabra.\n= Se debe elegir
+    un método consenso para determinar si es spam o no. \n= Aquí se introduce la matriz
+    de confusión y conceptos como \"Accuracy\", \"Precision\", \"Recall\", entre otros.\n\
+    Elementos Clave: Probabilidad condicional, Media, Mediana, Moda, Democracia, Recoll,
+    Bias, Accuracy, Presicion ,Prevalence, Error Matrix.\nSEAES_CACEI: CD1-3,CD2-3,AE1,AE2,
+    Compromiso con responsabilidad Social."
+  Reactivos:
+  - ID: R006
+    Ponderacion: 5
+    Reactivo: "Descripción: Carga y genera archivo de conocimiento.  \"Entrenador\"\
+      \nRestricciones: Se toman 10 mensajes en lenguaje natural y el Supervisor clasifica
+      si son Spam o No, se genera un archivo con esos mensaje etiquetado."
+  - ID: R007
+    Ponderacion: 10
+    Reactivo: "Descripción: Carga y genera archivo de conocimiento  \"DeTokenizador\"\
+      \nRestricciones: Se leen los mensajes etiquetados, se tokenizan dichos mensajes,
+      se eliminan, articulos, preposiciones y conectores, se calcula la probabilidad
+      condicional de los tokens restantes y se genera la tabla de probabilidades."
+  - ID: R008
+    Ponderacion: 10
+    Reactivo: "Descripción: Carga y genera archivo de conocimiento \"Clasificador\"\
+      \nRestricciones: Se leen los 10 nuevos mensajes, se lee la tabla de probabilidad,
+      se aplica algun método de consenso y se etiquetan los nuevos mensajes como spam
+      o no."
+  - ID: R009
+    Ponderacion: 5
+    Reactivo: "Descripción: Carga archivo de conocimiento y Calcula \"Recoll, Accuracy,
+      Presicion ,Prevalence\".\nRestricciones: \n= El supervisor clasifica los 10
+      nuevos mensaje y se comparan los resultados con \"Clasificador\" \n= Se calcula
+      Recoll, Accuracy, Presicion ,Prevalence."
+- Actividad: "Nombre: Toma de desiciones con bayes (Boom_Bay).\nDescripción: Realizar
+    un programa que tome disiciones en base a una retroalimentación bayesiana.\nNotas:\
+    \ \n= Se retoma a Boome, en esta ocasión en mapa predefinido, aquí se ignora la
+    parte de la gramatica se asume que simplemente funciona.\n= Este video explica
+    la idea de esta actividad https://www.youtube.com/watch?v=JS4rfjue11k\nElementos
+    Clave: Bayes.\nSEAES_CACEI: CD1-3, AE1, Compromiso con responsabilidad Social."
+  Reactivos:
+  - ID: R010
+    Ponderacion: 10
+    Reactivo: "Descripción: Leer Tablero de Boome desde archivo.\nRestricciones: NA"
+  - ID: R011
+    Ponderacion: 10
+    Reactivo: "Descripción: Imprimir la probabilidad de bayes por detector positivo.\n\
+      Restricciones: NA"
