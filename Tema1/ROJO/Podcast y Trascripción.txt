@@ -1,0 +1,38 @@
+Podcast y Transcripción:
+
+https://drive.google.com/drive/folders/1_QiPiJRV2hOOc1lyP0hSYPSt9XOKvZhp?usp=sharing
+
+
+Fuentes:
+
+Articulo:
+Posch, M. (2025, December 10). Why LLMs Are Less Intelligent Than Crows. Hackaday. https://hackaday.com/2025/12/10/why-llms-are-less-intelligent-than-crows/
+
+Lógica:
+Deutsch, H., Marshall, O., & Irvine, A. D. (1995, December 8). Russell’s Paradox. Stanford.Edu. https://plato.stanford.edu/entries/russell-paradox/
+Bolander, T. (2008, July 15). Self-Reference. Stanford.Edu. https://plato.stanford.edu/archives/fall2020/entries/self-reference/
+Bolander, T. (2008, July 15). Self-Reference and Paradox. Stanford.Edu. https://plato.stanford.edu/entries/self-reference/
+fgbueno.es. (2023). Carlos M. Madrid Casado, Filosofía de la Inteligencia Artificial. Fgbueno.Es. https://fgbueno.es/efo/efo298.htm
+
+Matemática:
+Raatikainen, P. (2013, November 11). Gödel’s Incompleteness Theorems. Stanford.Edu. https://plato.stanford.edu/archives/fall2016/entries/goedel-incompleteness/
+Lucas-Penrose Argument about Gödel’s Theorem | Internet Encyclopedia of Philosophy. (2026). Utm.Edu. https://iep.utm.edu/lp-argue/
+
+Filosofía
+Aristóteles. (2000). Ética a Nicómaco (J. Pallí Bonet, Trad.). Gredos. (Obra original publicada ca. 350 a.C.)
+Kant, I. (2007). Crítica de la razón pura (P. Ribas, Trad.). Taurus. (Obra original publicada en 1781)
+Hessen, J. (2003). Teoría del conocimiento. Editorial Panamericana.
+Copleston, F. (2004). Historia de la filosofía (Vol. 6: De Wolff a Kant). Ariel.
+
+Inteligencia artificial y aprehensión
+Searle, J. R. (1980). Minds, brains, and programs. Behavioral and Brain Sciences, 3(3), 417–424. https://doi.org/10.1017/S0140525X00005756
+
+Psicología
+Watson, J. B. (1913). Psychology as the behaviorist views it. Psychological Review, 20(2), 158–177. https://doi.org/10.1037/h0074428
+Skinner, B. F. (1974). About behaviorism. Vintage Books.
+Pavlov, I. P. (1997). Los reflejos condicionados. Morata. (Obra original publicada en 1927)
+Neisser, U. (1967). Cognitive psychology. Appleton-Century-Crofts.
+Atkinson, R. C., & Shiffrin, R. M. (1968). Human memory: A proposed system and its control processes. En K. W. Spence & J. T. Spence (Eds.), The psychology of learning and motivation (Vol. 2, pp. 89–195). Academic Press.
+Papalia, D. E., Feldman, R. D., & Martorell, G. (2012). Desarrollo humano (12ª ed.). McGraw-Hill.
+
+
