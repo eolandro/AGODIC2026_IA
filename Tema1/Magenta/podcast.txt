@@ -1,0 +1,95 @@
+Video
+https://youtu.be/BwRbn638Mys
+
+Dialogos
+0:00–1:30 — Apertura
+A: ¡Hola a todos! Bienvenidos a nuestro podcast. Hoy vamos a hablar de un tema que parece simple pero no lo es: ¿qué es la inteligencia?
+B: Y lo interesante es que no hay una sola respuesta. La lógica y la matemática la ven de una forma, la filosofía de otra, y la psicología de otra muy distinta.
+C: Exacto, y por eso decidimos armar el episodio así: vamos a recorrer esas tres miradas una por una, explicando cada una con calma para que se entienda bien, y al final las vamos a comparar. Además, vamos a cerrar con algo muy actual: si la inteligencia artificial de hoy —los famosos LLMs, como ChatGPT— realmente es inteligente, o si hasta un cuervo le gana en algunas cosas. Yo creo que eso les va a sorprender. 
+ 
+1:30–5:30 — Bloque 1: Lógica y Matemática
+A: Empecemos con algo raro: la autorreferencia, es decir, cuando un enunciado habla de sí mismo. Imaginen una frase que dijera 'esta afirmación no se puede demostrar'. ¿Es verdadera o falsa?
+B: Espera... si es verdadera, entonces efectivamente no se puede demostrar, lo cual encaja. Pero si fuera falsa, significaría que sí se puede demostrar, y entonces sería verdadera. Es raro.
+C: A ver, para que quede clarísimo: es como si yo dijera 'esta oración es falsa'. Si la crees verdadera, en realidad te está diciendo que es falsa, y si la crees falsa, entonces lo que dice es cierto. Es un enunciado que se muerde la cola, y por eso no cabe en la lógica normal de verdadero o falso. Ese truco de que algo hable de sí mismo es justo lo que hace tan potente —y tan incómoda— a la autorreferencia.
+A: Exacto, y ese tipo de enunciado que habla de sí mismo es justo la herramienta que usó Kurt Gödel en 1931 para sus teoremas de incompletitud.
+C: Cuéntanos bien qué decían esos teoremas, porque suena importante pero también intimidante.
+A: Que en cualquier sistema formal —como la aritmética— lo bastante potente, siempre va a existir alguna verdad que ese sistema no puede demostrar usando solo sus propias reglas. Gödel construyó, básicamente, un enunciado que dice 'esto no se puede demostrar', y usó la autorreferencia para probarlo.
+C: O sea que no es que a Gödel le faltaran reglas o le faltara tiempo para completar el sistema. Es que demostró que, sin importar cuántas reglas le agregues, SIEMPRE va a quedar al menos una verdad fuera de su alcance. Eso cambió por completo la idea de que las matemáticas podían, algún día, demostrarlo absolutamente todo.
+B: O sea que ni una máquina, ni un humano, usando solo esas reglas, puede probarlo absolutamente todo.
+C: Y ahí es donde entran Turing, Church y Post, ¿verdad? Porque si hay límites en lo que se puede demostrar, la siguiente pregunta lógica es: ¿y qué es exactamente lo que SÍ se puede calcular o resolver paso a paso?
+A: Sí. Casi al mismo tiempo, en los años 30, los tres intentaron definir qué significa que un problema se pueda 'calcular' paso a paso. Turing imaginó una máquina que lee y escribe símbolos en una cinta. Church creó un sistema puramente simbólico, el cálculo lambda. Y Post propuso sistemas de reglas de reescritura.
+C: Para que se entienda con un ejemplo sencillo: piensen en una receta de cocina, con pasos numerados y muy precisos, sin ambigüedad —'agrega 2 tazas', 'mezcla 3 minutos'. Eso es, en esencia, un algoritmo. Turing, Church y Post cada quien inventó su propia forma de describir 'recetas' así de precisas, pero usando símbolos matemáticos en vez de ingredientes.
+B: Y lo curioso es que, aunque partieron de ideas totalmente distintas, ¡los tres sistemas resultaron ser equivalentes!
+C: Es como si tres personas, cada una en su cocina, sin comunicarse entre sí, hubieran inventado recetas distintas pero que, al final, producen exactamente el mismo platillo. Eso no es casualidad, sugiere que llegaron a algo real, a un límite natural de lo que significa 'calcular'.
+A: Exacto, eso se llama la tesis de Church-Turing, y es la base teórica de toda computadora moderna, incluyendo los modelos de inteligencia artificial actuales.
+C: Y esto no se queda solo en la teoría: significa que cualquier computadora, celular, o modelo de IA que exista hoy —por más avanzado que parezca— sigue, en el fondo, las mismas reglas básicas que describieron estos tres señores hace casi 100 años. Nada de lo que usamos hoy se sale de ese marco.
+B: Lo cual nos deja una pregunta importante para el resto del episodio: si la inteligencia fuera solo cómputo, ¿tendría los mismos límites que estos sistemas formales?
+5:30–9:30 — Bloque 2: Filosofía
+B: Cambiando de tema, quiero traer a Kant. Para él, ¿de dónde viene el conocimiento?
+A: Yo tenía entendido que decía que todo viene de la experiencia, ¿no?
+B: En parte, pero no solo. Kant dice que la mente ya trae ciertas categorías a priori —como espacio, tiempo, causalidad— que organizan esa experiencia. Sin esas categorías, la experiencia sensorial sería puro caos, sin ningún sentido.
+C: Vamos a aterrizar esto con un ejemplo, porque suena abstracto. Cuando ven caer una manzana de un árbol, ustedes automáticamente piensan 'la gravedad la hizo caer', ¿verdad? Nadie les enseñó esa conexión causa-efecto observando manzanas una por una toda su vida. Para Kant, la propia mente ya trae integrada esa capacidad de pensar en términos de causa y efecto, de espacio y de tiempo. La experiencia le da el contenido —lo que ven—, pero la mente le da la forma, la manera de organizarlo.
+A: Ah, ya entendí mejor. Entonces la mente no es una hoja en blanco que solo recibe datos.
+C: Exacto, y esto conecta con algo súper relevante para la inteligencia artificial. Cuando un algoritmo procesa información según reglas fijas, ¿tiene ese tipo de estructura mental, o solo hace lo que ustedes llaman 'prensión algorítmica'?
+B: Justo esa es la distinción clave. La prensión algorítmica es aplicar reglas para procesar datos, de forma mecánica. La aprensión, en cambio, implica comprensión real: captar el sentido de algo, no solo manipular símbolos.
+C: Para que quede bien claro con un ejemplo cotidiano: si yo les doy una hoja con instrucciones en un idioma que no conocen —digamos, coreano— y les explico exactamente qué símbolo dibujar después de cuál otro, ustedes podrían seguir esas instrucciones al pie de la letra sin entender ni una palabra de lo que están escribiendo. Eso sería prensión algorítmica pura: seguir la regla sin captar el significado. La aprensión sería si de verdad entendieran lo que ese texto dice.
+A: Entonces la pregunta filosófica de fondo es: ¿puede algo ser 'inteligente' si solo hace prensión algorítmica, sin aprensión genuina?
+C: Y noten que esto no es solo filosofía de sillón: es la misma pregunta que ya nos habíamos hecho con Gödel y Turing. Un sistema formal puede procesar símbolos perfectamente y, aun así, no 'entender' nada de lo que procesa. La lógica-matemática y la filosofía están, sin querer, preguntando exactamente lo mismo desde dos ángulos distintos.
+B: Es un poco como memorizar un poema en un idioma que no conoces: puedes repetirlo perfecto sin tener idea de lo que significa. Eso sería pura prensión, sin aprensión.
+9:30–14:00 — Bloque 3: Psicología
+C: Ahora vamos a la psicología, que es mi parte favorita, así que déjenme explayarme un poco. Empecemos con el conductismo, con Skinner como referente principal. El conductismo dice que lo único que se puede estudiar científicamente es la conducta observable: lo que se puede ver y medir desde afuera.
+A: ¿O sea que no les importa lo que pasa 'dentro' de la mente?
+C: Exacto, para el conductismo la mente es una 'caja negra' que ni siquiera vale la pena intentar abrir. Lo que importa es el condicionamiento: hay un estímulo, una respuesta, y un refuerzo —positivo o negativo— que hace esa respuesta más o menos probable con el tiempo. Un ejemplo clásico es el de Pavlov y sus perros: el perro empieza a salivar solo con escuchar una campana, porque aprendió a asociarla con la comida, sin que nadie necesite saber qué 'piensa' el perro en ese momento.
+B: Eso suena casi opuesto a lo que hablamos de Kant, donde sí importa la estructura interna del conocimiento.
+C: Totalmente opuesto, y esa tensión es justo lo interesante. Por eso, unas décadas después, surgió el cognitivismo, con autores como Ulric Neisser, que decidió sí abrir esa caja negra. El cognitivismo empezó a hablar de representaciones mentales, de memoria a corto y largo plazo, de atención, de cómo procesamos la información paso a paso internamente. Y aquí viene lo interesante: esa forma de describir la mente —como algo que recibe información, la procesa en etapas y produce una salida— se parece muchísimo a como describíamos antes el cómputo de una máquina de Turing.
+A: Entonces el cognitivismo sería el puente entre la psicología y la idea de la mente como una especie de procesador de símbolos.
+C: Exacto, ese es el puente perfecto. Y no es casualidad: el cognitivismo nació justo en la época en que la computación empezaba a despegar, y muchos psicólogos se inspiraron directamente en esa metáfora de la computadora para explicar la mente humana.
+B: Y ahí volvemos otra vez a la pregunta de la aprensión: procesar símbolos internamente, ¿es lo mismo que comprender de verdad?
+C: Justo esa pregunta es la que nos va a servir de puente hacia el siguiente bloque, porque es exactamente la pregunta que hoy en día se hacen con la inteligencia artificial.
+14:00–17:30 — Bloque de actualidad: ¿son inteligentes los LLMs? (Los cuervos vs. ChatGPT)
+Este bloque conecta todo lo anterior con un artículo reciente y trae la discusión al presente.
+A: Para cerrar antes del debate final, queremos traer algo muy actual. Hay un artículo del sitio Hackaday, escrito por Maya Posch en diciembre de 2025, titulado 'Why LLMs Are Less Intelligent Than Crows' —algo así como 'Por qué los LLMs son menos inteligentes que los cuervos'.
+B: Qué título tan provocador. ¿De qué trata?
+C: Yo investigué bastante sobre este artículo porque me pareció fascinante, así que déjenme explicarlo con calma. La autora usa un modelo de psicología cognitiva llamado teoría Cattell-Horn-Carroll, o modelo CHC, que es uno de los modelos más aceptados hoy en día para clasificar tipos de inteligencia humana. Divide la inteligencia en varias capacidades: razonamiento o inteligencia fluida (Gf), que es resolver problemas nuevos; conocimiento adquirido (Gc), que es lo que ya sabes y puedes comunicar; memoria de corto plazo (Gsm), como recordar un número telefónico unos segundos; y memoria de largo plazo (Glr), como recordar cosas de hace años.
+A: ¿Y cómo compara eso con los cuervos?
+C: Aquí está lo sorprendente: la autora explica que los cuervos y otros córvidos muestran señales claras de razonamiento inductivo. Resuelven acertijos, fabrican herramientas doblando alambre en el momento, entienden relaciones de volumen y densidad del agua, e incluso se ha documentado, en parques de Japón, que ajustan las llaves de agua públicas para conseguir el flujo que quieren, ya sea para beber o para bañarse. También reconocen caras humanas específicas y aprenden observando a otros cuervos, no solo por ensayo y error propio.
+B: O sea que, según el modelo CHC, los cuervos puntuarían bastante bien en razonamiento y en memoria.
+C: Exactamente, y no solo los cuervos: el artículo también menciona a los osos en parques nacionales de Estados Unidos, que han aprendido a abrir contenedores de basura 'a prueba de osos' con mecanismos de varios pasos, demostrando memoria y persistencia para resolver problemas.
+A: Y aquí viene la parte fuerte del artículo: según la autora, cuando se evalúa a un LLM con ese mismo modelo, prácticamente no aprueba ninguna categoría.
+C: Déjenme desglosar eso, porque tiene varias partes. En razonamiento fluido, dice que un LLM no razona de forma inductiva como un cuervo resolviendo un acertijo nuevo, sino que predice la palabra más probable según patrones estadísticos aprendidos de textos previos. En conocimiento, señala algo muy interesante: un modelo estadístico no puede saber lo que no sabe, ni entender realmente lo que está almacenado en sus propios parámetros internos —simplemente responde según probabilidades. Y en memoria, argumenta que la 'ventana de contexto' de un LLM es una memoria de corto plazo muy limitada y frágil, y que su 'memoria de largo plazo' es en realidad solo un reflejo fijo de los datos con los que fue entrenado, sin capacidad real de seguir aprendiendo después de eso.
+B: Espera, esto conecta directísimo con lo que hablamos antes. ¡Es la misma pregunta de Kant sobre prensión algorítmica versus aprensión!
+C: Sí, y creo que ese es el hilo que conecta todo el episodio. Un LLM haría pura prensión algorítmica: procesa texto siguiendo patrones estadísticos, sin necesariamente 'entender' el significado como lo entendería una mente con las categorías a priori de las que hablaba Kant. Y también conecta con Gödel y Turing: en el fondo, un LLM es un sistema formal enorme que sigue reglas fijas, y ya vimos que un sistema así puede procesar símbolos perfectamente sin que eso implique comprensión real.
+A: La autora también dice algo interesante: que ser inteligente no fue un regalo divino de los humanos, sino más bien una casualidad evolutiva que compartimos con otras especies.
+C: Y eso, según ella, en realidad es una buena noticia para quienes quieren construir máquinas inteligentes: si la inteligencia humana surgió por evolución y no por algo mágico o exclusivo, entonces es más probable —no menos— que algún día se pueda replicar en una máquina, aunque los LLMs actuales todavía estén muy lejos de lograrlo.
+B: Es importante decir que esto es un punto de vista, no un hecho absoluto: el artículo generó bastante debate, hay quienes opinan que sí hay algo parecido a razonamiento en los LLMs cuando resuelven problemas nuevos.
+C: Totalmente de acuerdo en mencionar eso, para ser justos: nosotros lo traemos como punto de partida para discutir, no como la última palabra sobre el tema. Y con esto entramos a la síntesis del episodio.
+17:30–19:30 — Síntesis y debate final
+A: Bueno, repasando: la lógica y la matemática ven la inteligencia como cómputo, con límites definidos por Gödel, Turing, Church y Post.
+B: La filosofía, con Kant, la ve como una combinación de estructura a priori y experiencia, y distingue entre procesar reglas (prensión) y comprender de verdad (aprensión).
+C: Y la psicología pasó de ver solo la conducta, con el conductismo, a estudiar los procesos internos con el cognitivismo, acercándose a la idea de la mente como procesadora de información. Y hoy vimos cómo esa misma idea se pone a prueba comparando cuervos, osos y modelos de lenguaje: ¿procesar información basta para ser inteligente, o hace falta algo más?
+A: Entonces, ¿ustedes creen que la inteligencia es una sola cosa vista desde tres ángulos, o son en realidad varios fenómenos distintos que compartimos la misma palabra?
+B: Yo creo que se complementan: la lógica nos da los límites de lo posible, la filosofía nos pregunta si eso basta para 'entender', y la psicología —incluyendo la comparación con animales y con IA— nos muestra cómo se ve la inteligencia en la práctica.
+C: Yo me quedo pensando en algo muy concreto: si un cuervo, con un cerebro mucho más pequeño que el nuestro, puede resolver problemas nuevos por sí solo, y un LLM entrenado con textos de prácticamente todo internet no logra hacer lo mismo de forma confiable, entonces tal vez la inteligencia no depende solo de cuántos datos proceses, sino de algo cualitativamente distinto —quizás esa aprensión de la que hablaba Kant. Esa es la pregunta con la que me gustaría dejarlos hoy.
+19:30–20:00 — Cierre
+A: Con esto cerramos el episodio de hoy.
+B: Gracias por acompañarnos en este recorrido por la lógica, la filosofía, la psicología y un poco de actualidad sobre la inteligencia.
+C: Y gracias a ustedes por escucharnos hasta el final. Las fuentes que usamos las dejamos a continuación en formato APA, por si quieren profundizar en algún tema. ¡Nos escuchamos pronto!
+
+
+
+
+
+
+
+Fuentes
+
+• Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. Monatshefte für Mathematik und Physik.
+    • Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. Proceedings of the London Mathematical Society, 2(42), 230–265.
+    • Church, A. (1936). An unsolvable problem of elementary number theory. American Journal of Mathematics, 58(2), 345–363.
+    • Post, E. L. (1936). Finite combinatory processes—formulation I. The Journal of Symbolic Logic, 1(3), 103–105.
+    • Kant, I. (1998). Crítica de la razón pura (P. Ribas, Trad.). Taurus. (Obra original publicada en 1781).
+    • Skinner, B. F. (1953). Science and human behavior. Macmillan.
+    • Neisser, U. (1967). Cognitive psychology. Appleton-Century-Crofts.
+    • Hofstadter, D. R. (1979). Gödel, Escher, Bach: An eternal golden braid. Basic Books.
+    • Flanagan, D. P., & McGrew, K. S. (2014). Cattell-Horn-Carroll theory of cognitive abilities. En J. A. Naglieri & S. Goldstein (Eds.), Encyclopedia of special education (5.ª ed.). Wiley.
+    • Posch, M. (2025, 10 de diciembre). Why LLMs are less intelligent than crows. Hackaday. https://hackaday.com/2025/12/10/why-llms-are-less-intelligent-than-crows/
