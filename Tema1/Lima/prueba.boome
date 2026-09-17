@@ -1,0 +1,8 @@
+R0 = #0003
+R1 = sensor der
+ciclo R0
+der
+R0 = R0 - #0001
+finciclo
+abajo
+abajo
