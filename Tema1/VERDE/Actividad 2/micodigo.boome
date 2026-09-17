@@ -1,0 +1,47 @@
+R0 = #0001
+R1 = #0000
+ciclo R0
+    R1 = sensor der
+    Si R1
+        R0 = R0 + #0001
+    FinSi
+    R1 = R1 + #0001
+    Si R1
+        der
+    FinSi
+finciclo
+R0 = #0001
+ciclo R0
+    R1 = sensor abajo
+    Si R1
+        R0 = R0 + #0001
+    FinSi
+    R1 = R1 + #0001
+    Si R1
+        abajo
+    FinSi
+finciclo
+
+R0 = #0001
+ciclo R0
+    R1 = sensor izq
+    Si R1
+        R0 = R0 + #0001
+    FinSi
+    R1 = R1 + #0001
+    Si R1
+        izq
+    FinSi
+finciclo
+
+R0 = #0001
+ciclo R0
+    R1 = sensor arriba
+    Si R1
+        R0 = R0 + #0001
+    FinSi
+    R1 = R1 + #0001
+    Si R1
+        arriba
+    FinSi
+finciclo
