@@ -1,0 +1,26 @@
+R0 = #0002
+R1 = #0000
+R2 = #0000
+R3 = #0004
+
+ciclo R0
+    der
+    R1 = sensor der
+    Si R1
+        R0 = #0000
+    FinSi
+    R0 = R0 - #0001
+finciclo
+
+R0 = #0001
+
+ciclo R0
+    abajo
+    R1 = sensor abajo
+    Si R1
+        R0 = #0000
+    FinSi
+    R0 = R0 - #0001
+finciclo
+
+R3 = R1 + #0001
