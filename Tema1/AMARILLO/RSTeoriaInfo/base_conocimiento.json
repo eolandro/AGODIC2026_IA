@@ -1,0 +1,260 @@
+{
+    "caracteristicas": [
+        "Se encuentra en granja",
+        "Cola larga",
+        "Leal",
+        "Vuela",
+        "Bigotes",
+        "Dientes grandes",
+        "Salta",
+        "Tranquilidad",
+        "Pone huevos",
+        "Galopa",
+        "Colmillos largos",
+        "Lenta"
+    ],
+    "pesos": [
+        2048,
+        1024,
+        512,
+        256,
+        128,
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        1
+    ],
+    "animales": [
+        {
+            "nombre": "Perro",
+            "valores": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "binario": "111010100010",
+            "valor_agregado": 3746
+        },
+        {
+            "nombre": "Mariposa",
+            "valores": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "binario": "100100011000",
+            "valor_agregado": 2328
+        },
+        {
+            "nombre": "Gato",
+            "valores": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+            ],
+            "binario": "110010110010",
+            "valor_agregado": 3250
+        },
+        {
+            "nombre": "Tuza",
+            "valores": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "binario": "010011110000",
+            "valor_agregado": 1264
+        },
+        {
+            "nombre": "Conejo",
+            "valores": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "binario": "100011110000",
+            "valor_agregado": 2288
+        },
+        {
+            "nombre": "Capibara",
+            "valores": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "binario": "000011110000",
+            "valor_agregado": 240
+        },
+        {
+            "nombre": "Ornitorrinco",
+            "valores": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+            ],
+            "binario": "010000011000",
+            "valor_agregado": 1048
+        },
+        {
+            "nombre": "Caballo",
+            "valores": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "binario": "111011100100",
+            "valor_agregado": 3812
+        },
+        {
+            "nombre": "Mamut",
+            "valores": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "binario": "010000000010",
+            "valor_agregado": 1026
+        },
+        {
+            "nombre": "Tortuga",
+            "valores": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+            ],
+            "binario": "000000011001",
+            "valor_agregado": 25
+        },
+        {
+            "nombre": "cocodrilo",
+            "valores": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ],
+            "binario": "010001001010",
+            "valor_agregado": 1098
+        },
+        {
+            "nombre": "leon",
+            "valores": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "binario": "010011100010",
+            "valor_agregado": 1250
+        }
+    ]
+}
