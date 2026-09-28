@@ -1,0 +1,86 @@
+[
+    {
+        "caracteristica": "Dientes grandes",
+        "pregunta": "¿Tiene dientes grandes?",
+        "cantidad_si": 6,
+        "cantidad_no": 6,
+        "diferencia": 0
+    },
+    {
+        "caracteristica": "Se encuentra en granja",
+        "pregunta": "¿Se encuentra comúnmente en una granja?",
+        "cantidad_si": 5,
+        "cantidad_no": 7,
+        "diferencia": 2
+    },
+    {
+        "caracteristica": "Bigotes",
+        "pregunta": "¿Tiene bigotes?",
+        "cantidad_si": 7,
+        "cantidad_no": 5,
+        "diferencia": 2
+    },
+    {
+        "caracteristica": "Salta",
+        "pregunta": "¿Puede saltar?",
+        "cantidad_si": 7,
+        "cantidad_no": 5,
+        "diferencia": 2
+    },
+    {
+        "caracteristica": "Tranquilidad",
+        "pregunta": "¿Generalmente es tranquilo?",
+        "cantidad_si": 7,
+        "cantidad_no": 5,
+        "diferencia": 2
+    },
+    {
+        "caracteristica": "Colmillos largos",
+        "pregunta": "¿Tiene colmillos largos?",
+        "cantidad_si": 5,
+        "cantidad_no": 7,
+        "diferencia": 2
+    },
+    {
+        "caracteristica": "Cola larga",
+        "pregunta": "¿Tiene la cola larga?",
+        "cantidad_si": 8,
+        "cantidad_no": 4,
+        "diferencia": 4
+    },
+    {
+        "caracteristica": "Pone huevos",
+        "pregunta": "¿Pone huevos?",
+        "cantidad_si": 4,
+        "cantidad_no": 8,
+        "diferencia": 4
+    },
+    {
+        "caracteristica": "Leal",
+        "pregunta": "¿Es considerado un animal leal?",
+        "cantidad_si": 2,
+        "cantidad_no": 10,
+        "diferencia": 8
+    },
+    {
+        "caracteristica": "Vuela",
+        "pregunta": "¿Puede volar?",
+        "cantidad_si": 1,
+        "cantidad_no": 11,
+        "diferencia": 10
+    },
+    {
+        "caracteristica": "Galopa",
+        "pregunta": "¿Puede galopar?",
+        "cantidad_si": 1,
+        "cantidad_no": 11,
+        "diferencia": 10
+    },
+    {
+        "caracteristica": "Lenta",
+        "pregunta": "¿Se mueve lentamente?",
+        "cantidad_si": 1,
+        "cantidad_no": 11,
+        "diferencia": 10
+    }
+]
