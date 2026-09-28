@@ -1,0 +1,44 @@
+{
+  "tabla_animales": [
+    {
+      "animal": "Perro",
+      "caracteristica": "Leal"
+    },
+    {
+      "animal": "Mariposa",
+      "caracteristica": "Vuela"
+    },
+    {
+      "animal": "Gato",
+      "caracteristica": "Bigotes"
+    },
+    {
+      "animal": "Tuza",
+      "caracteristica": "Dientes Grandes"
+    },
+    {
+      "animal": "Conejo",
+      "caracteristica": "Salta"
+    },
+    {
+      "animal": "Capibara",
+      "caracteristica": "Tranquilo"
+    },
+    {
+      "animal": "Ornitorrinco",
+      "caracteristica": "Pone huevos"
+    },
+    {
+      "animal": "Caballo",
+      "caracteristica": "Galopa"
+    },
+    {
+      "animal": "Mamut",
+      "caracteristica": "Colmillos largos"
+    },
+    {
+      "animal": "Tortuga",
+      "caracteristica": "Lentitud"
+    }
+  ]
+}

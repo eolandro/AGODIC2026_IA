@@ -1,0 +1,200 @@
+{
+  "caracteristicas": [
+    {
+      "nombre": "Cola larga",
+      "peso": 1024
+    },
+    {
+      "nombre": "Leal",
+      "peso": 512
+    },
+    {
+      "nombre": "Vuela",
+      "peso": 256
+    },
+    {
+      "nombre": "Bigotes",
+      "peso": 128
+    },
+    {
+      "nombre": "Dientes Grandes",
+      "peso": 64
+    },
+    {
+      "nombre": "Salta",
+      "peso": 32
+    },
+    {
+      "nombre": "Tranquilo",
+      "peso": 16
+    },
+    {
+      "nombre": "Pone huevos",
+      "peso": 8
+    },
+    {
+      "nombre": "Galopa",
+      "peso": 4
+    },
+    {
+      "nombre": "Colmillos largos",
+      "peso": 2
+    },
+    {
+      "nombre": "Lentitud",
+      "peso": 1
+    }
+  ],
+  "tabla": [
+    {
+      "animal": "Perro",
+      "Cola larga": "S",
+      "Leal": "S",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "N",
+      "Salta": "S",
+      "Tranquilo": "N",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "S",
+      "Lentitud": "N",
+      "suma_total": 1698
+    },
+    {
+      "animal": "Mariposa",
+      "Cola larga": "N",
+      "Leal": "N",
+      "Vuela": "S",
+      "Bigotes": "N",
+      "Dientes Grandes": "N",
+      "Salta": "N",
+      "Tranquilo": "S",
+      "Pone huevos": "S",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 280
+    },
+    {
+      "animal": "Gato",
+      "Cola larga": "S",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "N",
+      "Salta": "S",
+      "Tranquilo": "S",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "S",
+      "Lentitud": "N",
+      "suma_total": 1202
+    },
+    {
+      "animal": "Tuza",
+      "Cola larga": "S",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "S",
+      "Salta": "S",
+      "Tranquilo": "S",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 1264
+    },
+    {
+      "animal": "Conejo",
+      "Cola larga": "N",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "S",
+      "Salta": "S",
+      "Tranquilo": "S",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 240
+    },
+    {
+      "animal": "Capibara",
+      "Cola larga": "N",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "S",
+      "Salta": "S",
+      "Tranquilo": "S",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 240
+    },
+    {
+      "animal": "Ornitorrinco",
+      "Cola larga": "S",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "N",
+      "Dientes Grandes": "N",
+      "Salta": "N",
+      "Tranquilo": "S",
+      "Pone huevos": "S",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 1048
+    },
+    {
+      "animal": "Caballo",
+      "Cola larga": "S",
+      "Leal": "S",
+      "Vuela": "N",
+      "Bigotes": "S",
+      "Dientes Grandes": "S",
+      "Salta": "S",
+      "Tranquilo": "N",
+      "Pone huevos": "N",
+      "Galopa": "S",
+      "Colmillos largos": "N",
+      "Lentitud": "N",
+      "suma_total": 1764
+    },
+    {
+      "animal": "Mamut",
+      "Cola larga": "S",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "N",
+      "Dientes Grandes": "N",
+      "Salta": "N",
+      "Tranquilo": "N",
+      "Pone huevos": "N",
+      "Galopa": "N",
+      "Colmillos largos": "S",
+      "Lentitud": "N",
+      "suma_total": 1026
+    },
+    {
+      "animal": "Tortuga",
+      "Cola larga": "N",
+      "Leal": "N",
+      "Vuela": "N",
+      "Bigotes": "N",
+      "Dientes Grandes": "N",
+      "Salta": "N",
+      "Tranquilo": "S",
+      "Pone huevos": "S",
+      "Galopa": "N",
+      "Colmillos largos": "N",
+      "Lentitud": "S",
+      "suma_total": 25
+    }
+  ]
+}
