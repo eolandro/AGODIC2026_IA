@@ -1,0 +1,276 @@
+{
+  "preguntas": [
+    {
+      "clave": "granja",
+      "pregunta": "Se encuentra en granja",
+      "peso": 2048,
+      "ganancia_informacion": 0.9940302114769568
+    },
+    {
+      "clave": "cola_larga",
+      "pregunta": "Cola larga",
+      "peso": 1024,
+      "ganancia_informacion": 0.9456603046006402
+    },
+    {
+      "clave": "leal",
+      "pregunta": "Leal",
+      "peso": 512,
+      "ganancia_informacion": 0.6840384356390419
+    },
+    {
+      "clave": "vuela",
+      "pregunta": "Vuela",
+      "peso": 256,
+      "ganancia_informacion": 0.4394969869215135
+    },
+    {
+      "clave": "bigotes",
+      "pregunta": "Bigotes",
+      "peso": 128,
+      "ganancia_informacion": 0.9940302114769568
+    },
+    {
+      "clave": "dientes_grandes",
+      "pregunta": "Dientes grandes",
+      "peso": 64,
+      "ganancia_informacion": 0.94566030460064
+    },
+    {
+      "clave": "salta",
+      "pregunta": "Salta",
+      "peso": 32,
+      "ganancia_informacion": 0.9940302114769568
+    },
+    {
+      "clave": "tranquilidad",
+      "pregunta": "Tranquilidad",
+      "peso": 16,
+      "ganancia_informacion": 0.8453509366224368
+    },
+    {
+      "clave": "pone_huevos",
+      "pregunta": "Pone huevos",
+      "peso": 8,
+      "ganancia_informacion": 0.8453509366224368
+    },
+    {
+      "clave": "galopa",
+      "pregunta": "Galopa",
+      "peso": 4,
+      "ganancia_informacion": 0.4394969869215135
+    },
+    {
+      "clave": "colmillos_largos",
+      "pregunta": "Colmillos largos",
+      "peso": 2,
+      "ganancia_informacion": 0.6840384356390419
+    },
+    {
+      "clave": "lenta",
+      "pregunta": "Lenta",
+      "peso": 1,
+      "ganancia_informacion": 0.4394969869215135
+    }
+  ],
+  "animales": [
+    {
+      "animal": "perro",
+      "valor_agregado": 3746,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": true,
+        "leal": true,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": false,
+        "salta": true,
+        "tranquilidad": false,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": true,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "mariposa",
+      "valor_agregado": 2328,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": false,
+        "leal": false,
+        "vuela": true,
+        "bigotes": false,
+        "dientes_grandes": false,
+        "salta": false,
+        "tranquilidad": true,
+        "pone_huevos": true,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "gato",
+      "valor_agregado": 3248,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": true,
+        "leal": false,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": false,
+        "salta": true,
+        "tranquilidad": true,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "tuza",
+      "valor_agregado": 1264,
+      "caracteristicas": {
+        "granja": false,
+        "cola_larga": true,
+        "leal": false,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": true,
+        "salta": true,
+        "tranquilidad": true,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "conejo",
+      "valor_agregado": 2288,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": false,
+        "leal": false,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": true,
+        "salta": true,
+        "tranquilidad": true,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "capibara",
+      "valor_agregado": 240,
+      "caracteristicas": {
+        "granja": false,
+        "cola_larga": false,
+        "leal": false,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": true,
+        "salta": true,
+        "tranquilidad": true,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "ornitorrinco",
+      "valor_agregado": 1048,
+      "caracteristicas": {
+        "granja": false,
+        "cola_larga": true,
+        "leal": false,
+        "vuela": false,
+        "bigotes": false,
+        "dientes_grandes": false,
+        "salta": false,
+        "tranquilidad": true,
+        "pone_huevos": true,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "caballo",
+      "valor_agregado": 3812,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": true,
+        "leal": true,
+        "vuela": false,
+        "bigotes": true,
+        "dientes_grandes": true,
+        "salta": true,
+        "tranquilidad": false,
+        "pone_huevos": false,
+        "galopa": true,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "mamut",
+      "valor_agregado": 1026,
+      "caracteristicas": {
+        "granja": false,
+        "cola_larga": true,
+        "leal": false,
+        "vuela": false,
+        "bigotes": false,
+        "dientes_grandes": false,
+        "salta": false,
+        "tranquilidad": false,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": true,
+        "lenta": false
+      }
+    },
+    {
+      "animal": "tortuga",
+      "valor_agregado": 25,
+      "caracteristicas": {
+        "granja": false,
+        "cola_larga": false,
+        "leal": false,
+        "vuela": false,
+        "bigotes": false,
+        "dientes_grandes": false,
+        "salta": false,
+        "tranquilidad": true,
+        "pone_huevos": true,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": true
+      }
+    },
+    {
+      "animal": "vaca",
+      "valor_agregado": 3088,
+      "caracteristicas": {
+        "granja": true,
+        "cola_larga": true,
+        "leal": false,
+        "vuela": false,
+        "bigotes": false,
+        "dientes_grandes": false,
+        "salta": false,
+        "tranquilidad": true,
+        "pone_huevos": false,
+        "galopa": false,
+        "colmillos_largos": false,
+        "lenta": false
+      }
+    }
+  ]
+}

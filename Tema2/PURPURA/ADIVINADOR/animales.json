@@ -1,0 +1,38 @@
+[
+    {
+        "Animal": "rana",
+        "Caracteristica": "nada"
+    },
+    {
+        "Animal": "vaca",
+        "Caracteristica": "cuernos"
+    },
+    {
+        "Animal": "caballo ",
+        "Caracteristica": "galopa"
+    },
+    {
+        "Animal": "maripoza",
+        "Caracteristica": "vuela"
+    },
+    {
+        "Animal": "mosca ",
+        "Caracteristica": "alas"
+    },
+    {
+        "Animal": "conejo",
+        "Caracteristica": "salta"
+    },
+    {
+        "Animal": "elefante",
+        "Caracteristica": "trompa"
+    },
+    {
+        "Animal": "perro",
+        "Caracteristica": "bigotes"
+    },
+    {
+        "Animal": "gato ",
+        "Caracteristica": "rapido"
+    }
+]
