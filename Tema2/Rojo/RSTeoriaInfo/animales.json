@@ -1,0 +1,189 @@
+[
+  {
+    "animal": "perro",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": true,
+      "leal": true,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": false,
+      "salta": true,
+      "tranquilidad": false,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": true,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "mariposa",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": false,
+      "leal": false,
+      "vuela": true,
+      "bigotes": false,
+      "dientes_grandes": false,
+      "salta": false,
+      "tranquilidad": true,
+      "pone_huevos": true,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "gato",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": true,
+      "leal": false,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": false,
+      "salta": true,
+      "tranquilidad": true,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "tuza",
+    "caracteristicas": {
+      "granja": false,
+      "cola_larga": true,
+      "leal": false,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": true,
+      "salta": true,
+      "tranquilidad": true,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "conejo",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": false,
+      "leal": false,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": true,
+      "salta": true,
+      "tranquilidad": true,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "capibara",
+    "caracteristicas": {
+      "granja": false,
+      "cola_larga": false,
+      "leal": false,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": true,
+      "salta": true,
+      "tranquilidad": true,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "ornitorrinco",
+    "caracteristicas": {
+      "granja": false,
+      "cola_larga": true,
+      "leal": false,
+      "vuela": false,
+      "bigotes": false,
+      "dientes_grandes": false,
+      "salta": false,
+      "tranquilidad": true,
+      "pone_huevos": true,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "caballo",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": true,
+      "leal": true,
+      "vuela": false,
+      "bigotes": true,
+      "dientes_grandes": true,
+      "salta": true,
+      "tranquilidad": false,
+      "pone_huevos": false,
+      "galopa": true,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "mamut",
+    "caracteristicas": {
+      "granja": false,
+      "cola_larga": true,
+      "leal": false,
+      "vuela": false,
+      "bigotes": false,
+      "dientes_grandes": false,
+      "salta": false,
+      "tranquilidad": false,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": true,
+      "lenta": false
+    }
+  },
+  {
+    "animal": "tortuga",
+    "caracteristicas": {
+      "granja": false,
+      "cola_larga": false,
+      "leal": false,
+      "vuela": false,
+      "bigotes": false,
+      "dientes_grandes": false,
+      "salta": false,
+      "tranquilidad": true,
+      "pone_huevos": true,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": true
+    }
+  },
+  {
+    "animal": "vaca",
+    "caracteristicas": {
+      "granja": true,
+      "cola_larga": true,
+      "leal": false,
+      "vuela": false,
+      "bigotes": false,
+      "dientes_grandes": false,
+      "salta": false,
+      "tranquilidad": true,
+      "pone_huevos": false,
+      "galopa": false,
+      "colmillos_largos": false,
+      "lenta": false
+    }
+  }
+]
