@@ -1,0 +1,153 @@
+caracteristicas:
+- Leal
+- Vuela
+- Bigotes
+- Dientes Grandes
+- Salta
+- Tranquilo
+- Pone Huevos
+- Galopa
+- Colmillos Largos
+- Lento
+- Cola Larga
+animales:
+- nombre: Perro
+  respuestas:
+  - true
+  - false
+  - true
+  - false
+  - true
+  - false
+  - false
+  - false
+  - true
+  - false
+  - true
+  peso: 1349
+- nombre: Mariposa
+  respuestas:
+  - false
+  - true
+  - false
+  - false
+  - false
+  - true
+  - true
+  - false
+  - false
+  - false
+  - false
+  peso: 560
+- nombre: Gato
+  respuestas:
+  - false
+  - false
+  - true
+  - false
+  - true
+  - true
+  - false
+  - false
+  - true
+  - false
+  - true
+  peso: 357
+- nombre: Tuza
+  respuestas:
+  - false
+  - false
+  - true
+  - true
+  - true
+  - true
+  - false
+  - false
+  - false
+  - false
+  - true
+  peso: 481
+- nombre: Conejo
+  respuestas:
+  - false
+  - false
+  - true
+  - true
+  - true
+  - true
+  - false
+  - false
+  - false
+  - false
+  - false
+  peso: 480
+- nombre: Capibara
+  respuestas:
+  - false
+  - false
+  - true
+  - true
+  - true
+  - true
+  - false
+  - false
+  - false
+  - false
+  - false
+  peso: 480
+- nombre: Ornitorrinco
+  respuestas:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - true
+  - true
+  - false
+  - false
+  - false
+  - true
+  peso: 49
+- nombre: Caballo
+  respuestas:
+  - true
+  - false
+  - true
+  - true
+  - true
+  - false
+  - false
+  - true
+  - false
+  - false
+  - true
+  peso: 1481
+- nombre: Mamut
+  respuestas:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  - false
+  - true
+  - false
+  - true
+  peso: 5
+- nombre: Tortuga
+  respuestas:
+  - false
+  - false
+  - false
+  - false
+  - false
+  - true
+  - true
+  - false
+  - false
+  - true
+  - false
+  peso: 50

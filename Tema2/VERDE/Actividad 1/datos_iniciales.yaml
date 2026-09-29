@@ -1,0 +1,21 @@
+animales:
+- nombre: Perro
+  caracteristica: Leal
+- nombre: Mariposa
+  caracteristica: Vuela
+- nombre: Gato
+  caracteristica: Bigotes
+- nombre: Tuza
+  caracteristica: Dientes Grandes
+- nombre: Conejo
+  caracteristica: Salta
+- nombre: Capibara
+  caracteristica: Tranquilo
+- nombre: Ornitorrinco
+  caracteristica: Pone Huevos
+- nombre: Caballo
+  caracteristica: Galopa
+- nombre: Mamut
+  caracteristica: Colmillos Largos
+- nombre: Tortuga
+  caracteristica: Lento
