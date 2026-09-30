@@ -1,0 +1,200 @@
+{
+    "inicio": "0",
+
+    "nodos": {
+
+        "0": {
+            "tipo": "pregunta",
+            "texto": "¿Cuántos lados tiene la figura?",
+            "transiciones": {
+                "0": "1",
+                "3": "10",
+                "4": "20",
+                "5": "50",
+                "6": "51",
+                "7": "52",
+                "8": "53"
+            }
+        },
+
+        "1": {
+            "tipo": "pregunta",
+            "texto": "¿La distancia desde el centro hasta cualquier punto del borde es constante?",
+            "transiciones": {
+                "si": "2",
+                "no": "3"
+            }
+        },
+
+        "2": {
+            "tipo": "resultado",
+            "figura": "Círculo"
+        },
+
+        "3": {
+            "tipo": "resultado",
+            "figura": "Elipse"
+        },
+
+
+        "10": {
+            "tipo": "pregunta",
+            "texto": "¿Los tres lados del triángulo tienen la misma longitud?",
+            "transiciones": {
+                "si": "11",
+                "no": "12"
+            }
+        },
+
+        "11": {
+            "tipo": "resultado",
+            "figura": "Triángulo equilátero"
+        },
+
+        "12": {
+            "tipo": "pregunta",
+            "texto": "¿El triángulo tiene un ángulo de exactamente 90 grados?",
+            "transiciones": {
+                "si": "13",
+                "no": "14"
+            }
+        },
+
+        "13": {
+            "tipo": "resultado",
+            "figura": "Triángulo rectángulo"
+        },
+
+        "14": {
+            "tipo": "pregunta",
+            "texto": "¿El triángulo tiene exactamente dos lados de la misma longitud?",
+            "transiciones": {
+                "si": "15",
+                "no": "16"
+            }
+        },
+
+        "15": {
+            "tipo": "resultado",
+            "figura": "Triángulo isósceles"
+        },
+
+        "16": {
+            "tipo": "pregunta",
+            "texto": "¿El triángulo tiene un ángulo mayor de 90 grados?",
+            "transiciones": {
+                "si": "17",
+                "no": "18"
+            }
+        },
+
+        "17": {
+            "tipo": "resultado",
+            "figura": "Triángulo obtusángulo"
+        },
+
+        "18": {
+            "tipo": "resultado",
+            "figura": "Triángulo no contemplado en las figuras solicitadas"
+        },
+
+
+        "20": {
+            "tipo": "pregunta",
+            "texto": "¿Todos los cuatro lados del cuadrilátero tienen la misma longitud?",
+            "transiciones": {
+                "si": "21",
+                "no": "25"
+            }
+        },
+
+        "21": {
+            "tipo": "pregunta",
+            "texto": "¿El cuadrilátero tiene cuatro ángulos de exactamente 90 grados?",
+            "transiciones": {
+                "si": "22",
+                "no": "23"
+            }
+        },
+
+        "22": {
+            "tipo": "resultado",
+            "figura": "Cuadrado"
+        },
+
+        "23": {
+            "tipo": "resultado",
+            "figura": "Rombo"
+        },
+
+
+        "25": {
+            "tipo": "pregunta",
+            "texto": "¿El cuadrilátero tiene exactamente un par de lados paralelos?",
+            "transiciones": {
+                "si": "26",
+                "no": "29"
+            }
+        },
+
+        "26": {
+            "tipo": "pregunta",
+            "texto": "¿El cuadrilátero tiene exactamente dos ángulos de 90 grados?",
+            "transiciones": {
+                "si": "27",
+                "no": "28"
+            }
+        },
+
+        "27": {
+            "tipo": "resultado",
+            "figura": "Trapecio rectángulo"
+        },
+
+        "28": {
+            "tipo": "resultado",
+            "figura": "Trapecio"
+        },
+
+
+        "29": {
+            "tipo": "pregunta",
+            "texto": "¿El cuadrilátero tiene cuatro ángulos de exactamente 90 grados?",
+            "transiciones": {
+                "si": "30",
+                "no": "31"
+            }
+        },
+
+        "30": {
+            "tipo": "resultado",
+            "figura": "Rectángulo"
+        },
+
+        "31": {
+            "tipo": "resultado",
+            "figura": "Romboide"
+        },
+
+
+        "50": {
+            "tipo": "resultado",
+            "figura": "Pentágono"
+        },
+
+        "51": {
+            "tipo": "resultado",
+            "figura": "Hexágono"
+        },
+
+        "52": {
+            "tipo": "resultado",
+            "figura": "Heptágono"
+        },
+
+        "53": {
+            "tipo": "resultado",
+            "figura": "Octágono"
+        }
+    }
+}
