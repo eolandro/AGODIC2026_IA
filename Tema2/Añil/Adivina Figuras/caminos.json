@@ -1,0 +1,66 @@
+{
+  "Preguntas": [
+    [0, "¿Cuántos lados tiene?"],
+    [1, "¿Radio constante?"],
+    [2, "¿Todos sus lados son iguales?"],
+    [3, "¿Tiene dos pares de lados paralelos?"],
+    [4, "Pentágono"],
+    [5, "Hexágono"],
+    [6, "Heptágono"],
+    [7, "Octágono"],
+    [8, "Círculo"],
+    [9, "Elipse"],
+    [10, "Triángulo equilátero"],
+    [11, "¿Tiene un ángulo de 90°?"],
+    [12, "Triángulo rectángulo"],
+    [13, "¿Tiene dos lados iguales?"],
+    [14, "Triángulo isósceles"],
+    [15, "Triángulo escaleno"],
+    [16, "¿Todos sus lados son iguales?"],
+    [17, "¿Tiene un ángulo de 90°?"],
+    [18, "Trapecio rectángulo"],
+    [19, "Trapecio"],
+    [20, "¿Tiene cuatro ángulos de 90°?"],
+    [21, "¿Tiene cuatro ángulos de 90°?"],
+    [22, "Cuadrado"],
+    [23, "Rombo"],
+    [24, "Rectángulo"],
+    [25, "Paralelogramo"]
+  ],
+  "Trans": [
+    [0, 0, 1],
+    [0, 3, 2],
+    [0, 4, 3],
+    [0, 5, 4],
+    [0, 6, 5],
+    [0, 7, 6],
+    [0, 8, 7],
+
+    [1, "si", 8],
+    [1, "no", 9],
+
+    [2, "si", 10],
+    [2, "no", 11],
+
+    [3, "si", 16],
+    [3, "no", 17],
+
+    [11, "si", 12],
+    [11, "no", 13],
+
+    [13, "si", 14],
+    [13, "no", 15],
+
+    [16, "si", 20],
+    [16, "no", 21],
+
+    [17, "si", 18],
+    [17, "no", 19],
+
+    [20, "si", 22],
+    [20, "no", 23],
+
+    [21, "si", 24],
+    [21, "no", 25]
+  ]
+}
