@@ -1,0 +1,59 @@
+{
+  "Preguntas": {
+    "A": "¿Cuántos lados tiene?",
+    "A0": "¿Tiene un radio constante?",
+    "A0S": "Círculo",
+    "A0N": "Elipse",
+
+    "A3": "¿Tiene todos sus lados iguales?",
+    "A3S": "Triángulo equilátero",
+    "A3N": "¿Tiene dos lados iguales?",
+    "A3NS": "Triángulo isósceles",
+    "A3NN": "¿Tiene un ángulo recto?",
+    "A3NNS": "Triángulo rectángulo",
+    "A3NNN": "Triángulo escaleno",
+
+    "A4": "¿Tiene todos sus lados iguales?",
+    "A4S": "¿Tiene todos sus ángulos rectos?",
+    "A4SS": "Cuadrado",
+    "A4SN": "Rombo",
+    "A4N": "¿Sus lados opuestos son paralelos?",
+    "A4NS": "Rectángulo",
+    "A4NN": "Trapecio rectángulo",
+
+    "A5": "Pentágono",
+    "A6": "Hexágono",
+
+    "A10": "¿Tiene forma de estrella?",
+    "A10S": "Estrella de 5 picos",
+    "A10N": "Decágono"
+  },
+  "Transiciones": [
+    ["A", "0", "A0"],
+    ["A", "3", "A3"],
+    ["A", "4", "A4"],
+    ["A", "5", "A5"],
+    ["A", "6", "A6"],
+    ["A", "10", "A10"],
+
+    ["A0", "S", "A0S"],
+    ["A0", "N", "A0N"],
+
+    ["A3", "S", "A3S"],
+    ["A3", "N", "A3N"],
+    ["A3N", "S", "A3NS"],
+    ["A3N", "N", "A3NN"],
+    ["A3NN", "S", "A3NNS"],
+    ["A3NN", "N", "A3NNN"],
+
+    ["A4", "S", "A4S"],
+    ["A4", "N", "A4N"],
+    ["A4S", "S", "A4SS"],
+    ["A4S", "N", "A4SN"],
+    ["A4N", "S", "A4NS"],
+    ["A4N", "N", "A4NN"],
+
+    ["A10", "S", "A10S"],
+    ["A10", "N", "A10N"]
+  ]
+}
