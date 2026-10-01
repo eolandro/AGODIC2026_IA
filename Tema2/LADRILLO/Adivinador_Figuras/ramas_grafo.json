@@ -1,0 +1,63 @@
+{
+  "PPregunta": 0,
+  "preguntas": {
+    "0": "Cuantos lados tiene",
+    "1": "Tiene radio constante",
+    "2": "Todos sus lados son iguales",
+    "3": "Tienen angulo de 90 grados",
+    "4": "Pentagono",
+    "5": "Hexagono",
+    "6": "Heptagono",
+    "7": "Octagono",
+    "8": "Circulo",
+    "9": "Elipse",
+    "10": "Triangulo Equilatero",
+    "11": "Tiene un angulo de 90 grados?",
+    "12": "Triangulo Rectangulo",
+    "13": "Tiene dos lados iguales?",
+    "14": "Triangulo Isoceles",
+    "15": "Triangulo Escaleno",
+    "16": "Todos sus lados son iguales?",
+    "17": "Todos sus lados son iguales?",
+    "18": "Cuadrado",
+    "19": "Tiene cuatro angulos rectos?",
+    "20": "Rectangulo",
+    "21": "Trapecio Rectangulo",
+    "22": "Rombo",
+    "23": "Tiene dos pares de lados paralelos?",
+    "24": "Romboide",
+    "25": "Trapecio Isoceles"
+  },
+  "transiciones": [
+    {"origen": 0, "respuesta": 0, "destino": 1},
+    {"origen": 0, "respuesta": 3, "destino": 2},
+    {"origen": 0, "respuesta": 4, "destino": 3},
+    {"origen": 0, "respuesta": 5, "destino": 4},
+    {"origen": 0, "respuesta": 6, "destino": 5},
+    {"origen": 0, "respuesta": 7, "destino": 6},
+    {"origen": 0, "respuesta": 8, "destino": 7},
+
+    {"origen": 1, "respuesta": "Si", "destino": 8},
+    {"origen": 1, "respuesta": "No", "destino": 9},
+
+    {"origen": 2, "respuesta": "Si", "destino": 10},
+    {"origen": 2, "respuesta": "No", "destino": 11},
+    {"origen": 11, "respuesta": "Si", "destino": 12},
+    {"origen": 11, "respuesta": "No", "destino": 13},
+    {"origen": 13, "respuesta": "Si", "destino": 14},
+    {"origen": 13, "respuesta": "No", "destino": 15},
+
+    {"origen": 3, "respuesta": "Si", "destino": 16},
+    {"origen": 3, "respuesta": "No", "destino": 17},
+
+    {"origen": 16, "respuesta": "Si", "destino": 18},
+    {"origen": 16, "respuesta": "No", "destino": 19},
+    {"origen": 19, "respuesta": "Si", "destino": 20},
+    {"origen": 19, "respuesta": "No", "destino": 21},
+
+    {"origen": 17, "respuesta": "Si", "destino": 22},
+    {"origen": 17, "respuesta": "No", "destino": 23},
+    {"origen": 23, "respuesta": "Si", "destino": 24},
+    {"origen": 23, "respuesta": "No", "destino": 25}
+  ]
+}
