@@ -1,0 +1,235 @@
+{
+    "preguntas": [
+        {
+            "id": 0,
+            "texto": "¿Cuántos lados tiene?"
+        },
+        {
+            "id": 1,
+            "texto": "¿Tiene radio constante?"
+        },
+        {
+            "id": 2,
+            "texto": "¿Tiene un ángulo de 90 grados?"
+        },
+        {
+            "id": 3,
+            "texto": "¿Todos sus lados son iguales?"
+        },
+        {
+            "id": 4,
+            "texto": "¿Tiene dos lados iguales?"
+        },
+        {
+            "id": 5,
+            "texto": "¿Cuántos pares de lados paralelos tiene?"
+        },
+        {
+            "id": 6,
+            "texto": "¿Tiene ángulos de 90 grados?"
+        },
+        {
+            "id": 7,
+            "texto": "¿Todos sus lados son iguales?"
+        },
+        {
+            "id": 8,
+            "texto": "¿Tiene ángulos de 90 grados?"
+        },
+        {
+            "id": 9,
+            "texto": "Círculo"
+        },
+        {
+            "id": 10,
+            "texto": "Elipse"
+        },
+        {
+            "id": 11,
+            "texto": "Triángulo rectángulo"
+        },
+        {
+            "id": 12,
+            "texto": "Triángulo equilátero"
+        },
+        {
+            "id": 13,
+            "texto": "Triángulo isósceles"
+        },
+        {
+            "id": 14,
+            "texto": "Triángulo escaleno"
+        },
+        {
+            "id": 15,
+            "texto": "Cuadrado"
+        },
+        {
+            "id": 16,
+            "texto": "Rectángulo"
+        },
+        {
+            "id": 17,
+            "texto": "Rombo"
+        },
+        {
+            "id": 18,
+            "texto": "Trapecio"
+        },
+        {
+            "id": 19,
+            "texto": "Trapecio recto"
+        },
+        {
+            "id": 20,
+            "texto": "Pentágono"
+        },
+        {
+            "id": 21,
+            "texto": "Hexágono"
+        },
+        {
+            "id": 22,
+            "texto": "Heptágono"
+        },
+        {
+            "id": 23,
+            "texto": "Octágono"
+        },
+        {
+            "id": 24,
+            "texto": "¿Todos sus lados son iguales?"
+        },
+        {
+            "id": 25,
+            "texto": "Romboide"
+        }
+    ],
+    "transiciones": [
+        {
+            "origen": 0,
+            "respuesta": 0,
+            "destino": 1
+        },
+        {
+            "origen": 0,
+            "respuesta": 3,
+            "destino": 2
+        },
+        {
+            "origen": 0,
+            "respuesta": 4,
+            "destino": 5
+        },
+        {
+            "origen": 0,
+            "respuesta": 5,
+            "destino": 20
+        },
+        {
+            "origen": 0,
+            "respuesta": 6,
+            "destino": 21
+        },
+        {
+            "origen": 0,
+            "respuesta": 7,
+            "destino": 22
+        },
+        {
+            "origen": 0,
+            "respuesta": 8,
+            "destino": 23
+        },
+        {
+            "origen": 1,
+            "respuesta": "SI",
+            "destino": 9
+        },
+        {
+            "origen": 1,
+            "respuesta": "NO",
+            "destino": 10
+        },
+        {
+            "origen": 2,
+            "respuesta": "SI",
+            "destino": 11
+        },
+        {
+            "origen": 2,
+            "respuesta": "NO",
+            "destino": 3
+        },
+        {
+            "origen": 3,
+            "respuesta": "SI",
+            "destino": 12
+        },
+        {
+            "origen": 3,
+            "respuesta": "NO",
+            "destino": 4
+        },
+        {
+            "origen": 4,
+            "respuesta": "SI",
+            "destino": 13
+        },
+        {
+            "origen": 4,
+            "respuesta": "NO",
+            "destino": 14
+        },
+        {
+            "origen": 5,
+            "respuesta": 2,
+            "destino": 6
+        },
+        {
+            "origen": 5,
+            "respuesta": 1,
+            "destino": 8
+        },
+        {
+            "origen": 6,
+            "respuesta": "SI",
+            "destino": 7
+        },
+        {
+            "origen": 6,
+            "respuesta": "NO",
+            "destino": 24
+        },
+        {
+            "origen": 7,
+            "respuesta": "SI",
+            "destino": 15
+        },
+        {
+            "origen": 7,
+            "respuesta": "NO",
+            "destino": 16
+        },
+        {
+            "origen": 8,
+            "respuesta": "SI",
+            "destino": 19
+        },
+        {
+            "origen": 8,
+            "respuesta": "NO",
+            "destino": 18
+        },
+        {
+            "origen": 24,
+            "respuesta": "SI",
+            "destino": 17
+        },
+        {
+            "origen": 24,
+            "respuesta": "NO",
+            "destino": 25
+        }
+    ]
+}
