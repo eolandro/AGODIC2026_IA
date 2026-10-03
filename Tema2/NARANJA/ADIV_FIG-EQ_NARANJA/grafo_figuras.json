@@ -37,6 +37,20 @@
             "texto": "¿Tiene ángulos de 90 grados?"
         },
         {
+            "id": 24,
+            "texto": "¿Todos sus lados son iguales?"
+        },
+        {
+            "id": 26,
+            "texto": "¿Quieres volver a jugar?"
+        },
+        {
+            "id": 27,
+            "texto": "¡Hasta luego!"
+        }
+    ],
+    "figuras": [
+        {
             "id": 9,
             "texto": "Círculo"
         },
@@ -97,10 +111,6 @@
             "texto": "Octágono"
         },
         {
-            "id": 24,
-            "texto": "¿Todos sus lados son iguales?"
-        },
-        {
             "id": 25,
             "texto": "Romboide"
         }
@@ -140,6 +150,11 @@
             "origen": 0,
             "respuesta": 8,
             "destino": 23
+        },
+        {
+            "origen": 0,
+            "respuesta": "Infinitos",
+            "destino": 1
         },
         {
             "origen": 1,
@@ -230,6 +245,96 @@
             "origen": 24,
             "respuesta": "NO",
             "destino": 25
+        },
+        {
+            "origen": 9,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 10,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 11,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 12,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 13,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 14,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 15,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 16,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 17,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 18,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 19,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 20,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 21,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 22,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 23,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 25,
+            "respuesta": "",
+            "destino": 26
+        },
+        {
+            "origen": 26,
+            "respuesta": "SI",
+            "destino": 0
+        },
+        {
+            "origen": 26,
+            "respuesta": "NO",
+            "destino": 27
         }
     ]
 }
