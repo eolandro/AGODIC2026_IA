@@ -1,0 +1,156 @@
+{
+    "inicio": 0,
+    "nodos": {
+        "0": {
+            "tipo": "pregunta",
+            "texto": "¿Cuantos lados tiene la figura? (0 si es curva, sin lados)"
+        },
+        "1": {
+            "tipo": "pregunta",
+            "texto": "¿La distancia del centro al borde es siempre igual?"
+        },
+        "2": {
+            "tipo": "pregunta",
+            "texto": "¿Sus tres lados miden lo mismo?"
+        },
+        "3": {
+            "tipo": "pregunta",
+            "texto": "¿Tiene un angulo de 90 grados?"
+        },
+        "4": {
+            "tipo": "pregunta",
+            "texto": "¿Dos de sus lados tienen la misma longitud?"
+        },
+        "5": {
+            "tipo": "pregunta",
+            "texto": "¿Tiene dos pares de lados paralelos?"
+        },
+        "6": {
+            "tipo": "pregunta",
+            "texto": "¿Tiene exactamente un par de lados paralelos?"
+        },
+        "7": {
+            "tipo": "pregunta",
+            "texto": "¿Los cuatro lados tienen la misma longitud?"
+        },
+        "8": {
+            "tipo": "pregunta",
+            "texto": "¿Tiene cuatro angulos rectos?"
+        },
+        "9": {
+            "tipo": "pregunta",
+            "texto": "¿Sus diagonales tienen la misma longitud?"
+        },
+        "10": {
+            "tipo": "resultado",
+            "texto": "CIRCULO"
+        },
+        "11": {
+            "tipo": "resultado",
+            "texto": "ELIPSE"
+        },
+        "12": {
+            "tipo": "resultado",
+            "texto": "TRIANGULO EQUILATERO"
+        },
+        "13": {
+            "tipo": "resultado",
+            "texto": "TRIANGULO RECTANGULO"
+        },
+        "14": {
+            "tipo": "resultado",
+            "texto": "TRIANGULO ISOSCELES"
+        },
+        "15": {
+            "tipo": "resultado",
+            "texto": "TRIANGULO ESCALENO"
+        },
+        "16": {
+            "tipo": "resultado",
+            "texto": "TRAPECIO"
+        },
+        "17": {
+            "tipo": "resultado",
+            "texto": "CUADRADO"
+        },
+        "18": {
+            "tipo": "resultado",
+            "texto": "ROMBO"
+        },
+        "19": {
+            "tipo": "resultado",
+            "texto": "RECTANGULO"
+        },
+        "20": {
+            "tipo": "resultado",
+            "texto": "ROMBOIDE"
+        },
+        "21": {
+            "tipo": "resultado",
+            "texto": "PENTAGONO"
+        },
+        "22": {
+            "tipo": "resultado",
+            "texto": "HEXAGONO"
+        },
+        "23": {
+            "tipo": "resultado",
+            "texto": "HEPTAGONO"
+        },
+        "24": {
+            "tipo": "resultado",
+            "texto": "OCTAGONO"
+        },
+        "25": {
+            "tipo": "resultado",
+            "texto": "CUADRILATERO NO IDENTIFICADO"
+        }
+    },
+    "transiciones": {
+        "0": {
+            "0": 1,
+            "3": 2,
+            "4": 5,
+            "5": 21,
+            "6": 22,
+            "7": 23,
+            "8": 24
+        },
+        "1": {
+            "s": 10,
+            "n": 11
+        },
+        "2": {
+            "s": 12,
+            "n": 3
+        },
+        "3": {
+            "s": 13,
+            "n": 4
+        },
+        "4": {
+            "s": 14,
+            "n": 15
+        },
+        "5": {
+            "s": 7,
+            "n": 6
+        },
+        "6": {
+            "s": 16,
+            "n": 25
+        },
+        "7": {
+            "s": 8,
+            "n": 9
+        },
+        "8": {
+            "s": 17,
+            "n": 18
+        },
+        "9": {
+            "s": 19,
+            "n": 20
+        }
+    }
+}
