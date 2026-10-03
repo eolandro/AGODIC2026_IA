@@ -1,0 +1,327 @@
+{
+  "titulo": "ADIVINA LA FIGURA — SÍ/NO",
+  "inicio": "0",
+  "instrucciones": [
+    "Piensa en una figura del catálogo y responde usando la clave indicada.",
+    "Usamos figuras planas cerradas: círculo, elipse y polígonos convexos de 3 a 8 lados.",
+    "Las preguntas acumulan propiedades hasta llegar a una clasificación.",
+    "Puedes escribir salir durante las preguntas para regresar al menú."
+  ],
+  "nodos": {
+    "0": {
+      "pregunta": "¿Cuántos lados rectos tiene tu figura?",
+      "opciones": {
+        "0": {
+          "texto": "Ninguno (círculo o elipse)",
+          "destino": "1",
+          "hecho": "Su contorno es curvo."
+        },
+        "3": {
+          "texto": "3 lados",
+          "destino": "2",
+          "hecho": "Tiene 3 lados rectos."
+        },
+        "4": {
+          "texto": "4 lados",
+          "destino": "3",
+          "hecho": "Tiene 4 lados rectos."
+        },
+        "5": {
+          "texto": "5 lados",
+          "destino": "4",
+          "hecho": "Tiene 5 lados rectos."
+        },
+        "6": {
+          "texto": "6 lados",
+          "destino": "5",
+          "hecho": "Tiene 6 lados rectos."
+        },
+        "7": {
+          "texto": "7 lados",
+          "destino": "6",
+          "hecho": "Tiene 7 lados rectos."
+        },
+        "8": {
+          "texto": "8 lados",
+          "destino": "7",
+          "hecho": "Tiene 8 lados rectos."
+        }
+      }
+    },
+    "1": {
+      "pregunta": "¿Todos los puntos del borde están a la misma distancia del centro?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "8",
+          "hecho": "La distancia del borde al centro es constante."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "9",
+          "hecho": "La distancia del borde al centro varía."
+        }
+      }
+    },
+    "2": {
+      "pregunta": "¿Tiene un ángulo de 90 grados?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "17",
+          "hecho": "Tiene un ángulo recto."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "21",
+          "hecho": "No tiene ángulos rectos."
+        }
+      }
+    },
+    "3": {
+      "pregunta": "¿Tiene dos pares de lados paralelos?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "31",
+          "hecho": "Tiene dos pares de lados paralelos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "33",
+          "hecho": "No tiene dos pares de lados paralelos."
+        }
+      }
+    },
+    "4": {
+      "resultado": "Pentágono",
+      "descripcion": "Polígono de 5 lados; puede ser regular o irregular."
+    },
+    "5": {
+      "resultado": "Hexágono",
+      "descripcion": "Polígono de 6 lados; puede ser regular o irregular."
+    },
+    "6": {
+      "resultado": "Heptágono",
+      "descripcion": "Polígono de 7 lados; puede ser regular o irregular."
+    },
+    "7": {
+      "resultado": "Octágono",
+      "descripcion": "Polígono de 8 lados; puede ser regular o irregular."
+    },
+    "8": {
+      "resultado": "Círculo",
+      "descripcion": "Todos los puntos del borde están a la misma distancia del centro."
+    },
+    "9": {
+      "resultado": "Elipse no circular",
+      "descripcion": "Sus ejes mayor y menor tienen distinta longitud."
+    },
+    "10": {
+      "resultado": "Triángulo equilátero",
+      "descripcion": "Tiene tres lados iguales y tres ángulos de 60 grados."
+    },
+    "11": {
+      "resultado": "Triángulo acutángulo isósceles",
+      "descripcion": "Sus tres ángulos son menores de 90 grados. Tiene exactamente dos lados iguales."
+    },
+    "12": {
+      "resultado": "Triángulo acutángulo escaleno",
+      "descripcion": "Sus tres ángulos son menores de 90 grados. Sus tres lados tienen distinta longitud."
+    },
+    "13": {
+      "resultado": "Triángulo rectángulo isósceles",
+      "descripcion": "Tiene un ángulo de 90 grados. Tiene exactamente dos lados iguales."
+    },
+    "14": {
+      "resultado": "Triángulo rectángulo escaleno",
+      "descripcion": "Tiene un ángulo de 90 grados. Sus tres lados tienen distinta longitud."
+    },
+    "15": {
+      "resultado": "Triángulo obtusángulo isósceles",
+      "descripcion": "Tiene un ángulo mayor de 90 grados. Tiene exactamente dos lados iguales."
+    },
+    "16": {
+      "resultado": "Triángulo obtusángulo escaleno",
+      "descripcion": "Tiene un ángulo mayor de 90 grados. Sus tres lados tienen distinta longitud."
+    },
+    "17": {
+      "pregunta": "¿Tiene dos lados iguales?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "13",
+          "hecho": "Tiene exactamente dos lados iguales."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "14",
+          "hecho": "Todos sus lados son diferentes."
+        }
+      }
+    },
+    "18": {
+      "pregunta": "¿Todos sus ángulos son menores de 90 grados?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "11",
+          "hecho": "Todos sus ángulos son agudos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "15",
+          "hecho": "Tiene un ángulo obtuso (ya se descartó el recto)."
+        }
+      }
+    },
+    "19": {
+      "pregunta": "¿Todos sus ángulos son menores de 90 grados?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "12",
+          "hecho": "Todos sus ángulos son agudos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "16",
+          "hecho": "Tiene un ángulo obtuso (ya se descartó el recto)."
+        }
+      }
+    },
+    "20": {
+      "pregunta": "¿Tiene exactamente dos lados iguales?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "18",
+          "hecho": "Tiene exactamente dos lados iguales."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "19",
+          "hecho": "Todos sus lados son diferentes."
+        }
+      }
+    },
+    "21": {
+      "pregunta": "¿Sus tres lados son iguales?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "10",
+          "hecho": "Sus tres lados son iguales."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "20",
+          "hecho": "Sus tres lados no son todos iguales."
+        }
+      }
+    },
+    "22": {
+      "resultado": "Cuadrado",
+      "descripcion": "Tiene cuatro lados iguales y cuatro ángulos rectos."
+    },
+    "23": {
+      "resultado": "Rectángulo no cuadrado",
+      "descripcion": "Tiene cuatro ángulos rectos y lados contiguos de distinta longitud."
+    },
+    "24": {
+      "resultado": "Rombo no cuadrado",
+      "descripcion": "Tiene cuatro lados iguales, pero no ángulos rectos."
+    },
+    "25": {
+      "resultado": "Romboide",
+      "descripcion": "Tiene dos pares de lados paralelos, lados contiguos distintos y ningún ángulo recto."
+    },
+    "26": {
+      "resultado": "Trapecio rectángulo",
+      "descripcion": "Tiene exactamente un par de lados paralelos y dos ángulos rectos."
+    },
+    "27": {
+      "resultado": "Trapecio no rectángulo",
+      "descripcion": "Tiene exactamente un par de lados paralelos y ningún ángulo recto."
+    },
+    "28": {
+      "resultado": "Cuadrilátero sin lados paralelos",
+      "descripcion": "Ningún par de lados opuestos es paralelo."
+    },
+    "29": {
+      "pregunta": "¿Tiene cuatro ángulos rectos?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "22",
+          "hecho": "Sus cuatro ángulos son rectos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "24",
+          "hecho": "No tiene ángulos rectos."
+        }
+      }
+    },
+    "30": {
+      "pregunta": "¿Tiene cuatro ángulos rectos?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "23",
+          "hecho": "Sus cuatro ángulos son rectos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "25",
+          "hecho": "No tiene ángulos rectos."
+        }
+      }
+    },
+    "31": {
+      "pregunta": "¿Sus cuatro lados son iguales?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "29",
+          "hecho": "Sus cuatro lados son iguales."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "30",
+          "hecho": "Sus lados contiguos tienen longitudes distintas."
+        }
+      }
+    },
+    "32": {
+      "pregunta": "¿Tiene algún ángulo recto?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "26",
+          "hecho": "Tiene dos ángulos rectos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "27",
+          "hecho": "No tiene ángulos rectos."
+        }
+      }
+    },
+    "33": {
+      "pregunta": "¿Tiene un par de lados paralelos?",
+      "opciones": {
+        "s": {
+          "texto": "Sí",
+          "destino": "32",
+          "hecho": "Tiene exactamente un par de lados paralelos."
+        },
+        "n": {
+          "texto": "No",
+          "destino": "28",
+          "hecho": "No tiene lados paralelos."
+        }
+      }
+    }
+  }
+}
