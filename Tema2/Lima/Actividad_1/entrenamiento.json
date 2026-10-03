@@ -1,0 +1,102 @@
+{
+  "total_animales": 10,
+  "bits_necesarios": 3.3219,
+  "preguntas": [
+    {
+      "posicion": 2,
+      "caracteristica": "tiene bigotes",
+      "pregunta": "¿Tiene bigotes?",
+      "cantidad_si": 6,
+      "cantidad_no": 4,
+      "entropia": 0.971
+    },
+    {
+      "posicion": 3,
+      "caracteristica": "tiene dientes grandes",
+      "pregunta": "¿Tiene dientes grandes?",
+      "cantidad_si": 4,
+      "cantidad_no": 6,
+      "entropia": 0.971
+    },
+    {
+      "posicion": 4,
+      "caracteristica": "puede saltar",
+      "pregunta": "¿Puede saltar?",
+      "cantidad_si": 6,
+      "cantidad_no": 4,
+      "entropia": 0.971
+    },
+    {
+      "posicion": 10,
+      "caracteristica": "es mascota común",
+      "pregunta": "¿Es una mascota común en las casas?",
+      "cantidad_si": 4,
+      "cantidad_no": 6,
+      "entropia": 0.971
+    },
+    {
+      "posicion": 5,
+      "caracteristica": "es tranquilo",
+      "pregunta": "¿Generalmente es tranquilo?",
+      "cantidad_si": 7,
+      "cantidad_no": 3,
+      "entropia": 0.8813
+    },
+    {
+      "posicion": 6,
+      "caracteristica": "pone huevos",
+      "pregunta": "¿Pone huevos?",
+      "cantidad_si": 3,
+      "cantidad_no": 7,
+      "entropia": 0.8813
+    },
+    {
+      "posicion": 8,
+      "caracteristica": "tiene colmillos largos",
+      "pregunta": "¿Tiene colmillos largos?",
+      "cantidad_si": 3,
+      "cantidad_no": 7,
+      "entropia": 0.8813
+    },
+    {
+      "posicion": 11,
+      "caracteristica": "excava túneles",
+      "pregunta": "¿Excava túneles o madrigueras?",
+      "cantidad_si": 3,
+      "cantidad_no": 7,
+      "entropia": 0.8813
+    },
+    {
+      "posicion": 0,
+      "caracteristica": "es leal",
+      "pregunta": "¿Es considerado un animal leal?",
+      "cantidad_si": 2,
+      "cantidad_no": 8,
+      "entropia": 0.7219
+    },
+    {
+      "posicion": 1,
+      "caracteristica": "puede volar",
+      "pregunta": "¿Puede volar?",
+      "cantidad_si": 1,
+      "cantidad_no": 9,
+      "entropia": 0.469
+    },
+    {
+      "posicion": 7,
+      "caracteristica": "puede galopar",
+      "pregunta": "¿Puede galopar?",
+      "cantidad_si": 1,
+      "cantidad_no": 9,
+      "entropia": 0.469
+    },
+    {
+      "posicion": 9,
+      "caracteristica": "es lento",
+      "pregunta": "¿Se mueve lentamente?",
+      "cantidad_si": 1,
+      "cantidad_no": 9,
+      "entropia": 0.469
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "caracteristicas": [
+    {
+      "relacion": "es",
+      "objeto": "leal",
+      "pregunta": "¿Es considerado un animal leal?",
+      "peso": 2048
+    },
+    {
+      "relacion": "puede",
+      "objeto": "volar",
+      "pregunta": "¿Puede volar?",
+      "peso": 1024
+    },
+    {
+      "relacion": "tiene",
+      "objeto": "bigotes",
+      "pregunta": "¿Tiene bigotes?",
+      "peso": 512
+    },
+    {
+      "relacion": "tiene",
+      "objeto": "dientes grandes",
+      "pregunta": "¿Tiene dientes grandes?",
+      "peso": 256
+    },
+    {
+      "relacion": "puede",
+      "objeto": "saltar",
+      "pregunta": "¿Puede saltar?",
+      "peso": 128
+    },
+    {
+      "relacion": "es",
+      "objeto": "tranquilo",
+      "pregunta": "¿Generalmente es tranquilo?",
+      "peso": 64
+    },
+    {
+      "relacion": "pone",
+      "objeto": "huevos",
+      "pregunta": "¿Pone huevos?",
+      "peso": 32
+    },
+    {
+      "relacion": "puede",
+      "objeto": "galopar",
+      "pregunta": "¿Puede galopar?",
+      "peso": 16
+    },
+    {
+      "relacion": "tiene",
+      "objeto": "colmillos largos",
+      "pregunta": "¿Tiene colmillos largos?",
+      "peso": 8
+    },
+    {
+      "relacion": "es",
+      "objeto": "lento",
+      "pregunta": "¿Se mueve lentamente?",
+      "peso": 4
+    },
+    {
+      "relacion": "es",
+      "objeto": "mascota común",
+      "pregunta": "¿Es una mascota común en las casas?",
+      "peso": 2
+    },
+    {
+      "relacion": "excava",
+      "objeto": "túneles",
+      "pregunta": "¿Excava túneles o madrigueras?",
+      "peso": 1
+    }
+  ],
+  "animales": [
+    {
+      "nombre": "Perro",
+      "valores": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "binario": "101010001010",
+      "valor_agregado": 2698
+    },
+    {
+      "nombre": "Mariposa",
+      "valores": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "binario": "010001100000",
+      "valor_agregado": 1120
+    },
+    {
+      "nombre": "Gato",
+      "valores": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "binario": "001011001010",
+      "valor_agregado": 714
+    },
+    {
+      "nombre": "Tuza",
+      "valores": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "binario": "001111000001",
+      "valor_agregado": 961
+    },
+    {
+      "nombre": "Conejo",
+      "valores": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "binario": "001111000011",
+      "valor_agregado": 963
+    },
+    {
+      "nombre": "Capibara",
+      "valores": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "binario": "001111000000",
+      "valor_agregado": 960
+    },
+    {
+      "nombre": "Ornitorrinco",
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "binario": "000001100001",
+      "valor_agregado": 97
+    },
+    {
+      "nombre": "Caballo",
+      "valores": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "binario": "101110010000",
+      "valor_agregado": 2960
+    },
+    {
+      "nombre": "Mamut",
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "binario": "000000001000",
+      "valor_agregado": 8
+    },
+    {
+      "nombre": "Tortuga",
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "binario": "000001100110",
+      "valor_agregado": 102
+    }
+  ],
+  "arcos": [
+    [
+      "Perro",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Perro",
+      "es",
+      "leal"
+    ],
+    [
+      "Perro",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Perro",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Perro",
+      "tiene",
+      "colmillos largos"
+    ],
+    [
+      "Perro",
+      "es",
+      "mascota común"
+    ],
+    [
+      "Mariposa",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Mariposa",
+      "puede",
+      "volar"
+    ],
+    [
+      "Mariposa",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Mariposa",
+      "pone",
+      "huevos"
+    ],
+    [
+      "Gato",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Gato",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Gato",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Gato",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Gato",
+      "tiene",
+      "colmillos largos"
+    ],
+    [
+      "Gato",
+      "es",
+      "mascota común"
+    ],
+    [
+      "Tuza",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Tuza",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Tuza",
+      "tiene",
+      "dientes grandes"
+    ],
+    [
+      "Tuza",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Tuza",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Tuza",
+      "excava",
+      "túneles"
+    ],
+    [
+      "Conejo",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Conejo",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Conejo",
+      "tiene",
+      "dientes grandes"
+    ],
+    [
+      "Conejo",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Conejo",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Conejo",
+      "es",
+      "mascota común"
+    ],
+    [
+      "Conejo",
+      "excava",
+      "túneles"
+    ],
+    [
+      "Capibara",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Capibara",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Capibara",
+      "tiene",
+      "dientes grandes"
+    ],
+    [
+      "Capibara",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Capibara",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Ornitorrinco",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Ornitorrinco",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Ornitorrinco",
+      "pone",
+      "huevos"
+    ],
+    [
+      "Ornitorrinco",
+      "excava",
+      "túneles"
+    ],
+    [
+      "Caballo",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Caballo",
+      "es",
+      "leal"
+    ],
+    [
+      "Caballo",
+      "tiene",
+      "bigotes"
+    ],
+    [
+      "Caballo",
+      "tiene",
+      "dientes grandes"
+    ],
+    [
+      "Caballo",
+      "puede",
+      "saltar"
+    ],
+    [
+      "Caballo",
+      "puede",
+      "galopar"
+    ],
+    [
+      "Mamut",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Mamut",
+      "tiene",
+      "colmillos largos"
+    ],
+    [
+      "Tortuga",
+      "es_un",
+      "animal"
+    ],
+    [
+      "Tortuga",
+      "es",
+      "tranquilo"
+    ],
+    [
+      "Tortuga",
+      "pone",
+      "huevos"
+    ],
+    [
+      "Tortuga",
+      "es",
+      "lento"
+    ],
+    [
+      "Tortuga",
+      "es",
+      "mascota común"
+    ]
+  ]
+}

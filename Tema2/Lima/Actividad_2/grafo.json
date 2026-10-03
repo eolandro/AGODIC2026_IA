@@ -1,0 +1,119 @@
+{
+  "titulo": "CLASIFICADOR DE FIGURAS GEOMÉTRICAS",
+  "inicio": "lados",
+  "nodos": {
+    "lados": {
+      "pregunta": "¿Cuántos lados rectos tiene la figura?",
+      "opciones": {
+        "0": {"texto": "Ninguno, su contorno es curvo", "hecho": "No tiene lados rectos.", "ir_a": "curva"},
+        "3": {"texto": "3 lados", "hecho": "Tiene 3 lados.", "ir_a": "triangulo"},
+        "4": {"texto": "4 lados", "hecho": "Tiene 4 lados.", "ir_a": "cuadrilatero"},
+        "5": {"texto": "5 lados", "hecho": "Tiene 5 lados.", "ir_a": "pentagono"},
+        "6": {"texto": "6 lados", "hecho": "Tiene 6 lados.", "ir_a": "hexagono"},
+        "7": {"texto": "7 lados", "hecho": "Tiene 7 lados.", "ir_a": "heptagono"},
+        "8": {"texto": "8 lados", "hecho": "Tiene 8 lados.", "ir_a": "octagono"}
+      }
+    },
+
+    "curva": {
+      "pregunta": "¿Todos los puntos del borde están a la misma distancia del centro?",
+      "opciones": {
+        "s": {"texto": "Sí", "hecho": "Su borde equidista del centro.", "ir_a": "circulo"},
+        "n": {"texto": "No", "hecho": "Su borde no equidista del centro.", "ir_a": "elipse"}
+      }
+    },
+
+    "triangulo": {
+      "pregunta": "¿Cuántos de sus lados miden lo mismo?",
+      "opciones": {
+        "3": {"texto": "Los tres", "hecho": "Sus tres lados son iguales.", "ir_a": "equilatero"},
+        "2": {"texto": "Solo dos", "hecho": "Tiene exactamente dos lados iguales.", "ir_a": "isosceles"},
+        "0": {"texto": "Ninguno, los tres son distintos", "hecho": "Sus tres lados son distintos.", "ir_a": "escaleno"}
+      }
+    },
+    "isosceles": {
+      "pregunta": "¿Cómo es su ángulo más grande?",
+      "opciones": {
+        "a": {"texto": "Agudo (menor de 90°)", "hecho": "Todos sus ángulos son agudos.", "ir_a": "isosceles_acutangulo"},
+        "r": {"texto": "Recto (90°)", "hecho": "Tiene un ángulo recto.", "ir_a": "isosceles_rectangulo"},
+        "o": {"texto": "Obtuso (mayor de 90°)", "hecho": "Tiene un ángulo obtuso.", "ir_a": "isosceles_obtusangulo"}
+      }
+    },
+    "escaleno": {
+      "pregunta": "¿Cómo es su ángulo más grande?",
+      "opciones": {
+        "a": {"texto": "Agudo (menor de 90°)", "hecho": "Todos sus ángulos son agudos.", "ir_a": "escaleno_acutangulo"},
+        "r": {"texto": "Recto (90°)", "hecho": "Tiene un ángulo recto.", "ir_a": "escaleno_rectangulo"},
+        "o": {"texto": "Obtuso (mayor de 90°)", "hecho": "Tiene un ángulo obtuso.", "ir_a": "escaleno_obtusangulo"}
+      }
+    },
+
+    "cuadrilatero": {
+      "pregunta": "¿Cuántos pares de lados paralelos tiene?",
+      "opciones": {
+        "2": {"texto": "Dos pares", "hecho": "Tiene dos pares de lados paralelos.", "ir_a": "paralelogramo"},
+        "1": {"texto": "Un par", "hecho": "Tiene un solo par de lados paralelos.", "ir_a": "trapecio"},
+        "0": {"texto": "Ninguno", "hecho": "No tiene lados paralelos.", "ir_a": "sin_paralelos"}
+      }
+    },
+    "paralelogramo": {
+      "pregunta": "¿Sus cuatro ángulos son rectos?",
+      "opciones": {
+        "s": {"texto": "Sí", "hecho": "Sus cuatro ángulos son rectos.", "ir_a": "angulos_rectos"},
+        "n": {"texto": "No", "hecho": "No tiene ángulos rectos.", "ir_a": "angulos_oblicuos"}
+      }
+    },
+    "angulos_rectos": {
+      "pregunta": "¿Sus cuatro lados miden lo mismo?",
+      "opciones": {
+        "s": {"texto": "Sí", "hecho": "Sus cuatro lados son iguales.", "ir_a": "cuadrado"},
+        "n": {"texto": "No", "hecho": "Sus lados contiguos son distintos.", "ir_a": "rectangulo"}
+      }
+    },
+    "angulos_oblicuos": {
+      "pregunta": "¿Sus cuatro lados miden lo mismo?",
+      "opciones": {
+        "s": {"texto": "Sí", "hecho": "Sus cuatro lados son iguales.", "ir_a": "rombo"},
+        "n": {"texto": "No", "hecho": "Sus lados contiguos son distintos.", "ir_a": "romboide"}
+      }
+    },
+    "trapecio": {
+      "pregunta": "¿Cómo son sus dos lados NO paralelos?",
+      "opciones": {
+        "r": {"texto": "Uno de ellos forma ángulos rectos con las bases", "hecho": "Tiene dos ángulos rectos.", "ir_a": "trapecio_rectangulo"},
+        "i": {"texto": "Miden lo mismo", "hecho": "Sus lados no paralelos son iguales.", "ir_a": "trapecio_isosceles"},
+        "d": {"texto": "Son distintos y sin ángulos rectos", "hecho": "Sus lados no paralelos son distintos y no hay ángulos rectos.", "ir_a": "trapecio_escaleno"}
+      }
+    },
+    "sin_paralelos": {
+      "pregunta": "¿Tiene dos pares de lados contiguos iguales?",
+      "opciones": {
+        "s": {"texto": "Sí", "hecho": "Tiene dos pares de lados contiguos iguales.", "ir_a": "cometa"},
+        "n": {"texto": "No", "hecho": "No tiene pares de lados contiguos iguales.", "ir_a": "trapezoide"}
+      }
+    },
+
+    "circulo": {"figura": "Círculo", "descripcion": "Curva cerrada cuyos puntos equidistan del centro."},
+    "elipse": {"figura": "Elipse (óvalo)", "descripcion": "Curva cerrada con un eje mayor y un eje menor."},
+    "equilatero": {"figura": "Triángulo equilátero", "descripcion": "Tres lados iguales y tres ángulos de 60°."},
+    "isosceles_acutangulo": {"figura": "Triángulo isósceles acutángulo", "descripcion": "Dos lados iguales y todos los ángulos menores de 90°."},
+    "isosceles_rectangulo": {"figura": "Triángulo isósceles rectángulo", "descripcion": "Dos lados iguales y un ángulo de 90°."},
+    "isosceles_obtusangulo": {"figura": "Triángulo isósceles obtusángulo", "descripcion": "Dos lados iguales y un ángulo mayor de 90°."},
+    "escaleno_acutangulo": {"figura": "Triángulo escaleno acutángulo", "descripcion": "Tres lados distintos y todos los ángulos menores de 90°."},
+    "escaleno_rectangulo": {"figura": "Triángulo escaleno rectángulo", "descripcion": "Tres lados distintos y un ángulo de 90°."},
+    "escaleno_obtusangulo": {"figura": "Triángulo escaleno obtusángulo", "descripcion": "Tres lados distintos y un ángulo mayor de 90°."},
+    "cuadrado": {"figura": "Cuadrado", "descripcion": "Cuatro lados iguales y cuatro ángulos rectos."},
+    "rectangulo": {"figura": "Rectángulo", "descripcion": "Cuatro ángulos rectos y lados iguales dos a dos."},
+    "rombo": {"figura": "Rombo", "descripcion": "Cuatro lados iguales sin ángulos rectos."},
+    "romboide": {"figura": "Romboide", "descripcion": "Lados paralelos dos a dos, contiguos distintos y sin ángulos rectos."},
+    "trapecio_rectangulo": {"figura": "Trapecio rectángulo", "descripcion": "Un par de lados paralelos y dos ángulos rectos."},
+    "trapecio_isosceles": {"figura": "Trapecio isósceles", "descripcion": "Un par de lados paralelos y los otros dos lados iguales."},
+    "trapecio_escaleno": {"figura": "Trapecio escaleno", "descripcion": "Un par de lados paralelos y los otros dos lados distintos."},
+    "cometa": {"figura": "Cometa (deltoide)", "descripcion": "Sin lados paralelos, con dos pares de lados contiguos iguales."},
+    "trapezoide": {"figura": "Trapezoide", "descripcion": "Cuadrilátero irregular sin lados paralelos."},
+    "pentagono": {"figura": "Pentágono", "descripcion": "Polígono de 5 lados."},
+    "hexagono": {"figura": "Hexágono", "descripcion": "Polígono de 6 lados."},
+    "heptagono": {"figura": "Heptágono", "descripcion": "Polígono de 7 lados."},
+    "octagono": {"figura": "Octágono", "descripcion": "Polígono de 8 lados."}
+  }
+}
