@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "mensaje": "Felicidades has ganado un premio gratis",
+        "clasificacion": "Spam"
+    },
+    {
+        "id": 2,
+        "mensaje": "Oferta especial recibe dinero gratis hoy",
+        "clasificacion": "Spam"
+    },
+    {
+        "id": 3,
+        "mensaje": "Gana un teléfono nuevo participando ahora",
+        "clasificacion": "Spam"
+    },
+    {
+        "id": 4,
+        "mensaje": "Haz clic aquí para reclamar tu premio",
+        "clasificacion": "Spam"
+    },
+    {
+        "id": 5,
+        "mensaje": "Tienes una promoción exclusiva disponible",
+        "clasificacion": "Spam"
+    },
+    {
+        "id": 6,
+        "mensaje": "Mañana tenemos reunión a las diez de la mañana",
+        "clasificacion": "No Spam"
+    },
+    {
+        "id": 7,
+        "mensaje": "Recuerda entregar el proyecto el viernes",
+        "clasificacion": "No Spam"
+    },
+    {
+        "id": 8,
+        "mensaje": "La clase de mañana será en el laboratorio",
+        "clasificacion": "No Spam"
+    },
+    {
+        "id": 9,
+        "mensaje": "Te envío el documento que me solicitaste",
+        "clasificacion": "No Spam"
+    },
+    {
+        "id": 10,
+        "mensaje": "Nos vemos después de la escuela para trabajar",
+        "clasificacion": "No Spam"
+    }
+]

@@ -1,0 +1,365 @@
+{
+    "descripcion": "Tabla de probabilidades condicionales generada por DeTokenizador",
+    "probabilidades_clases": {
+        "total_mensajes": 10,
+        "mensajes_spam": 5,
+        "mensajes_no_spam": 5,
+        "probabilidad_spam": 0.5,
+        "probabilidad_no_spam": 0.5
+    },
+    "mensajes_procesados": [
+        {
+            "id": 1,
+            "clasificacion": "Spam",
+            "tokens": [
+                "felicidades",
+                "has",
+                "ganado",
+                "premio",
+                "gratis"
+            ]
+        },
+        {
+            "id": 2,
+            "clasificacion": "Spam",
+            "tokens": [
+                "oferta",
+                "especial",
+                "recibe",
+                "dinero",
+                "gratis",
+                "hoy"
+            ]
+        },
+        {
+            "id": 3,
+            "clasificacion": "Spam",
+            "tokens": [
+                "gana",
+                "teléfono",
+                "nuevo",
+                "participando",
+                "ahora"
+            ]
+        },
+        {
+            "id": 4,
+            "clasificacion": "Spam",
+            "tokens": [
+                "haz",
+                "clic",
+                "aquí",
+                "reclamar",
+                "premio"
+            ]
+        },
+        {
+            "id": 5,
+            "clasificacion": "Spam",
+            "tokens": [
+                "tienes",
+                "promoción",
+                "exclusiva",
+                "disponible"
+            ]
+        },
+        {
+            "id": 6,
+            "clasificacion": "No Spam",
+            "tokens": [
+                "mañana",
+                "tenemos",
+                "reunión",
+                "diez",
+                "mañana"
+            ]
+        },
+        {
+            "id": 7,
+            "clasificacion": "No Spam",
+            "tokens": [
+                "recuerda",
+                "entregar",
+                "proyecto",
+                "viernes"
+            ]
+        },
+        {
+            "id": 8,
+            "clasificacion": "No Spam",
+            "tokens": [
+                "clase",
+                "mañana",
+                "será",
+                "laboratorio"
+            ]
+        },
+        {
+            "id": 9,
+            "clasificacion": "No Spam",
+            "tokens": [
+                "envío",
+                "documento",
+                "solicitaste"
+            ]
+        },
+        {
+            "id": 10,
+            "clasificacion": "No Spam",
+            "tokens": [
+                "vemos",
+                "después",
+                "escuela",
+                "trabajar"
+            ]
+        }
+    ],
+    "tabla_tokens": {
+        "ahora": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "aquí": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "clase": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "clic": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "después": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "diez": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "dinero": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "disponible": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "documento": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "entregar": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "envío": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "escuela": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "especial": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "exclusiva": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "felicidades": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "gana": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "ganado": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "gratis": {
+            "frecuencia_spam": 2,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.111111,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "has": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "haz": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "hoy": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "laboratorio": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "mañana": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 2,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.142857
+        },
+        "nuevo": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "oferta": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "participando": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "premio": {
+            "frecuencia_spam": 2,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.111111,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "promoción": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "proyecto": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "recibe": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "reclamar": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "recuerda": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "reunión": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "será": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "solicitaste": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "teléfono": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "tenemos": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "tienes": {
+            "frecuencia_spam": 1,
+            "frecuencia_no_spam": 0,
+            "probabilidad_token_dado_spam": 0.074074,
+            "probabilidad_token_dado_no_spam": 0.047619
+        },
+        "trabajar": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "vemos": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        },
+        "viernes": {
+            "frecuencia_spam": 0,
+            "frecuencia_no_spam": 1,
+            "probabilidad_token_dado_spam": 0.037037,
+            "probabilidad_token_dado_no_spam": 0.095238
+        }
+    }
+}
