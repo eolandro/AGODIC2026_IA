@@ -1,0 +1,30 @@
+- mensaje: Has sido seleccionado para ganar un premio gratis, reclama tu oferta ahora
+  etiqueta: spam
+  probabilidad_spam: 0.9991
+- mensaje: ¿Puedes enviarme la tarea de la materia antes del viernes?
+  etiqueta: no_spam
+  probabilidad_spam: 0.0166
+- mensaje: Descuento exclusivo del 50% solo hoy, compra ahora desde casa
+  etiqueta: spam
+  probabilidad_spam: 0.9957
+- mensaje: Mañana tenemos junta en el laboratorio para revisar el proyecto
+  etiqueta: no_spam
+  probabilidad_spam: 0.0007
+- mensaje: Ingresa tus datos en este enlace para recuperar tu cuenta bloqueada
+  etiqueta: spam
+  probabilidad_spam: 0.9911
+- mensaje: Gracias por los apuntes, me ayudaron mucho para el examen
+  etiqueta: no_spam
+  probabilidad_spam: 0.0056
+- mensaje: Gana dinero fácil sin experiencia, inscríbete gratis hoy
+  etiqueta: spam
+  probabilidad_spam: 0.9971
+- mensaje: ¿Nos vemos en la biblioteca para estudiar la clase de redes?
+  etiqueta: no_spam
+  probabilidad_spam: 0.0013
+- mensaje: 'Último aviso: tu premio de 10000 pesos expira hoy, haz clic aquí'
+  etiqueta: spam
+  probabilidad_spam: 0.997
+- mensaje: Recuerda entregar el reporte del proyecto el viernes
+  etiqueta: no_spam
+  probabilidad_spam: 0.0047

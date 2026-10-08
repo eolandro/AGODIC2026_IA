@@ -1,0 +1,21 @@
+- mensaje: ¡Felicidades! Ganaste un premio de 5000 pesos, haz clic aquí para reclamarlo
+    ahora
+  etiqueta: spam
+- mensaje: Hola, ¿me pasas los apuntes de la clase de inteligencia artificial?
+  etiqueta: no_spam
+- mensaje: 'Oferta exclusiva: compra ahora y obtén 80% de descuento, solo por hoy'
+  etiqueta: spam
+- mensaje: Recuerda que mañana tenemos junta de equipo a las 10 en el laboratorio
+  etiqueta: no_spam
+- mensaje: Tu cuenta ha sido bloqueada, ingresa tus datos en este enlace para recuperarla
+  etiqueta: spam
+- mensaje: Gracias por tu ayuda con el proyecto, quedó muy bien
+  etiqueta: no_spam
+- mensaje: Gana dinero fácil desde casa, sin experiencia, inscríbete gratis ahora
+  etiqueta: spam
+- mensaje: ¿Nos vemos en la biblioteca para estudiar para el examen de Prolog?
+  etiqueta: no_spam
+- mensaje: 'Último aviso: reclama tu premio gratis antes de que expire la oferta'
+  etiqueta: spam
+- mensaje: Te comparto la tarea de la materia, la entrega es el viernes
+  etiqueta: no_spam
