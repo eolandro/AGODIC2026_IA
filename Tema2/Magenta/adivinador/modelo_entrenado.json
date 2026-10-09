@@ -1,0 +1,195 @@
+{
+    "entropia_inicial": 3.321928,
+    "ranking_inicial": [
+        {
+            "clave": "granja",
+            "descripcion": "Se encuentra en granja",
+            "peso": 2048,
+            "ganancia": 1.0,
+            "positivos": 5,
+            "negativos": 5
+        },
+        {
+            "clave": "cola_larga",
+            "descripcion": "Tiene cola larga",
+            "peso": 1024,
+            "ganancia": 0.970951,
+            "positivos": 6,
+            "negativos": 4
+        },
+        {
+            "clave": "bigotes",
+            "descripcion": "Tiene bigotes",
+            "peso": 128,
+            "ganancia": 0.970951,
+            "positivos": 6,
+            "negativos": 4
+        },
+        {
+            "clave": "dientes_grandes",
+            "descripcion": "Tiene dientes grandes",
+            "peso": 64,
+            "ganancia": 0.970951,
+            "positivos": 4,
+            "negativos": 6
+        },
+        {
+            "clave": "salta",
+            "descripcion": "Salta",
+            "peso": 32,
+            "ganancia": 0.970951,
+            "positivos": 6,
+            "negativos": 4
+        },
+        {
+            "clave": "tranquilidad",
+            "descripcion": "Es tranquilo",
+            "peso": 16,
+            "ganancia": 0.881291,
+            "positivos": 7,
+            "negativos": 3
+        },
+        {
+            "clave": "pone_huevos",
+            "descripcion": "Pone huevos",
+            "peso": 8,
+            "ganancia": 0.881291,
+            "positivos": 3,
+            "negativos": 7
+        },
+        {
+            "clave": "leal",
+            "descripcion": "Es leal",
+            "peso": 512,
+            "ganancia": 0.721928,
+            "positivos": 2,
+            "negativos": 8
+        },
+        {
+            "clave": "colmillos_largos",
+            "descripcion": "Tiene colmillos largos",
+            "peso": 2,
+            "ganancia": 0.721928,
+            "positivos": 2,
+            "negativos": 8
+        },
+        {
+            "clave": "vuela",
+            "descripcion": "Vuela",
+            "peso": 256,
+            "ganancia": 0.468996,
+            "positivos": 1,
+            "negativos": 9
+        },
+        {
+            "clave": "galopa",
+            "descripcion": "Galopa",
+            "peso": 4,
+            "ganancia": 0.468996,
+            "positivos": 1,
+            "negativos": 9
+        },
+        {
+            "clave": "lenta",
+            "descripcion": "Es lenta",
+            "peso": 1,
+            "ganancia": 0.468996,
+            "positivos": 1,
+            "negativos": 9
+        }
+    ],
+    "arbol": {
+        "tipo": "pregunta",
+        "clave": "granja",
+        "descripcion": "Se encuentra en granja",
+        "ganancia": 1.0,
+        "si": {
+            "tipo": "pregunta",
+            "clave": "cola_larga",
+            "descripcion": "Tiene cola larga",
+            "ganancia": 0.970951,
+            "si": {
+                "tipo": "pregunta",
+                "clave": "leal",
+                "descripcion": "Es leal",
+                "ganancia": 0.918296,
+                "si": {
+                    "tipo": "pregunta",
+                    "clave": "dientes_grandes",
+                    "descripcion": "Tiene dientes grandes",
+                    "ganancia": 1.0,
+                    "si": {
+                        "tipo": "animal",
+                        "animal": "caballo"
+                    },
+                    "no": {
+                        "tipo": "animal",
+                        "animal": "perro"
+                    }
+                },
+                "no": {
+                    "tipo": "animal",
+                    "animal": "gato"
+                }
+            },
+            "no": {
+                "tipo": "pregunta",
+                "clave": "vuela",
+                "descripcion": "Vuela",
+                "ganancia": 1.0,
+                "si": {
+                    "tipo": "animal",
+                    "animal": "mariposa"
+                },
+                "no": {
+                    "tipo": "animal",
+                    "animal": "conejo"
+                }
+            }
+        },
+        "no": {
+            "tipo": "pregunta",
+            "clave": "cola_larga",
+            "descripcion": "Tiene cola larga",
+            "ganancia": 0.970951,
+            "si": {
+                "tipo": "pregunta",
+                "clave": "bigotes",
+                "descripcion": "Tiene bigotes",
+                "ganancia": 0.918296,
+                "si": {
+                    "tipo": "animal",
+                    "animal": "tuza"
+                },
+                "no": {
+                    "tipo": "pregunta",
+                    "clave": "tranquilidad",
+                    "descripcion": "Es tranquilo",
+                    "ganancia": 1.0,
+                    "si": {
+                        "tipo": "animal",
+                        "animal": "ornitorrinco"
+                    },
+                    "no": {
+                        "tipo": "animal",
+                        "animal": "mamut"
+                    }
+                }
+            },
+            "no": {
+                "tipo": "pregunta",
+                "clave": "bigotes",
+                "descripcion": "Tiene bigotes",
+                "ganancia": 1.0,
+                "si": {
+                    "tipo": "animal",
+                    "animal": "capibara"
+                },
+                "no": {
+                    "tipo": "animal",
+                    "animal": "tortuga"
+                }
+            }
+        }
+    }
+}
