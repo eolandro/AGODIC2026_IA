@@ -1,0 +1,42 @@
+[
+  {
+    "mensaje": "Felicidades ganaste un premio gratis, reclama tu premio ahora",
+    "spam": true
+  },
+  {
+    "mensaje": "Felicidades, has sido elegido para recibir dinero gratis",
+    "spam": true
+  },
+  {
+    "mensaje": "Oferta exclusiva: compra ahora y gana un premio",
+    "spam": true
+  },
+  {
+    "mensaje": "Gana dinero rápido sin esfuerzo, haz clic aquí",
+    "spam": true
+  },
+  {
+    "mensaje": "Último aviso: tu cuenta será bloqueada, confirma tus datos aquí",
+    "spam": true
+  },
+  {
+    "mensaje": "Hola, mañana tenemos la reunión del proyecto a las diez",
+    "spam": false
+  },
+  {
+    "mensaje": "Felicidades por tu cumpleaños, nos vemos en la comida",
+    "spam": false
+  },
+  {
+    "mensaje": "Te envío la tarea de programación que pidió el profesor",
+    "spam": false
+  },
+  {
+    "mensaje": "Recuerda llevar el libro de probabilidad para la clase",
+    "spam": false
+  },
+  {
+    "mensaje": "Gracias por ayudarme con el código, quedó funcionando",
+    "spam": false
+  }
+]

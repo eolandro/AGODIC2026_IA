@@ -1,0 +1,142 @@
+{
+  "ahora": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "aquí": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "aviso": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "bloqueada": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "clic": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "compra": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "confirma": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "cuenta": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "datos": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "dinero": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "elegido": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "esfuerzo": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "exclusiva": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "gana": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "ganaste": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "gratis": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "has": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "haz": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "oferta": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "premio": {
+    "spam": 2,
+    "total": 2,
+    "probabilidad": 1.0
+  },
+  "recibir": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "reclama": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "rápido": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "será": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "sido": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "tus": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "último": {
+    "spam": 1,
+    "total": 1,
+    "probabilidad": 1.0
+  },
+  "felicidades": {
+    "spam": 2,
+    "total": 3,
+    "probabilidad": 0.6667
+  }
+}

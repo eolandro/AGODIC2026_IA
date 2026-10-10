@@ -1,0 +1,96 @@
+[
+  {
+    "mensaje": "Gana dinero extra ahora, solo haz clic aquí y recibe tu premio",
+    "tokens_activados": {
+      "ahora": 1.0,
+      "dinero": 1.0,
+      "clic": 1.0,
+      "premio": 1.0,
+      "haz": 1.0,
+      "aquí": 1.0,
+      "gana": 1.0
+    },
+    "votos_spam": 7,
+    "votos_totales": 7,
+    "spam": true
+  },
+  {
+    "mensaje": "Hola, ¿me prestas tu calculadora para el examen de mañana?",
+    "tokens_activados": {},
+    "votos_spam": 0,
+    "votos_totales": 0,
+    "spam": false
+  },
+  {
+    "mensaje": "Felicidades por tu graduación, te esperamos en la fiesta",
+    "tokens_activados": {
+      "felicidades": 0.6667
+    },
+    "votos_spam": 1,
+    "votos_totales": 1,
+    "spam": true
+  },
+  {
+    "mensaje": "Última oferta: compra hoy y recibe envío gratis",
+    "tokens_activados": {
+      "oferta": 1.0,
+      "gratis": 1.0,
+      "compra": 1.0
+    },
+    "votos_spam": 3,
+    "votos_totales": 3,
+    "spam": true
+  },
+  {
+    "mensaje": "Ya subí el reporte de la práctica a la plataforma",
+    "tokens_activados": {},
+    "votos_spam": 0,
+    "votos_totales": 0,
+    "spam": false
+  },
+  {
+    "mensaje": "Tu cuenta tiene actividad sospechosa, confirma tus datos para evitar el bloqueo",
+    "tokens_activados": {
+      "confirma": 1.0,
+      "datos": 1.0,
+      "cuenta": 1.0,
+      "tus": 1.0
+    },
+    "votos_spam": 4,
+    "votos_totales": 4,
+    "spam": true
+  },
+  {
+    "mensaje": "¿Quieres ir al cine el viernes después de clases?",
+    "tokens_activados": {},
+    "votos_spam": 0,
+    "votos_totales": 0,
+    "spam": false
+  },
+  {
+    "mensaje": "Estimado cliente, usted fue seleccionado para un sorteo exclusivo, responda hoy",
+    "tokens_activados": {},
+    "votos_spam": 0,
+    "votos_totales": 0,
+    "spam": false
+  },
+  {
+    "mensaje": "Regalo gratis para ti, entra aquí y gana un premio hoy",
+    "tokens_activados": {
+      "gratis": 1.0,
+      "premio": 1.0,
+      "aquí": 1.0,
+      "gana": 1.0
+    },
+    "votos_spam": 4,
+    "votos_totales": 4,
+    "spam": true
+  },
+  {
+    "mensaje": "El profe dijo que la entrega del proyecto es el lunes",
+    "tokens_activados": {},
+    "votos_spam": 0,
+    "votos_totales": 0,
+    "spam": false
+  }
+]
