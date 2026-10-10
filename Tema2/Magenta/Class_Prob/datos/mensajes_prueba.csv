@@ -1,0 +1,11 @@
+id,mensaje,clase_real
+1,Recibe un premio exclusivo hoy,Spam
+2,Mañana revisamos el reporte,No Spam
+3,Gana dinero con esta promoción,Spam
+4,La reunión será después de clase,No Spam
+5,Has ganado una oferta limitada,Spam
+6,Envíame el documento de la tarea,No Spam
+7,Compra ahora y recibe descuento,Spam
+8,Nos vemos mañana en la escuela,No Spam
+9,Reclama tu premio antes de que termine,Spam
+10,¿Puedes revisar el reporte?,No Spam

@@ -1,0 +1,11 @@
+id,mensaje,clase_real,clase_predicha,prediccion_bayes,votos_spam,votos_no_spam,tokens
+1,Recibe un premio exclusivo hoy,Spam,Spam,Spam,1,0,recibe premio exclusivo hoy
+2,Mañana revisamos el reporte,No Spam,No Spam,No Spam,0,2,mañana revisamos reporte
+3,Gana dinero con esta promoción,Spam,Spam,Spam,3,0,gana dinero esta promoción
+4,La reunión será después de clase,No Spam,No Spam,No Spam,0,4,reunión será después clase
+5,Has ganado una oferta limitada,Spam,Spam,Spam,3,0,has ganado oferta limitada
+6,Envíame el documento de la tarea,No Spam,No Spam,No Spam,0,1,envíame documento tarea
+7,Compra ahora y recibe descuento,Spam,Spam,Spam,3,0,compra ahora recibe descuento
+8,Nos vemos mañana en la escuela,No Spam,No Spam,No Spam,0,4,nos vemos mañana escuela
+9,Reclama tu premio antes de que termine,Spam,Spam,Spam,2,0,reclama tu premio antes termine
+10,¿Puedes revisar el reporte?,No Spam,No Spam,No Spam,0,2,puedes revisar reporte
