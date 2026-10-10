@@ -1,0 +1,10 @@
+spam
+spam
+no_spam
+no_spam
+spam
+spam
+no_spam
+spam
+no_spam
+spam

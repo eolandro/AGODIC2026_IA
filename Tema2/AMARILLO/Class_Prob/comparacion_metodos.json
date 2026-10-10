@@ -1,0 +1,65 @@
+{
+  "metodos": {
+    "democracia": {
+      "matriz_confusion": {
+        "VP": 6,
+        "FP": 0,
+        "FN": 0,
+        "VN": 4
+      },
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "prevalence": 0.6,
+      "bias": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    "media": {
+      "matriz_confusion": {
+        "VP": 6,
+        "FP": 0,
+        "FN": 0,
+        "VN": 4
+      },
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "prevalence": 0.6,
+      "bias": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    "mediana": {
+      "matriz_confusion": {
+        "VP": 6,
+        "FP": 0,
+        "FN": 0,
+        "VN": 4
+      },
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "prevalence": 0.6,
+      "bias": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    "moda": {
+      "matriz_confusion": {
+        "VP": 6,
+        "FP": 0,
+        "FN": 0,
+        "VN": 4
+      },
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "prevalence": 0.6,
+      "bias": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    }
+  },
+  "mensajes_con_desacuerdo": []
+}

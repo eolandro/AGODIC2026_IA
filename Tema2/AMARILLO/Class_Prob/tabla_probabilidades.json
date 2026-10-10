@@ -1,0 +1,117 @@
+{
+  "p_spam": 0.4,
+  "tokens": {
+    "cuidate": {
+      "spam": 1,
+      "no_spam": 0,
+      "tabla_2x2": {
+        "palabra_spam": 1,
+        "palabra_no_spam": 0,
+        "sin_palabra_spam": 3,
+        "sin_palabra_no_spam": 6,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 1.0,
+      "p_spam_dado_palabra": 0.64
+    },
+    "dia": {
+      "spam": 0,
+      "no_spam": 1,
+      "tabla_2x2": {
+        "palabra_spam": 0,
+        "palabra_no_spam": 1,
+        "sin_palabra_spam": 4,
+        "sin_palabra_no_spam": 5,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 0.0,
+      "p_spam_dado_palabra": 0.3077
+    },
+    "estas": {
+      "spam": 1,
+      "no_spam": 0,
+      "tabla_2x2": {
+        "palabra_spam": 1,
+        "palabra_no_spam": 0,
+        "sin_palabra_spam": 3,
+        "sin_palabra_no_spam": 6,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 1.0,
+      "p_spam_dado_palabra": 0.64
+    },
+    "hola": {
+      "spam": 0,
+      "no_spam": 1,
+      "tabla_2x2": {
+        "palabra_spam": 0,
+        "palabra_no_spam": 1,
+        "sin_palabra_spam": 4,
+        "sin_palabra_no_spam": 5,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 0.0,
+      "p_spam_dado_palabra": 0.3077
+    },
+    "hoy": {
+      "spam": 0,
+      "no_spam": 1,
+      "tabla_2x2": {
+        "palabra_spam": 0,
+        "palabra_no_spam": 1,
+        "sin_palabra_spam": 4,
+        "sin_palabra_no_spam": 5,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 0.0,
+      "p_spam_dado_palabra": 0.3077
+    },
+    "lindo": {
+      "spam": 1,
+      "no_spam": 0,
+      "tabla_2x2": {
+        "palabra_spam": 1,
+        "palabra_no_spam": 0,
+        "sin_palabra_spam": 3,
+        "sin_palabra_no_spam": 6,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 1.0,
+      "p_spam_dado_palabra": 0.64
+    },
+    "mucho": {
+      "spam": 0,
+      "no_spam": 1,
+      "tabla_2x2": {
+        "palabra_spam": 0,
+        "palabra_no_spam": 1,
+        "sin_palabra_spam": 4,
+        "sin_palabra_no_spam": 5,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 0.0,
+      "p_spam_dado_palabra": 0.3077
+    },
+    "tengas": {
+      "spam": 1,
+      "no_spam": 0,
+      "tabla_2x2": {
+        "palabra_spam": 1,
+        "palabra_no_spam": 0,
+        "sin_palabra_spam": 3,
+        "sin_palabra_no_spam": 6,
+        "total_palabra": 1,
+        "total": 10
+      },
+      "p_spam_sin_laplace": 1.0,
+      "p_spam_dado_palabra": 0.64
+    }
+  }
+}

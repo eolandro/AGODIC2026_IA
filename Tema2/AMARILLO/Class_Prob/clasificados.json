@@ -1,0 +1,100 @@
+[
+  {
+    "mensaje": "hoy",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [
+        "hoy"
+      ],
+      "media": 0.3077,
+      "mediana": 0.3077,
+      "moda": 0.3,
+      "votos": {
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      }
+    }
+  },
+  {
+    "mensaje": "estamos",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "listos",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "para",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "un",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "nuevo",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "dia",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [
+        "dia"
+      ],
+      "media": 0.3077,
+      "mediana": 0.3077,
+      "moda": 0.3,
+      "votos": {
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      }
+    }
+  },
+  {
+    "mensaje": "excelente",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "noche",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  },
+  {
+    "mensaje": "bye",
+    "etiqueta": "no_spam",
+    "detalle": {
+      "palabras": [],
+      "nota": "sin palabras conocidas, se usa P(spam)"
+    }
+  }
+]

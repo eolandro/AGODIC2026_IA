@@ -1,0 +1,42 @@
+[
+  {
+    "mensaje": "hola",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "como",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "estas",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "hoy",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "que",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "tengas",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "lindo",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "dia",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "cuidate",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "mucho",
+    "etiqueta": "no_spam"
+  }
+]

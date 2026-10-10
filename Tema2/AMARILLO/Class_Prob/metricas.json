@@ -1,0 +1,127 @@
+{
+  "metricas": {
+    "matriz_confusion": {
+      "VP": 0,
+      "FP": 0,
+      "FN": 7,
+      "VN": 3
+    },
+    "accuracy": 0.3,
+    "precision": null,
+    "recall": 0.0,
+    "prevalence": 0.7,
+    "bias": 0.0,
+    "specificity": 1.0,
+    "f1": null
+  },
+  "mensajes": [
+    {
+      "mensaje": "hoy",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [
+          "hoy"
+        ],
+        "media": 0.3077,
+        "mediana": 0.3077,
+        "moda": 0.3,
+        "votos": {
+          "media": "no_spam",
+          "mediana": "no_spam",
+          "moda": "no_spam"
+        }
+      },
+      "etiqueta_supervisor": "no_spam"
+    },
+    {
+      "mensaje": "estamos",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "no_spam"
+    },
+    {
+      "mensaje": "listos",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "para",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "no_spam"
+    },
+    {
+      "mensaje": "un",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "nuevo",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "dia",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [
+          "dia"
+        ],
+        "media": 0.3077,
+        "mediana": 0.3077,
+        "moda": 0.3,
+        "votos": {
+          "media": "no_spam",
+          "mediana": "no_spam",
+          "moda": "no_spam"
+        }
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "excelente",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "noche",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    },
+    {
+      "mensaje": "bye",
+      "etiqueta": "no_spam",
+      "detalle": {
+        "palabras": [],
+        "nota": "sin palabras conocidas, se usa P(spam)"
+      },
+      "etiqueta_supervisor": "spam"
+    }
+  ]
+}
