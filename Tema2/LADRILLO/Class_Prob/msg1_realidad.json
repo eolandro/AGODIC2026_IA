@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "msg1": "Envia la tarea por correo antes de la hora",
+        "es_noes": 0
+    },
+    {
+        "id": 2,
+        "msg1": "Hola, a que hora es la clase de manana?",
+        "es_noes": 0
+    },
+    {
+        "id": 3,
+        "msg1": "Premio gratis en tu cuenta hoy",
+        "es_noes": 1
+    },
+    {
+        "id": 4,
+        "msg1": "Gana un auto gratis con este clic",
+        "es_noes": 1
+    },
+    {
+        "id": 5,
+        "msg1": "Urgente!! Oferta de dinero gratis",
+        "es_noes": 1
+    },
+    {
+        "id": 6,
+        "msg1": "Oferta exclusiva gana premio gratis",
+        "es_noes": 1
+    },
+    {
+        "id": 7,
+        "msg1": "Por favor, envia el reporte por correo",
+        "es_noes": 0
+    },
+    {
+        "id": 8,
+        "msg1": "Nos vemos en la clase de programacion",
+        "es_noes": 0
+    },
+    {
+        "id": 9,
+        "msg1": "Hola, favor de confirmar el reporte de hoy",
+        "es_noes": 0
+    },
+    {
+        "id": 10,
+        "msg1": "Gana un viaje gratis dando clic aqui",
+        "es_noes": 1
+    }
+]

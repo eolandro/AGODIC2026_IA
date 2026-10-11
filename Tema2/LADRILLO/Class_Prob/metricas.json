@@ -1,0 +1,10 @@
+{
+    "TP": 4,
+    "TN": 5,
+    "FP": 0,
+    "FN": 1,
+    "exactitud": 0.9,
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.89
+}
