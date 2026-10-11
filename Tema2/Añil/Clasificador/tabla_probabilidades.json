@@ -1,0 +1,276 @@
+{
+  "totales": {
+    "mensajes": 10,
+    "spam": 7,
+    "no_spam": 3,
+    "prevalencia_spam": 0.7,
+    "prevalencia_no_spam": 0.3
+  },
+  "tokens": {
+    "felicidades": {
+      "spam": 6,
+      "no_spam": 2,
+      "p_spam": 0.75
+    },
+    "premio": {
+      "spam": 4,
+      "no_spam": 2,
+      "p_spam": 0.6667
+    },
+    "ahora": {
+      "spam": 2,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "gratis": {
+      "spam": 2,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "aquí": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "buró": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "cenar": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "clic": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "compra": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "confirma": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "crédito": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "cumpleaños": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "datos": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "descuento": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "enlace": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "eres": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "este": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "exclusiva": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "exclusivo": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "fue": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "fuiste": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "ganado": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "ganaste": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "graduación": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "has": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "haz": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "hoy": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "iphone": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "ir": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "mando": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "mejor": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "merecido": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "millón": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "oferta": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "oficina": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "paso": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "pierdas": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "preaprobado": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "promedio": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "recibir": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "reclama": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "reclámalo": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "revisar": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "rifa": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "seleccionado": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "solicítalo": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "sorpresa": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "tarjeta": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "tiene": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "tienes": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    },
+    "vemos": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "viernes": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.0
+    },
+    "visitante": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 1.0
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "mensaje": "Felicidades, ganaste un viaje gratis a Cancún, confirma tus datos ahora: http://viajesgratis.com",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Oye, ¿me pasas el apunte de la clase de mañana? Gracias",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Premio exclusivo para ti, reclama tu descuento del 80% en www.ofertasya.net",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades por tu nuevo trabajo, ya quiero que me cuentes todo en la cena",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Tu cuenta fue suspendida, haz clic en el enlace para verificar tus datos",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "La reunión de equipo se movió para el jueves a las 11, avísame si no puedes",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Última oportunidad: compra ahora y recibe un regalo gratis, oferta limitada",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Ganaste la rifa del salón, pasa por tu premio a la oficina el lunes",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "¿Vamos a comer tacos mañana? Paso por ti a las 2",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Felicidades, tienes un crédito preaprobado, solicítalo hoy sin revisar buró",
+    "etiqueta": "spam"
+  }
+]

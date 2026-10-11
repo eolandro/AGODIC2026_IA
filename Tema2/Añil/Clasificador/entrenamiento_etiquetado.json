@@ -1,0 +1,42 @@
+[
+  {
+    "mensaje": "Felicidades, has ganado un premio de $10,000usd, reclámalo aquí: http://dinerofacil.net",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "¡Felicidades! fuiste seleccionado para recibir un iPhone gratis",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades, ganaste un premio exclusivo, haz clic en este enlace ahora: http://millonarios.com",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades, tu tarjeta tiene un premio sorpresa, confirma tus datos",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades por tu graduación, el premio al mejor promedio fue merecido :)",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Felicidades, tienes un crédito preaprobado sin revisar buró, solicítalo hoy en: http://PrestaFacil.com",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades, eres el visitante un millón, reclama tu premio gratis",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Oferta exclusiva, compra ahora con 90% de descuento, no te lo pierdas",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Felicidades por tu cumpleaños, ¿paso por ti a las 7? para ir a cenar",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Te mando el premio de la rifa de la oficina, nos vemos el viernes",
+    "etiqueta": "no_spam"
+  }
+]
