@@ -1,0 +1,566 @@
+{
+    "descripcion": "Resultados generados por el Clasificador",
+    "metodo_consenso": "Votación por mayoría de tokens",
+    "archivo_entrada": "mensajes_nuevos.txt",
+    "total_mensajes": 10,
+    "resultados": [
+        {
+            "id": 1,
+            "mensaje": "Obtén dinero rápido participando en nuestra promoción especial",
+            "tokens": [
+                "obtén",
+                "dinero",
+                "rápido",
+                "participando",
+                "nuestra",
+                "promoción",
+                "especial"
+            ],
+            "votos_spam": 4,
+            "votos_no_spam": 0,
+            "clasificacion": "Spam",
+            "detalle_tokens": [
+                {
+                    "token": "obtén",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "dinero",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "rápido",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "participando",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "nuestra",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "promoción",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "especial",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "mensaje": "El profesor informó que la entrega del proyecto será el próximo lunes",
+            "tokens": [
+                "profesor",
+                "informó",
+                "entrega",
+                "del",
+                "proyecto",
+                "será",
+                "próximo",
+                "lunes"
+            ],
+            "votos_spam": 0,
+            "votos_no_spam": 2,
+            "clasificacion": "No Spam",
+            "detalle_tokens": [
+                {
+                    "token": "profesor",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "informó",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "entrega",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "del",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "proyecto",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                },
+                {
+                    "token": "será",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                },
+                {
+                    "token": "próximo",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "lunes",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "mensaje": "Has sido seleccionado para recibir un regalo exclusivo completamente gratis",
+            "tokens": [
+                "has",
+                "sido",
+                "seleccionado",
+                "recibir",
+                "regalo",
+                "exclusivo",
+                "completamente",
+                "gratis"
+            ],
+            "votos_spam": 2,
+            "votos_no_spam": 0,
+            "clasificacion": "Spam",
+            "detalle_tokens": [
+                {
+                    "token": "has",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "sido",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "seleccionado",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "recibir",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "regalo",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "exclusivo",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "completamente",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "gratis",
+                    "probabilidad_spam": 0.111111,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "mensaje": "¿Puedes enviarme las fotografías de la reunión de ayer?",
+            "tokens": [
+                "puedes",
+                "enviarme",
+                "fotografías",
+                "reunión",
+                "ayer"
+            ],
+            "votos_spam": 0,
+            "votos_no_spam": 1,
+            "clasificacion": "No Spam",
+            "detalle_tokens": [
+                {
+                    "token": "puedes",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "enviarme",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "fotografías",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "reunión",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                },
+                {
+                    "token": "ayer",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "mensaje": "Gana increíbles premios registrándote ahora en nuestra página",
+            "tokens": [
+                "gana",
+                "increíbles",
+                "premios",
+                "registrándote",
+                "ahora",
+                "nuestra",
+                "página"
+            ],
+            "votos_spam": 2,
+            "votos_no_spam": 0,
+            "clasificacion": "Spam",
+            "detalle_tokens": [
+                {
+                    "token": "gana",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "increíbles",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "premios",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "registrándote",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "ahora",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "nuestra",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "página",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "mensaje": "La junta de trabajo comenzará a las nueve de la mañana",
+            "tokens": [
+                "junta",
+                "trabajo",
+                "comenzará",
+                "nueve",
+                "mañana"
+            ],
+            "votos_spam": 0,
+            "votos_no_spam": 1,
+            "clasificacion": "No Spam",
+            "detalle_tokens": [
+                {
+                    "token": "junta",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "trabajo",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "comenzará",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "nueve",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "mañana",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.142857,
+                    "voto": "No Spam"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "mensaje": "Felicidades, tienes una recompensa disponible, reclámala hoy",
+            "tokens": [
+                "felicidades",
+                "tienes",
+                "recompensa",
+                "disponible",
+                "reclámala",
+                "hoy"
+            ],
+            "votos_spam": 4,
+            "votos_no_spam": 0,
+            "clasificacion": "Spam",
+            "detalle_tokens": [
+                {
+                    "token": "felicidades",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "tienes",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "recompensa",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "disponible",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "reclámala",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "hoy",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "mensaje": "Recuerda llevar tu computadora para realizar la práctica de mañana",
+            "tokens": [
+                "recuerda",
+                "llevar",
+                "computadora",
+                "realizar",
+                "práctica",
+                "mañana"
+            ],
+            "votos_spam": 0,
+            "votos_no_spam": 2,
+            "clasificacion": "No Spam",
+            "detalle_tokens": [
+                {
+                    "token": "recuerda",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                },
+                {
+                    "token": "llevar",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "computadora",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "realizar",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "práctica",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "mañana",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.142857,
+                    "voto": "No Spam"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "mensaje": "Oferta limitada: recibe dinero y un premio por participar",
+            "tokens": [
+                "oferta",
+                "limitada",
+                "recibe",
+                "dinero",
+                "premio",
+                "participar"
+            ],
+            "votos_spam": 4,
+            "votos_no_spam": 0,
+            "clasificacion": "Spam",
+            "detalle_tokens": [
+                {
+                    "token": "oferta",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "limitada",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "recibe",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "dinero",
+                    "probabilidad_spam": 0.074074,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "premio",
+                    "probabilidad_spam": 0.111111,
+                    "probabilidad_no_spam": 0.047619,
+                    "voto": "Spam"
+                },
+                {
+                    "token": "participar",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "mensaje": "Te comparto el documento para que puedas revisarlo antes de la clase",
+            "tokens": [
+                "comparto",
+                "documento",
+                "puedas",
+                "revisarlo",
+                "antes",
+                "clase"
+            ],
+            "votos_spam": 0,
+            "votos_no_spam": 2,
+            "clasificacion": "No Spam",
+            "detalle_tokens": [
+                {
+                    "token": "comparto",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "documento",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                },
+                {
+                    "token": "puedas",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "revisarlo",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "antes",
+                    "probabilidad_spam": null,
+                    "probabilidad_no_spam": null,
+                    "voto": "Sin información"
+                },
+                {
+                    "token": "clase",
+                    "probabilidad_spam": 0.037037,
+                    "probabilidad_no_spam": 0.095238,
+                    "voto": "No Spam"
+                }
+            ]
+        }
+    ]
+}

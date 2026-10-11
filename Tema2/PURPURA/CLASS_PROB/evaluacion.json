@@ -1,0 +1,77 @@
+{
+    "descripcion": "Evaluación del sistema Class_Prob",
+    "matriz_confusion": {
+        "TP": 5,
+        "TN": 5,
+        "FP": 0,
+        "FN": 0
+    },
+    "metricas": {
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "Prevalence": 0.5
+    },
+    "resultados": [
+        {
+            "id": 1,
+            "mensaje": "Obtén dinero rápido participando en nuestra promoción especial",
+            "prediccion": "Spam",
+            "clasificacion_real": "Spam"
+        },
+        {
+            "id": 2,
+            "mensaje": "El profesor informó que la entrega del proyecto será el próximo lunes",
+            "prediccion": "No Spam",
+            "clasificacion_real": "No Spam"
+        },
+        {
+            "id": 3,
+            "mensaje": "Has sido seleccionado para recibir un regalo exclusivo completamente gratis",
+            "prediccion": "Spam",
+            "clasificacion_real": "Spam"
+        },
+        {
+            "id": 4,
+            "mensaje": "¿Puedes enviarme las fotografías de la reunión de ayer?",
+            "prediccion": "No Spam",
+            "clasificacion_real": "No Spam"
+        },
+        {
+            "id": 5,
+            "mensaje": "Gana increíbles premios registrándote ahora en nuestra página",
+            "prediccion": "Spam",
+            "clasificacion_real": "Spam"
+        },
+        {
+            "id": 6,
+            "mensaje": "La junta de trabajo comenzará a las nueve de la mañana",
+            "prediccion": "No Spam",
+            "clasificacion_real": "No Spam"
+        },
+        {
+            "id": 7,
+            "mensaje": "Felicidades, tienes una recompensa disponible, reclámala hoy",
+            "prediccion": "Spam",
+            "clasificacion_real": "Spam"
+        },
+        {
+            "id": 8,
+            "mensaje": "Recuerda llevar tu computadora para realizar la práctica de mañana",
+            "prediccion": "No Spam",
+            "clasificacion_real": "No Spam"
+        },
+        {
+            "id": 9,
+            "mensaje": "Oferta limitada: recibe dinero y un premio por participar",
+            "prediccion": "Spam",
+            "clasificacion_real": "Spam"
+        },
+        {
+            "id": 10,
+            "mensaje": "Te comparto el documento para que puedas revisarlo antes de la clase",
+            "prediccion": "No Spam",
+            "clasificacion_real": "No Spam"
+        }
+    ]
+}
