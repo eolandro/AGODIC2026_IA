@@ -1,0 +1,103 @@
+{
+  "descripcion": "Mensajes nuevos etiquetados por el sistema (R008 Clasificador)",
+  "metodo_consenso": "mediana",
+  "umbral": 0.5,
+  "tabla_usada": "tabla_probabilidades.json",
+  "mensajes": [
+    {
+      "id": 1,
+      "texto": "Su paquete está retenido, pague el envío en el enlace hoy mismo para no perderlo",
+      "tokens_en_tabla": {
+        "paquete": 1.0,
+        "pague": 1.0,
+        "enlace": 1.0,
+        "no": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 2,
+      "texto": "Felicidades, ganaste el sorteo de aniversario, reclama tu premio gratis aquí",
+      "tokens_en_tabla": {
+        "felicidades": 0.5,
+        "sorteo": 1.0,
+        "reclama": 1.0,
+        "gratis": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 3,
+      "texto": "¿Vamos por unos tacos de pastor saliendo del laboratorio?",
+      "tokens_en_tabla": {},
+      "puntaje": null,
+      "spam": false
+    },
+    {
+      "id": 4,
+      "texto": "Confirme sus datos en el enlace o su tarjeta será cancelada en 24 horas",
+      "tokens_en_tabla": {
+        "confirme": 1.0,
+        "enlace": 1.0,
+        "tarjeta": 1.0,
+        "horas": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 5,
+      "texto": "Felicidades por pasar el examen de cálculo, te lo ganaste a pulso",
+      "tokens_en_tabla": {
+        "felicidades": 0.5
+      },
+      "puntaje": 0.5,
+      "spam": false
+    },
+    {
+      "id": 6,
+      "texto": "Trabaja desde tu celular y gana dinero extra, últimos lugares del cupo",
+      "tokens_en_tabla": {
+        "celular": 1.0,
+        "gana": 1.0,
+        "cupo": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 7,
+      "texto": "Mañana no pasa el camión de las 7, nos vemos en la parada de enfrente",
+      "tokens_en_tabla": {
+        "no": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 8,
+      "texto": "¿Me prestas tu cargador? El mío se quedó en la casa",
+      "tokens_en_tabla": {},
+      "puntaje": null,
+      "spam": false
+    },
+    {
+      "id": 9,
+      "texto": "Liquidación total en tu tienda favorita, descuentos del 70% solo este fin",
+      "tokens_en_tabla": {
+        "solo": 1.0
+      },
+      "puntaje": 1.0,
+      "spam": true
+    },
+    {
+      "id": 10,
+      "texto": "¿Ya viste que movieron la entrega de la práctica de redes al viernes?",
+      "tokens_en_tabla": {},
+      "puntaje": null,
+      "spam": false
+    }
+  ]
+}

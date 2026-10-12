@@ -1,0 +1,59 @@
+{
+  "descripcion": "Mensajes etiquetados por el Supervisor (R006 Entrenador)",
+  "fecha": "2026-10-11T22:52:35",
+  "total": 10,
+  "total_spam": 4,
+  "total_no_spam": 6,
+  "mensajes": [
+    {
+      "id": 1,
+      "texto": "Estimado cliente, su paquete no pudo ser entregado, pague $28 de reenvío en el enlace antes de las 6 pm",
+      "spam": true
+    },
+    {
+      "id": 2,
+      "texto": "Gana $3,500 diarios desde tu celular trabajando solo 2 horas, cupo limitado, escríbenos por WhatsApp",
+      "spam": true
+    },
+    {
+      "id": 3,
+      "texto": "Aviso de seguridad: detectamos un cargo no reconocido en su tarjeta, confirme su NIP en el enlace para cancelarlo",
+      "spam": true
+    },
+    {
+      "id": 4,
+      "texto": "Felicidades, tu número salió seleccionado en nuestro sorteo, reclama gratis tu pantalla de 55 pulgadas",
+      "spam": true
+    },
+    {
+      "id": 5,
+      "texto": "Oye, ¿me pasas los apuntes de cálculo vectorial? Ayer me quedé dormido en el camión",
+      "spam": false
+    },
+    {
+      "id": 6,
+      "texto": "Ya llegué a la casa, dejé las tortillas en la mesa y me voy al gimnasio",
+      "spam": false
+    },
+    {
+      "id": 7,
+      "texto": "El partido de fútbol del jueves se cambió a la cancha de atrás del Tec",
+      "spam": false
+    },
+    {
+      "id": 8,
+      "texto": "Tía, felicidades por tu cumpleaños, el sábado pasamos a comer pozole",
+      "spam": false
+    },
+    {
+      "id": 9,
+      "texto": "Recuerda que mañana hay que entregar el diagrama de la práctica de redes",
+      "spam": false
+    },
+    {
+      "id": 10,
+      "texto": "Se me olvidó el cargador en el laboratorio, ¿me lo guardas porfa?",
+      "spam": false
+    }
+  ]
+}

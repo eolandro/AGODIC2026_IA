@@ -1,0 +1,573 @@
+{
+  "descripcion": "Tabla de probabilidades condicionales P(spam|token) (R007 DeTokenizador)",
+  "origen": "mensajes_etiquetados.json",
+  "total_mensajes": 10,
+  "total_spam": 4,
+  "total_no_spam": 6,
+  "P(spam)": 0.4,
+  "tokens": [
+    {
+      "token": "enlace",
+      "matriz": {
+        "w_spam": 2,
+        "w_no_spam": 0,
+        "no_w_spam": 2,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.2,
+      "P(w|spam)": 0.5,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "no",
+      "matriz": {
+        "w_spam": 2,
+        "w_no_spam": 0,
+        "no_w_spam": 2,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.2,
+      "P(w|spam)": 0.5,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "antes",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "aviso",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "cancelarlo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "cargo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "celular",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "cliente",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "confirme",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "cupo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "detectamos",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "diarios",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "entregado",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "escribenos",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "estimado",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "gana",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "gratis",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "horas",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "limitado",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "nip",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "numero",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "pague",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "pantalla",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "paquete",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "pm",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "pudo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "pulgadas",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "reclama",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "reconocido",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "reenvio",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "salio",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "seguridad",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "seleccionado",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "ser",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "solo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "sorteo",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "tarjeta",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "trabajando",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "whatsapp",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 0,
+        "no_w_spam": 3,
+        "no_w_no_spam": 6
+      },
+      "P(w)": 0.1,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 1.0,
+      "comprobacion_bayes": 1.0
+    },
+    {
+      "token": "felicidades",
+      "matriz": {
+        "w_spam": 1,
+        "w_no_spam": 1,
+        "no_w_spam": 3,
+        "no_w_no_spam": 5
+      },
+      "P(w)": 0.2,
+      "P(w|spam)": 0.25,
+      "P(spam|w)": 0.5,
+      "comprobacion_bayes": 0.5
+    }
+  ],
+  "tokens_descartados": [
+    "apuntes",
+    "atras",
+    "ayer",
+    "calculo",
+    "cambio",
+    "camion",
+    "cancha",
+    "cargador",
+    "casa",
+    "comer",
+    "cumpleaños",
+    "deje",
+    "diagrama",
+    "dormido",
+    "entregar",
+    "futbol",
+    "gimnasio",
+    "guardas",
+    "hay",
+    "jueves",
+    "laboratorio",
+    "llegue",
+    "mañana",
+    "mesa",
+    "olvido",
+    "oye",
+    "partido",
+    "pasamos",
+    "pasas",
+    "porfa",
+    "pozole",
+    "practica",
+    "quede",
+    "recuerda",
+    "redes",
+    "sabado",
+    "tec",
+    "tia",
+    "tortillas",
+    "vectorial",
+    "voy"
+  ]
+}

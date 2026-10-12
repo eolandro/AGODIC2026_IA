@@ -1,0 +1,79 @@
+{
+  "descripcion": "Evaluación del clasificador (R009 Métricas)",
+  "metodo_consenso": "mediana",
+  "umbral": 0.5,
+  "comparacion": [
+    {
+      "id": 1,
+      "texto": "Su paquete está retenido, pague el envío en el enlace hoy mismo para no perderlo",
+      "sistema": true,
+      "usuario": true
+    },
+    {
+      "id": 2,
+      "texto": "Felicidades, ganaste el sorteo de aniversario, reclama tu premio gratis aquí",
+      "sistema": true,
+      "usuario": true
+    },
+    {
+      "id": 3,
+      "texto": "¿Vamos por unos tacos de pastor saliendo del laboratorio?",
+      "sistema": false,
+      "usuario": false
+    },
+    {
+      "id": 4,
+      "texto": "Confirme sus datos en el enlace o su tarjeta será cancelada en 24 horas",
+      "sistema": true,
+      "usuario": true
+    },
+    {
+      "id": 5,
+      "texto": "Felicidades por pasar el examen de cálculo, te lo ganaste a pulso",
+      "sistema": false,
+      "usuario": false
+    },
+    {
+      "id": 6,
+      "texto": "Trabaja desde tu celular y gana dinero extra, últimos lugares del cupo",
+      "sistema": true,
+      "usuario": true
+    },
+    {
+      "id": 7,
+      "texto": "Mañana no pasa el camión de las 7, nos vemos en la parada de enfrente",
+      "sistema": true,
+      "usuario": false
+    },
+    {
+      "id": 8,
+      "texto": "¿Me prestas tu cargador? El mío se quedó en la casa",
+      "sistema": false,
+      "usuario": false
+    },
+    {
+      "id": 9,
+      "texto": "Liquidación total en tu tienda favorita, descuentos del 70% solo este fin",
+      "sistema": true,
+      "usuario": true
+    },
+    {
+      "id": 10,
+      "texto": "¿Ya viste que movieron la entrega de la práctica de redes al viernes?",
+      "sistema": false,
+      "usuario": false
+    }
+  ],
+  "matriz_confusion": {
+    "VP": 5,
+    "FP": 1,
+    "FN": 0,
+    "VN": 4
+  },
+  "metricas": {
+    "accuracy": 0.9,
+    "precision": 0.8333,
+    "recall": 1.0,
+    "prevalence": 0.5
+  }
+}
