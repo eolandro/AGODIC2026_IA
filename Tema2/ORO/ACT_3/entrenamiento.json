@@ -1,0 +1,42 @@
+[
+    {
+        "texto": "Reclama dinero gratis hoy",
+        "spam": 1
+    },
+    {
+        "texto": "Oferta de descuento especial",
+        "spam": 0
+    },
+    {
+        "texto": "Ganaste dinero reclama tu regalo",
+        "spam": 1
+    },
+    {
+        "texto": "Compra hoy con descuento",
+        "spam": 1
+    },
+    {
+        "texto": "Regalo gratis por tu compra",
+        "spam": 1
+    },
+    {
+        "texto": "La reunion del equipo es hoy",
+        "spam": 0
+    },
+    {
+        "texto": "Envia el informe del equipo",
+        "spam": 1
+    },
+    {
+        "texto": "La tarea se entrega el lunes",
+        "spam": 0
+    },
+    {
+        "texto": "Revisa el informe antes de la reunion",
+        "spam": 1
+    },
+    {
+        "texto": "La clase del lunes tiene tarea",
+        "spam": 0
+    }
+]

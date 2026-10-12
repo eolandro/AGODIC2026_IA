@@ -1,0 +1,122 @@
+{
+    "hoy": {
+        "spam": 2,
+        "no_spam": 1,
+        "probabilidad": 0.6666666666666666
+    },
+    "reclama": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "gratis": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "dinero": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "descuento": {
+        "spam": 1,
+        "no_spam": 1,
+        "probabilidad": 0.5
+    },
+    "oferta": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "especial": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "ganaste": {
+        "spam": 1,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "tu": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "regalo": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "compra": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "reunion": {
+        "spam": 1,
+        "no_spam": 1,
+        "probabilidad": 0.5
+    },
+    "es": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "equipo": {
+        "spam": 1,
+        "no_spam": 1,
+        "probabilidad": 0.5
+    },
+    "informe": {
+        "spam": 2,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "envia": {
+        "spam": 1,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "lunes": {
+        "spam": 0,
+        "no_spam": 2,
+        "probabilidad": 0.0
+    },
+    "se": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "tarea": {
+        "spam": 0,
+        "no_spam": 2,
+        "probabilidad": 0.0
+    },
+    "entrega": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "revisa": {
+        "spam": 1,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "antes": {
+        "spam": 1,
+        "no_spam": 0,
+        "probabilidad": 1.0
+    },
+    "tiene": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    },
+    "clase": {
+        "spam": 0,
+        "no_spam": 1,
+        "probabilidad": 0.0
+    }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "texto": "Reclama tu regalo gratis",
+        "prediccion": 1,
+        "promedio": 1.0,
+        "palabras_conocidas": 4
+    },
+    {
+        "texto": "La reunion es el lunes",
+        "prediccion": 0,
+        "promedio": 0.16666666666666666,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Compra con descuento especial",
+        "prediccion": 0,
+        "promedio": 0.5,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Envia la tarea del lunes",
+        "prediccion": 0,
+        "promedio": 0.3333333333333333,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Ganaste dinero gratis",
+        "prediccion": 1,
+        "promedio": 1.0,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Revisa el informe del equipo",
+        "prediccion": 1,
+        "promedio": 0.8333333333333334,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Oferta especial reclama hoy",
+        "prediccion": 0,
+        "promedio": 0.41666666666666663,
+        "palabras_conocidas": 4
+    },
+    {
+        "texto": "La clase tiene tarea",
+        "prediccion": 0,
+        "promedio": 0.0,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "El informe habla del dinero gratis",
+        "prediccion": 1,
+        "promedio": 1.0,
+        "palabras_conocidas": 3
+    },
+    {
+        "texto": "Nos vemos durante el desayuno",
+        "prediccion": 0,
+        "promedio": null,
+        "palabras_conocidas": 0
+    }
+]
