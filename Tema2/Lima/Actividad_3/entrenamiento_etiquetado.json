@@ -1,0 +1,42 @@
+[
+  {
+    "mensaje": "Felicidades, ganaste un celular gratis, reclama tu premio en este enlace",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Oferta exclusiva solo hoy: descuento de 70% en todos los productos, compra ya",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Tu cuenta bancaria fue bloqueada, confirma tus datos en el enlace para evitar cargos",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Gana dinero desde casa sin experiencia, inscríbete gratis hoy",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Crédito preaprobado sin revisar buró, solicita tu dinero hoy mismo",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "Hola, ¿mañana entregamos la práctica de inteligencia artificial?",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Felicidades por tu cumpleaños, nos vemos en la comida del sábado",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Recuerda que la clase de mañana se cambió al laboratorio",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Te mando las fotos del viaje, salieron muy bonitas",
+    "etiqueta": "no_spam"
+  },
+  {
+    "mensaje": "Mamá dice que pases por pan cuando salgas de la escuela",
+    "etiqueta": "no_spam"
+  }
+]

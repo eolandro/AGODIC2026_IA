@@ -1,0 +1,163 @@
+{
+  "metodo": "democracia",
+  "mensajes": [
+    {
+      "mensaje": "Ganaste un viaje gratis, confirma tus datos en el enlace: http://viajes-premio.com",
+      "tokens_conocidos": {
+        "confirma": 0.6667,
+        "datos": 0.6667,
+        "enlace": 0.75,
+        "ganaste": 0.6667,
+        "gratis": 0.75,
+        "viaje": 0.3333
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    },
+    {
+      "mensaje": "¿Ya tienes la práctica? La entregamos mañana en clase",
+      "tokens_conocidos": {
+        "clase": 0.3333,
+        "entregamos": 0.3333,
+        "manana": 0.25,
+        "practica": 0.3333
+      },
+      "metodos": {
+        "democracia": "no_spam",
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      },
+      "etiqueta": "no_spam"
+    },
+    {
+      "mensaje": "Descuento exclusivo en celulares, compra hoy y recibe un regalo",
+      "tokens_conocidos": {
+        "compra": 0.6667,
+        "descuento": 0.6667,
+        "hoy": 0.8
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    },
+    {
+      "mensaje": "Felicidades por tu examen, nos vemos en la comida",
+      "tokens_conocidos": {
+        "comida": 0.3333,
+        "felicidades": 0.5,
+        "vemos": 0.3333
+      },
+      "metodos": {
+        "democracia": "no_spam",
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      },
+      "etiqueta": "no_spam"
+    },
+    {
+      "mensaje": "Tu tarjeta fue bloqueada, verifica tus datos para evitar cargos",
+      "tokens_conocidos": {
+        "bloqueada": 0.6667,
+        "cargos": 0.6667,
+        "datos": 0.6667,
+        "evitar": 0.6667,
+        "fue": 0.6667
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    },
+    {
+      "mensaje": "Te mando el archivo del laboratorio para que lo revises",
+      "tokens_conocidos": {
+        "laboratorio": 0.3333,
+        "mando": 0.3333
+      },
+      "metodos": {
+        "democracia": "no_spam",
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      },
+      "etiqueta": "no_spam"
+    },
+    {
+      "mensaje": "Gana dinero rápido desde tu celular, inscríbete hoy",
+      "tokens_conocidos": {
+        "celular": 0.6667,
+        "dinero": 0.75,
+        "gana": 0.6667,
+        "hoy": 0.8,
+        "inscribete": 0.6667
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    },
+    {
+      "mensaje": "Felicidades, tienes un premio esperándote, reclámalo ya",
+      "tokens_conocidos": {
+        "felicidades": 0.5,
+        "premio": 0.6667
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    },
+    {
+      "mensaje": "Paso por ti a la escuela cuando salgas de clase",
+      "tokens_conocidos": {
+        "clase": 0.3333,
+        "escuela": 0.3333,
+        "salgas": 0.3333
+      },
+      "metodos": {
+        "democracia": "no_spam",
+        "media": "no_spam",
+        "mediana": "no_spam",
+        "moda": "no_spam"
+      },
+      "etiqueta": "no_spam"
+    },
+    {
+      "mensaje": "Oferta de trabajo: gana dinero en casa, solo responde este mensaje",
+      "tokens_conocidos": {
+        "casa": 0.6667,
+        "dinero": 0.75,
+        "gana": 0.6667,
+        "oferta": 0.6667,
+        "solo": 0.6667
+      },
+      "metodos": {
+        "democracia": "spam",
+        "media": "spam",
+        "mediana": "spam",
+        "moda": "spam"
+      },
+      "etiqueta": "spam"
+    }
+  ]
+}

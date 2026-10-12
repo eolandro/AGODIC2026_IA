@@ -1,0 +1,68 @@
+{
+  "metodo": "democracia",
+  "matriz_confusion": {
+    "VP": 5,
+    "FP": 1,
+    "FN": 0,
+    "VN": 4
+  },
+  "metricas": {
+    "accuracy": 0.9,
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "prevalence": 0.5,
+    "bias": 1.2
+  },
+  "resultados": [
+    {
+      "mensaje": "Ganaste un viaje gratis, confirma tus datos en el enlace: http://viajes-premio.com",
+      "clasificador": "spam",
+      "supervisor": "spam"
+    },
+    {
+      "mensaje": "¿Ya tienes la práctica? La entregamos mañana en clase",
+      "clasificador": "no_spam",
+      "supervisor": "no_spam"
+    },
+    {
+      "mensaje": "Descuento exclusivo en celulares, compra hoy y recibe un regalo",
+      "clasificador": "spam",
+      "supervisor": "spam"
+    },
+    {
+      "mensaje": "Felicidades por tu examen, nos vemos en la comida",
+      "clasificador": "no_spam",
+      "supervisor": "no_spam"
+    },
+    {
+      "mensaje": "Tu tarjeta fue bloqueada, verifica tus datos para evitar cargos",
+      "clasificador": "spam",
+      "supervisor": "no_spam"
+    },
+    {
+      "mensaje": "Te mando el archivo del laboratorio para que lo revises",
+      "clasificador": "no_spam",
+      "supervisor": "no_spam"
+    },
+    {
+      "mensaje": "Gana dinero rápido desde tu celular, inscríbete hoy",
+      "clasificador": "spam",
+      "supervisor": "spam"
+    },
+    {
+      "mensaje": "Felicidades, tienes un premio esperándote, reclámalo ya",
+      "clasificador": "spam",
+      "supervisor": "spam"
+    },
+    {
+      "mensaje": "Paso por ti a la escuela cuando salgas de clase",
+      "clasificador": "no_spam",
+      "supervisor": "no_spam"
+    },
+    {
+      "mensaje": "Oferta de trabajo: gana dinero en casa, solo responde este mensaje",
+      "clasificador": "spam",
+      "supervisor": "spam"
+    }
+  ]
+}

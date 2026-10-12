@@ -1,0 +1,305 @@
+{
+  "totales": {
+    "mensajes": 10,
+    "spam": 5,
+    "no_spam": 5,
+    "p_spam": 0.5
+  },
+  "tokens": {
+    "hoy": {
+      "spam": 3,
+      "no_spam": 0,
+      "p_spam": 0.8
+    },
+    "dinero": {
+      "spam": 2,
+      "no_spam": 0,
+      "p_spam": 0.75
+    },
+    "enlace": {
+      "spam": 2,
+      "no_spam": 0,
+      "p_spam": 0.75
+    },
+    "gratis": {
+      "spam": 2,
+      "no_spam": 0,
+      "p_spam": 0.75
+    },
+    "bancaria": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "bloqueada": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "buro": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "cargos": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "casa": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "celular": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "compra": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "confirma": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "credito": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "cuenta": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "datos": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "descuento": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "evitar": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "exclusiva": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "experiencia": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "fue": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "gana": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "ganaste": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "inscribete": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "mismo": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "oferta": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "preaprobado": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "premio": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "productos": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "reclama": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "revisar": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "solicita": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "solo": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "todos": {
+      "spam": 1,
+      "no_spam": 0,
+      "p_spam": 0.6667
+    },
+    "felicidades": {
+      "spam": 1,
+      "no_spam": 1,
+      "p_spam": 0.5
+    },
+    "artificial": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "bonitas": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "cambio": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "clase": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "comida": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "cumpleanos": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "dice": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "entregamos": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "escuela": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "fotos": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "hola": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "inteligencia": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "laboratorio": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "mama": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "mando": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "pan": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "pases": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "practica": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "recuerda": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "sabado": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "salgas": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "salieron": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "vemos": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "viaje": {
+      "spam": 0,
+      "no_spam": 1,
+      "p_spam": 0.3333
+    },
+    "manana": {
+      "spam": 0,
+      "no_spam": 2,
+      "p_spam": 0.25
+    }
+  }
+}
