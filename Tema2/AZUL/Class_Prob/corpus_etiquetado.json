@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "mensaje": "¡Felicidades! Ganaste un premio gratis, reclama tu dinero ahora",
+        "etiqueta": "spam"
+    },
+    {
+        "id": 2,
+        "mensaje": "Nos vemos mañana en la universidad para estudiar el examen",
+        "etiqueta": "no_spam"
+    },
+    {
+        "id": 3,
+        "mensaje": "Oferta exclusiva, compra hoy y recibe un descuento especial",
+        "etiqueta": "spam"
+    },
+    {
+        "id": 4,
+        "mensaje": "Recuerda entregar la tarea de inteligencia artificial el viernes",
+        "etiqueta": "no_spam"
+    },
+    {
+        "id": 5,
+        "mensaje": "Gana dinero fácil desde casa, inscríbete gratis",
+        "etiqueta": "spam"
+    },
+    {
+        "id": 6,
+        "mensaje": "La comida está lista, ven a casa cuando puedas",
+        "etiqueta": "no_spam"
+    },
+    {
+        "id": 7,
+        "mensaje": "Urgente, confirma tus datos bancarios en este enlace",
+        "etiqueta": "spam"
+    },
+    {
+        "id": 8,
+        "mensaje": "Te envío los apuntes de la clase por correo",
+        "etiqueta": "no_spam"
+    },
+    {
+        "id": 9,
+        "mensaje": "Solicita un préstamo inmediato sin revisión de historial",
+        "etiqueta": "spam"
+    },
+    {
+        "id": 10,
+        "mensaje": "La reunión del proyecto será mañana en el laboratorio",
+        "etiqueta": "no_spam"
+    }
+]

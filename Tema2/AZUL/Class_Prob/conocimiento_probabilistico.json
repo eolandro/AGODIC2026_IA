@@ -1,0 +1,293 @@
+{
+    "total_mensajes": 10,
+    "mensajes_spam": 5,
+    "mensajes_no_spam": 5,
+    "probabilidad_spam": 0.5,
+    "tokens": {
+        "ahora": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "apuntes": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "artificial": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "bancarios": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "casa": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.5
+        },
+        "clase": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "comida": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "compra": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "confirma": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "correo": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "datos": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "descuento": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "dinero": {
+            "apariciones_spam": 2,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.75
+        },
+        "enlace": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "entregar": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "envio": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "especial": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "esta": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "este": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "estudiar": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "examen": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "exclusiva": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "facil": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "felicidades": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "gana": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "ganaste": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "gratis": {
+            "apariciones_spam": 2,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.75
+        },
+        "historial": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "hoy": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "inmediato": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "inscribete": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "inteligencia": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "laboratorio": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "lista": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "manana": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 2,
+            "probabilidad_spam_dada_palabra": 0.25
+        },
+        "nos": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "oferta": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "premio": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "prestamo": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "proyecto": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "puedas": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "recibe": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "reclama": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "recuerda": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "reunion": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "revision": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "sera": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "solicita": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "tarea": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "te": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "tu": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "tus": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "universidad": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "urgente": {
+            "apariciones_spam": 1,
+            "apariciones_no_spam": 0,
+            "probabilidad_spam_dada_palabra": 0.666667
+        },
+        "vemos": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "ven": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        },
+        "viernes": {
+            "apariciones_spam": 0,
+            "apariciones_no_spam": 1,
+            "probabilidad_spam_dada_palabra": 0.333333
+        }
+    }
+}

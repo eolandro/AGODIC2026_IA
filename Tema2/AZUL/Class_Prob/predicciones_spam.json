@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "mensaje": "Recibe un regalo exclusivo al registrarte hoy",
+        "tokens_conocidos": [
+            "hoy",
+            "recibe"
+        ],
+        "votos_spam": 2,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 2,
+        "mensaje": "¿Puedes enviarme la tarea de la clase de ayer?",
+        "tokens_conocidos": [
+            "clase",
+            "tarea"
+        ],
+        "votos_spam": 0,
+        "votos_no_spam": 2,
+        "consenso_spam": 0.0,
+        "clasificacion": "no_spam"
+    },
+    {
+        "id": 3,
+        "mensaje": "Tu cuenta obtuvo un premio, entra al enlace para reclamarlo",
+        "tokens_conocidos": [
+            "enlace",
+            "premio",
+            "tu"
+        ],
+        "votos_spam": 3,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 4,
+        "mensaje": "Ganaste el torneo deportivo del domingo",
+        "tokens_conocidos": [
+            "ganaste"
+        ],
+        "votos_spam": 1,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 5,
+        "mensaje": "Crédito aprobado de inmediato, solicita tu dinero ahora",
+        "tokens_conocidos": [
+            "ahora",
+            "dinero",
+            "inmediato",
+            "solicita",
+            "tu"
+        ],
+        "votos_spam": 5,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 6,
+        "mensaje": "Nos vemos en la biblioteca para estudiar el examen",
+        "tokens_conocidos": [
+            "estudiar",
+            "examen",
+            "nos",
+            "vemos"
+        ],
+        "votos_spam": 0,
+        "votos_no_spam": 4,
+        "consenso_spam": 0.0,
+        "clasificacion": "no_spam"
+    },
+    {
+        "id": 7,
+        "mensaje": "Descuento especial en tu primera compra",
+        "tokens_conocidos": [
+            "compra",
+            "descuento",
+            "especial",
+            "tu"
+        ],
+        "votos_spam": 4,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 8,
+        "mensaje": "Mamá avisó que la cena ya está lista",
+        "tokens_conocidos": [
+            "esta",
+            "lista"
+        ],
+        "votos_spam": 0,
+        "votos_no_spam": 2,
+        "consenso_spam": 0.0,
+        "clasificacion": "no_spam"
+    },
+    {
+        "id": 9,
+        "mensaje": "Confirma urgentemente tu información bancaria",
+        "tokens_conocidos": [
+            "confirma",
+            "tu"
+        ],
+        "votos_spam": 2,
+        "votos_no_spam": 0,
+        "consenso_spam": 1.0,
+        "clasificacion": "spam"
+    },
+    {
+        "id": 10,
+        "mensaje": "El profesor cambió la fecha de entrega del proyecto",
+        "tokens_conocidos": [
+            "proyecto"
+        ],
+        "votos_spam": 0,
+        "votos_no_spam": 1,
+        "consenso_spam": 0.0,
+        "clasificacion": "no_spam"
+    }
+]

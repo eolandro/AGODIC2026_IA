@@ -1,0 +1,79 @@
+{
+    "matriz_confusion": {
+        "verdaderos_positivos": 5,
+        "falsos_positivos": 1,
+        "falsos_negativos": 0,
+        "verdaderos_negativos": 4
+    },
+    "metricas": {
+        "recall": 1.0,
+        "accuracy": 0.9,
+        "precision": 0.8333,
+        "prevalence": 0.5,
+        "tasa_error": 0.1,
+        "f1_score": 0.9091,
+        "bias_prediccion": 0.1
+    },
+    "comparacion": [
+        {
+            "id": 1,
+            "supervisor": "spam",
+            "clasificador": "spam",
+            "acierto": true
+        },
+        {
+            "id": 2,
+            "supervisor": "no_spam",
+            "clasificador": "no_spam",
+            "acierto": true
+        },
+        {
+            "id": 3,
+            "supervisor": "spam",
+            "clasificador": "spam",
+            "acierto": true
+        },
+        {
+            "id": 4,
+            "supervisor": "no_spam",
+            "clasificador": "spam",
+            "acierto": false
+        },
+        {
+            "id": 5,
+            "supervisor": "spam",
+            "clasificador": "spam",
+            "acierto": true
+        },
+        {
+            "id": 6,
+            "supervisor": "no_spam",
+            "clasificador": "no_spam",
+            "acierto": true
+        },
+        {
+            "id": 7,
+            "supervisor": "spam",
+            "clasificador": "spam",
+            "acierto": true
+        },
+        {
+            "id": 8,
+            "supervisor": "no_spam",
+            "clasificador": "no_spam",
+            "acierto": true
+        },
+        {
+            "id": 9,
+            "supervisor": "spam",
+            "clasificador": "spam",
+            "acierto": true
+        },
+        {
+            "id": 10,
+            "supervisor": "no_spam",
+            "clasificador": "no_spam",
+            "acierto": true
+        }
+    ]
+}
