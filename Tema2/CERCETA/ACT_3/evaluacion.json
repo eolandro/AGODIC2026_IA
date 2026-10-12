@@ -1,0 +1,86 @@
+{
+    "mensajes": [
+        {
+            "texto": "Reclama tu regalo gratis",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 4,
+            "real": 1
+        },
+        {
+            "texto": "La reunion es el lunes",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Compra con descuento especial",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Envia la tarea del lunes",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Ganaste dinero gratis",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Revisa el informe del equipo",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Oferta especial reclama hoy",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 4,
+            "real": 1
+        },
+        {
+            "texto": "La clase tiene tarea",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "El informe habla del dinero gratis",
+            "prediccion": 1,
+            "promedio": 1.0,
+            "palabras_conocidas": 3,
+            "real": 1
+        },
+        {
+            "texto": "Nos vemos durante el desayuno",
+            "prediccion": 0,
+            "promedio": null,
+            "palabras_conocidas": 0,
+            "real": 1
+        }
+    ],
+    "matriz": {
+        "VP": 9,
+        "VN": 0,
+        "FP": 0,
+        "FN": 1
+    },
+    "metricas": {
+        "Accuracy": 0.9,
+        "Precision": 1.0,
+        "Recall": 0.9,
+        "Prevalence": 1.0
+    }
+}
