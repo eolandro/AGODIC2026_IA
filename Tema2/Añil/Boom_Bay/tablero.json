@@ -1,0 +1,15 @@
+{
+    "casillas": 50,
+    "bombas": [7, 33],
+    "desactivadores": [3, 12, 21, 29, 38, 45],
+    "sensibilidad": 0.9,
+    "falso_positivo": 0.1,
+    "lecturas": {
+    "3":  "positivo",
+    "12": "positivo",
+    "21": "negativo",
+    "29": "positivo",
+    "38": "negativo",
+    "45": "negativo"
+    }
+}
