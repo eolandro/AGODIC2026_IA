@@ -1,7 +1,3 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# Boom_Bay.py  —  Toma de decisiones con Bayes
-# Uso: python Boom_Bay.py [tablero.json]
-# ─────────────────────────────────────────────────────────────────────────────
 
 import argparse
 import json
@@ -9,7 +5,6 @@ import random
 from pathlib import Path
 
 
-# ── R010: Leer el tablero desde archivo ──────────────────────────────────────
 def leer_tablero(ruta):
     with open(ruta, "r", encoding="utf-8") as archivo:
         tablero = json.load(archivo)
@@ -25,9 +20,6 @@ def leer_tablero(ruta):
         raise ValueError("La bomba está fuera del tablero")
     return tablero
 
-
-# ── Teorema de Bayes (forma de árbol) ────────────────────────────────────────
-# P(bomba|+) = P(+|bomba)·P(bomba) / [ P(+|bomba)·P(bomba) + P(+|vacía)·P(vacía) ]
 def bayes(prior, sensibilidad, falso_positivo):
     p_bomba = sensibilidad * prior
     p_vacia = falso_positivo * (1 - prior)
@@ -39,9 +31,9 @@ class BoomBay:
     SIM_SIN_REVISAR = "?"
     SIM_REVISADA    = "."
     SIM_BOOME       = "R"
-    SIM_DESARMADA   = "B"   # bomba desactivada
-    SIM_EXPLOTO     = "X"   # Boome pisó la bomba
-    SIM_FALSA       = "D"   # desactivador gastado en una casilla vacía
+    SIM_DESARMADA   = "B"
+    SIM_EXPLOTO     = "X"
+    SIM_FALSA       = "D"
 
     def __init__(self, tablero, rng):
         self.filas          = tablero["filas"]
@@ -54,7 +46,6 @@ class BoomBay:
         self.desactivadores = tablero["desactivadores"]
         self.rng            = rng
 
-        # Recorrido en serpiente: izquierda→derecha, baja, derecha→izquierda...
         self.ruta = []
         for f in range(self.filas):
             cols = range(self.columnas)
@@ -62,25 +53,22 @@ class BoomBay:
                 cols = reversed(cols)
             self.ruta += [(f, c) for c in cols]
 
-        self.revisadas = 0       # casillas ya recorridas
+        self.revisadas = 0
         self.pos       = None
-        self.marcas    = {}      # casilla -> símbolo final
-        self.Estado    = "ready" # ready | done | dead
+        self.marcas    = {}
+        self.Estado    = "ready"
         self.Resultado = ""
 
-    # ── Detector con falsos positivos / negativos ────────────────────────────
     def detector(self, casilla):
         p_positivo = self.sensibilidad if casilla == self.bomba else self.falso_positivo
         return 1 if self.rng.random() < p_positivo else 0
 
-    # ── R011: probabilidad de Bayes por detector positivo ────────────────────
     def evaluar(self, casilla):
         lectura = self.detector(casilla)
         print(f"Casilla {casilla}: detector = {lectura}")
         if lectura == 0:
             return None
 
-        # Prior: una sola bomba entre las casillas que aún no se recorren
         prior = 1 / (self.total - self.revisadas)
         posterior = bayes(prior, self.sensibilidad, self.falso_positivo)
         print(f"  Intento 1 (prior {prior * 100:.2f}%): "
@@ -97,7 +85,6 @@ class BoomBay:
                       f"sin cambio ({posterior * 100:.2f}%)")
         return posterior
 
-    # ── Una casilla del recorrido ────────────────────────────────────────────
     def step(self):
         if self.Estado != "ready":
             return
@@ -127,7 +114,6 @@ class BoomBay:
         self.pos = casilla
         self.revisadas += 1
 
-    # ── Representación en consola ────────────────────────────────────────────
     def __str__(self):
         lineas = []
         for f in range(self.filas):
