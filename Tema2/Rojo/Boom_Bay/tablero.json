@@ -1,0 +1,10 @@
+{
+  "filas": 5,
+  "columnas": 10,
+  "posiciones_bombas": [[1, 3], [3, 7]],
+  "desactivadores": 6,
+  "sensibilidad": 0.9,
+  "falso_positivo": 0.2,
+  "umbral": 0.51,
+  "semilla": null
+}
