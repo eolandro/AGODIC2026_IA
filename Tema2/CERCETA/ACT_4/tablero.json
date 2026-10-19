@@ -1,0 +1,16 @@
+{
+  "filas": 5,
+  "columnas": 10,
+  "bombas": 2,
+  "desactivadores_disponibles": 6,
+  "posiciones_bombas": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      7
+    ]
+  ]
+}
