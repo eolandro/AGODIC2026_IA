@@ -1,0 +1,63 @@
+R2 = #0001
+R0 = detector der
+R3 = sensor der
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+der
+FinSi
+R0 = detector der
+R3 = sensor der
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+der
+FinSi
+R0 = detector der
+R3 = sensor der
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+der
+FinSi
+R0 = detector der
+R3 = sensor der
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+der
+FinSi
+R0 = detector der
+R3 = sensor der
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+der
+FinSi
+R1 = #0001
+ciclo R1
+R0 = detector abajo
+R3 = sensor abajo
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+abajo
+FinSi
+Finciclo
+R0 = detector izq
+R3 = sensor izq
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+izq
+FinSi
+R1 = #0001
+ciclo R1
+R0 = detector abajo
+R3 = sensor abajo
+R1 = R2 - R0
+R1 = R1 - R3
+Si R1
+abajo
+FinSi
+Finciclo
