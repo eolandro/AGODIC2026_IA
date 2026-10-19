@@ -3,13 +3,13 @@
     "matriz_confusion": {
       "VP": 0,
       "FP": 0,
-      "FN": 7,
-      "VN": 3
+      "FN": 3,
+      "VN": 7
     },
-    "accuracy": 0.3,
+    "accuracy": 0.7,
     "precision": null,
     "recall": 0.0,
-    "prevalence": 0.7,
+    "prevalence": 0.3,
     "bias": 0.0,
     "specificity": 1.0,
     "f1": null
@@ -31,7 +31,7 @@
           "moda": "no_spam"
         }
       },
-      "etiqueta_supervisor": "no_spam"
+      "etiqueta_supervisor": "spam"
     },
     {
       "mensaje": "estamos",
@@ -76,7 +76,7 @@
         "palabras": [],
         "nota": "sin palabras conocidas, se usa P(spam)"
       },
-      "etiqueta_supervisor": "spam"
+      "etiqueta_supervisor": "no_spam"
     },
     {
       "mensaje": "dia",
@@ -94,7 +94,7 @@
           "moda": "no_spam"
         }
       },
-      "etiqueta_supervisor": "spam"
+      "etiqueta_supervisor": "no_spam"
     },
     {
       "mensaje": "excelente",
@@ -103,7 +103,7 @@
         "palabras": [],
         "nota": "sin palabras conocidas, se usa P(spam)"
       },
-      "etiqueta_supervisor": "spam"
+      "etiqueta_supervisor": "no_spam"
     },
     {
       "mensaje": "noche",
@@ -112,7 +112,7 @@
         "palabras": [],
         "nota": "sin palabras conocidas, se usa P(spam)"
       },
-      "etiqueta_supervisor": "spam"
+      "etiqueta_supervisor": "no_spam"
     },
     {
       "mensaje": "bye",
@@ -121,7 +121,7 @@
         "palabras": [],
         "nota": "sin palabras conocidas, se usa P(spam)"
       },
-      "etiqueta_supervisor": "spam"
+      "etiqueta_supervisor": "no_spam"
     }
   ]
 }
