@@ -1,0 +1,9 @@
+{
+  "filas": 5,
+  "columnas": 10,
+  "desactivadores_disponibles": 6,
+  "posiciones_bombas": [
+    [1, 2],
+    [3, 7]
+  ]
+}
