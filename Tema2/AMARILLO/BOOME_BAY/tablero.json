@@ -1,0 +1,10 @@
+{
+  "filas": 5,
+  "columnas": 10,
+  "bomba": 14,
+  "sensibilidad": 0.9,
+  "falso_positivo": 0.2,
+  "umbral": 0.51,
+  "desactivadores": 3,
+  "semilla": 7
+}

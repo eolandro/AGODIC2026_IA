@@ -1,7 +1,7 @@
 [
   {
     "mensaje": "hola",
-    "etiqueta": "no_spam"
+    "etiqueta": "spam"
   },
   {
     "mensaje": "como",
@@ -12,31 +12,31 @@
     "etiqueta": "spam"
   },
   {
-    "mensaje": "hoy",
+    "mensaje": "yo",
     "etiqueta": "no_spam"
   },
   {
-    "mensaje": "que",
+    "mensaje": "muy",
+    "etiqueta": "spam"
+  },
+  {
+    "mensaje": "bien",
     "etiqueta": "no_spam"
   },
   {
-    "mensaje": "tengas",
+    "mensaje": "gracias",
     "etiqueta": "spam"
   },
   {
-    "mensaje": "lindo",
-    "etiqueta": "spam"
-  },
-  {
-    "mensaje": "dia",
+    "mensaje": "nos",
     "etiqueta": "no_spam"
   },
   {
-    "mensaje": "cuidate",
+    "mensaje": "vemos",
     "etiqueta": "spam"
   },
   {
-    "mensaje": "mucho",
+    "mensaje": "pronto",
     "etiqueta": "no_spam"
   }
 ]
