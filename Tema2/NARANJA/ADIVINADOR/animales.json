@@ -1,0 +1,121 @@
+{
+  "caracteristicas": [
+    {
+      "nombre": "COLA LARGA",
+      "relacion": "tiene",
+      "valor": "cola larga"
+    },
+    {
+      "nombre": "LEAL",
+      "relacion": "es",
+      "valor": "leal"
+    },
+    {
+      "nombre": "VUELA",
+      "relacion": "puede",
+      "valor": "volar"
+    },
+    {
+      "nombre": "BIGOTES",
+      "relacion": "tiene",
+      "valor": "bigotes"
+    },
+    {
+      "nombre": "DIENTES GRANDES",
+      "relacion": "tiene",
+      "valor": "dientes grandes"
+    },
+    {
+      "nombre": "SALTA",
+      "relacion": "puede",
+      "valor": "saltar"
+    },
+    {
+      "nombre": "TRANQUILO",
+      "relacion": "es",
+      "valor": "tranquilo"
+    },
+    {
+      "nombre": "PONE HUEVO",
+      "relacion": "pone",
+      "valor": "huevos"
+    },
+    {
+      "nombre": "GALOPA",
+      "relacion": "puede",
+      "valor": "galopar"
+    },
+    {
+      "nombre": "COLMILLOS LARGOS",
+      "relacion": "tiene",
+      "valor": "colmillos largos"
+    },
+    {
+      "nombre": "LENTA",
+      "relacion": "es",
+      "valor": "lento"
+    }
+  ],
+  "animales": {
+    "perro": [
+      "COLA LARGA",
+      "LEAL",
+      "BIGOTES",
+      "SALTA",
+      "COLMILLOS LARGOS"
+    ],
+    "mariposa": [
+      "VUELA",
+      "TRANQUILO",
+      "PONE HUEVO"
+    ],
+    "gato": [
+      "COLA LARGA",
+      "BIGOTES",
+      "SALTA",
+      "TRANQUILO",
+      "COLMILLOS LARGOS"
+    ],
+    "tuza": [
+      "COLA LARGA",
+      "BIGOTES",
+      "DIENTES GRANDES",
+      "SALTA",
+      "TRANQUILO"
+    ],
+    "conejo": [
+      "BIGOTES",
+      "DIENTES GRANDES",
+      "SALTA",
+      "TRANQUILO"
+    ],
+    "capibara": [
+      "BIGOTES",
+      "DIENTES GRANDES",
+      "SALTA",
+      "TRANQUILO"
+    ],
+    "ornitorrinco": [
+      "COLA LARGA",
+      "TRANQUILO",
+      "PONE HUEVO"
+    ],
+    "caballo": [
+      "COLA LARGA",
+      "LEAL",
+      "BIGOTES",
+      "DIENTES GRANDES",
+      "SALTA",
+      "GALOPA"
+    ],
+    "mamut": [
+      "COLA LARGA",
+      "COLMILLOS LARGOS"
+    ],
+    "tortuga": [
+      "TRANQUILO",
+      "PONE HUEVO",
+      "LENTA"
+    ]
+  }
+}

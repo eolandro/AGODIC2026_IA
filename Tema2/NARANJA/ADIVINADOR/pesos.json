@@ -1,0 +1,250 @@
+{
+  "caracteristicas": [
+    {
+      "nombre": "COLA LARGA",
+      "relacion": "tiene",
+      "valor": "cola larga"
+    },
+    {
+      "nombre": "LEAL",
+      "relacion": "es",
+      "valor": "leal"
+    },
+    {
+      "nombre": "VUELA",
+      "relacion": "puede",
+      "valor": "volar"
+    },
+    {
+      "nombre": "BIGOTES",
+      "relacion": "tiene",
+      "valor": "bigotes"
+    },
+    {
+      "nombre": "DIENTES GRANDES",
+      "relacion": "tiene",
+      "valor": "dientes grandes"
+    },
+    {
+      "nombre": "SALTA",
+      "relacion": "puede",
+      "valor": "saltar"
+    },
+    {
+      "nombre": "TRANQUILO",
+      "relacion": "es",
+      "valor": "tranquilo"
+    },
+    {
+      "nombre": "PONE HUEVO",
+      "relacion": "pone",
+      "valor": "huevos"
+    },
+    {
+      "nombre": "GALOPA",
+      "relacion": "puede",
+      "valor": "galopar"
+    },
+    {
+      "nombre": "COLMILLOS LARGOS",
+      "relacion": "tiene",
+      "valor": "colmillos largos"
+    },
+    {
+      "nombre": "LENTA",
+      "relacion": "es",
+      "valor": "lento"
+    }
+  ],
+  "peso_caracteristica": {
+    "COLA LARGA": 1024,
+    "LEAL": 512,
+    "VUELA": 256,
+    "BIGOTES": 128,
+    "DIENTES GRANDES": 64,
+    "SALTA": 32,
+    "TRANQUILO": 16,
+    "PONE HUEVO": 8,
+    "GALOPA": 4,
+    "COLMILLOS LARGOS": 2,
+    "LENTA": 1
+  },
+  "tabla": {
+    "perro": {
+      "COLA LARGA": 1024,
+      "LEAL": 512,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 0,
+      "SALTA": 32,
+      "TRANQUILO": 0,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 2,
+      "LENTA": 0
+    },
+    "mariposa": {
+      "COLA LARGA": 0,
+      "LEAL": 0,
+      "VUELA": 256,
+      "BIGOTES": 0,
+      "DIENTES GRANDES": 0,
+      "SALTA": 0,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 8,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "gato": {
+      "COLA LARGA": 1024,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 0,
+      "SALTA": 32,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 2,
+      "LENTA": 0
+    },
+    "tuza": {
+      "COLA LARGA": 1024,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 64,
+      "SALTA": 32,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "conejo": {
+      "COLA LARGA": 0,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 64,
+      "SALTA": 32,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "capibara": {
+      "COLA LARGA": 0,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 64,
+      "SALTA": 32,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "ornitorrinco": {
+      "COLA LARGA": 1024,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 0,
+      "DIENTES GRANDES": 0,
+      "SALTA": 0,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 8,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "caballo": {
+      "COLA LARGA": 1024,
+      "LEAL": 512,
+      "VUELA": 0,
+      "BIGOTES": 128,
+      "DIENTES GRANDES": 64,
+      "SALTA": 32,
+      "TRANQUILO": 0,
+      "PONE HUEVO": 0,
+      "GALOPA": 4,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 0
+    },
+    "mamut": {
+      "COLA LARGA": 1024,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 0,
+      "DIENTES GRANDES": 0,
+      "SALTA": 0,
+      "TRANQUILO": 0,
+      "PONE HUEVO": 0,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 2,
+      "LENTA": 0
+    },
+    "tortuga": {
+      "COLA LARGA": 0,
+      "LEAL": 0,
+      "VUELA": 0,
+      "BIGOTES": 0,
+      "DIENTES GRANDES": 0,
+      "SALTA": 0,
+      "TRANQUILO": 16,
+      "PONE HUEVO": 8,
+      "GALOPA": 0,
+      "COLMILLOS LARGOS": 0,
+      "LENTA": 1
+    }
+  },
+  "total": {
+    "perro": 1698,
+    "mariposa": 280,
+    "gato": 1202,
+    "tuza": 1264,
+    "conejo": 240,
+    "capibara": 240,
+    "ornitorrinco": 1048,
+    "caballo": 1764,
+    "mamut": 1026,
+    "tortuga": 25
+  },
+  "colisiones": [
+    [
+      "conejo",
+      "capibara"
+    ]
+  ],
+  "entropia_caracteristica": {
+    "COLA LARGA": 0.971,
+    "LEAL": 0.7219,
+    "VUELA": 0.469,
+    "BIGOTES": 0.971,
+    "DIENTES GRANDES": 0.971,
+    "SALTA": 0.971,
+    "TRANQUILO": 0.8813,
+    "PONE HUEVO": 0.8813,
+    "GALOPA": 0.469,
+    "COLMILLOS LARGOS": 0.8813,
+    "LENTA": 0.469
+  },
+  "orden_preguntas": [
+    "COLA LARGA",
+    "BIGOTES",
+    "DIENTES GRANDES",
+    "SALTA",
+    "TRANQUILO",
+    "PONE HUEVO",
+    "COLMILLOS LARGOS",
+    "LEAL",
+    "VUELA",
+    "GALOPA",
+    "LENTA"
+  ],
+  "entropia_total": 3.3219,
+  "minimo_teorico_preguntas": 4
+}
