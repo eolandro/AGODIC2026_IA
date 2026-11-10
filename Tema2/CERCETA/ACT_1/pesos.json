@@ -1,0 +1,78 @@
+{
+    "orden_preguntas": [
+        "bigotes",
+        "granja",
+        "salta",
+        "cola_larga",
+        "pone_huevo",
+        "tranquilo",
+        "leal",
+        "galopa",
+        "lentitud",
+        "vuela"
+    ],
+    "pesos": {
+        "bigotes": 512,
+        "granja": 256,
+        "salta": 128,
+        "cola_larga": 64,
+        "pone_huevo": 32,
+        "tranquilo": 16,
+        "leal": 8,
+        "galopa": 4,
+        "lentitud": 2,
+        "vuela": 1
+    },
+    "animales": [
+        {
+            "animal": "tuza",
+            "binario": "1110010000",
+            "valor": 912
+        },
+        {
+            "animal": "conejo",
+            "binario": "1110010000",
+            "valor": 912
+        },
+        {
+            "animal": "capibara",
+            "binario": "1110010000",
+            "valor": 912
+        },
+        {
+            "animal": "caballo",
+            "binario": "1110001100",
+            "valor": 908
+        },
+        {
+            "animal": "gato",
+            "binario": "1011010000",
+            "valor": 720
+        },
+        {
+            "animal": "perro",
+            "binario": "1011001000",
+            "valor": 712
+        },
+        {
+            "animal": "mamut",
+            "binario": "0001000000",
+            "valor": 64
+        },
+        {
+            "animal": "tortuga",
+            "binario": "0000110010",
+            "valor": 50
+        },
+        {
+            "animal": "mariposa",
+            "binario": "0000110001",
+            "valor": 49
+        },
+        {
+            "animal": "ornitorinco",
+            "binario": "0000110000",
+            "valor": 48
+        }
+    ]
+}
