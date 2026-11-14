@@ -1,0 +1,21 @@
+{
+  "nombre": "Escenario de Boome 10x10",
+  "leyenda": "R = Boome (robot), B = bomba, X = obstaculo, 0 = libre",
+
+  "configuracion": {
+    "costo_recto": 1
+  },
+
+  "tablero": [
+    "0 0 X 0 0 0 0 0 0 0",
+    "0 0 X 0 0 0 0 0 R 0",
+    "0 0 X 0 0 X X X 0 0",
+    "0 0 0 0 0 0 0 0 0 0",
+    "0 X X X X X X X 0 0",
+    "0 0 0 0 0 0 0 0 0 0",
+    "0 0 0 0 X X X 0 0 0",
+    "X X X 0 0 0 0 0 0 0",
+    "0 0 0 0 0 0 0 X X 0",
+    "0 B 0 0 0 0 0 0 0 0" 
+  ]
+}

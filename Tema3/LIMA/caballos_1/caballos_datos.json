@@ -1,0 +1,5 @@
+{
+  "tablero": 6,
+  "negros": ["A1", "B1"],
+  "blancos": ["E6", "F6"]
+}
