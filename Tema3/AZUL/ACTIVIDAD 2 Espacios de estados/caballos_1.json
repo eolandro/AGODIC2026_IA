@@ -1,0 +1,22 @@
+{
+    "descripcion": "Intercambio de dos caballos blancos y dos negros en un tablero de 6x6",
+    "tamano": 6,
+    "piezas": [
+        "CB1",
+        "CB2",
+        "CN1",
+        "CN2"
+    ],
+    "inicio": [
+        "A1",
+        "F1",
+        "A6",
+        "F6"
+    ],
+    "objetivo": [
+        "A6",
+        "F6",
+        "A1",
+        "F1"
+    ]
+}

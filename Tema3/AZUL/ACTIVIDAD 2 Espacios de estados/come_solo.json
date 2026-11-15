@@ -1,0 +1,74 @@
+{
+    "descripcion": "Juego del Come Solo en tablero clásico de cruz de 7x7",
+    "filas": 7,
+    "tablero": [
+        [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+        ],
+        [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+        ],
+        [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+        ],
+        [
+            -1,
+            -1,
+            1,
+            1,
+            1,
+            -1,
+            -1
+        ]
+    ],
+    "referencia": {
+        "-1": "Posición que no forma parte del tablero",
+        "0": "Casilla vacía",
+        "1": "Casilla con una pieza"
+    }
+}
