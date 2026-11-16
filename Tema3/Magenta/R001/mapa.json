@@ -1,0 +1,19 @@
+{
+    "O": ["OJ", "OK", "OL"],
+    "OJ": ["OJB", "OJC", "OJD"],
+    "OK": ["OKE", "OKF"],
+    "OL": ["OLG", "OLH", "OLI"],
+    "OJB": [],
+    "OJC": ["OJCM"],
+    "OJD": [],
+    "OKE": ["OKEN"],
+    "OKF": [],
+    "OLG": [],
+    "OLH": ["OLHO"],
+    "OLI": ["OLIP"],
+    "OJCM": [],
+    "OKEN": [],
+    "OLHO": [],
+    "OLIP": ["OLIPA"],
+    "OLIPA": []
+}
