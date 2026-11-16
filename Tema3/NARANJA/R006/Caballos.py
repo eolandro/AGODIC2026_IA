@@ -1,76 +1,118 @@
-# R005 - Problema de los caballos 1
-negros = [[0, 0], [2, 0]]
-rojos = [[0, 2], [2, 2]]
-recorrido = [[0, 0], [2, 1], [0, 2], [1, 0], [2, 2], [0, 1], [2, 0], [1, 2]]
-def siguiente(pos):
-    for i in range(8):
-        if recorrido[i] == pos:
-            if i == 7:
-                return recorrido[0]
-            return recorrido[i + 1]
-def armar_tablero(negros, rojos):
-    tablero = [[".", ".", "."],
-               [".", ".", "."],
-               [".", ".", "."]]
-    for p in negros:
-        tablero[p[1]][p[0]] = "N"
-    for p in rojos:
-        tablero[p[1]][p[0]] = "R"
-    return tablero
-def imprimir_horizontal(tableros, titulos):
-    linea = ""
-    for t in titulos:
-        linea = linea + t.ljust(12)
-    print(linea)
+import json
 
-    for y in range(3):
-        linea = ""
-        for i in range(len(tableros)):
-            fila = tableros[i][y]
-            linea = linea + fila[0] + " " + fila[1] + " " + fila[2] + " "
-            if y == 1 and i < len(tableros) - 1:
-                linea = linea + " ->   "
-            else:
-                linea = linea + "      "
-        print(linea)
+archivo = open("saltos.json")
+saltos = json.load(archivo)
+archivo.close()
 
-# ---------------- Programa principal ----------------
+letras = "abcdefgh"
+numeros = "87654321"
+
+
+def contar_libres(casilla, ruta):
+    libres = 0
+    for destino in saltos[casilla]:
+        if destino not in ruta:
+            libres = libres + 1
+    return libres
+
+
+def buscar_ruta(origen):
+    pila = [[origen]]
+    regresos = 0
+
+    while len(pila) > 0:
+        ruta = pila.pop()
+
+        if len(ruta) == 64:
+            return ruta, regresos
+
+        ultima = ruta[len(ruta) - 1]
+        opciones = []
+        for destino in saltos[ultima]:
+            if destino not in ruta:
+                libres = contar_libres(destino, ruta + [destino])
+                opciones.append([libres, destino])
+
+        if len(opciones) == 0:
+            regresos = regresos + 1
+        else:
+            opciones.sort(reverse=True)
+            for op in opciones:
+                pila.append(ruta + [op[1]])
+
+    return None, regresos
+
+
+def imprimir_coordenadas():
+    print("     +" + "----" * 8 + "+")
+    for n in numeros:
+        renglon = "  " + n + "  |"
+        for l in letras:
+            renglon = renglon + " " + l + n + " "
+        print(renglon + "|")
+    print("     +" + "----" * 8 + "+")
+    renglon = "      "
+    for l in letras:
+        renglon = renglon + l.rjust(3) + " "
+    print(renglon)
+
+
+def imprimir_pasos(ruta):
+    turno = {}
+    for i in range(len(ruta)):
+        turno[ruta[i]] = i + 1
+
+    print("     +" + "----" * 8 + "+")
+    for n in numeros:
+        renglon = "  " + n + "  |"
+        for l in letras:
+            renglon = renglon + str(turno[l + n]).rjust(3) + " "
+        print(renglon + "|")
+    print("     +" + "----" * 8 + "+")
+    renglon = "      "
+    for l in letras:
+        renglon = renglon + l.rjust(3) + " "
+    print(renglon)
+
+
 print("==============================================")
-print("     PROBLEMA DE LOS CABALLOS 1  EQUIPO NARANJA")
+print("   PROBLEMA DE LOS CABALLOS 2  EQUIPO NARANJA")
 print("==============================================")
-print("N = caballo negro   R = caballo rojo   . = casilla vacia")
+print("Coordenadas del tablero (letra = columna, numero = fila):")
+imprimir_coordenadas()
+print()
 
-tablero = armar_tablero(negros, rojos)
-final = armar_tablero(rojos, negros)     
+entrada = input("Coordenada inicial del caballo (ej. e4): ").strip().lower()
+while entrada not in saltos:
+    print("Coordenada no valida. Usa una letra de a-h y un numero de 1-8.")
+    entrada = input("Coordenada inicial del caballo (ej. e4): ").strip().lower()
 
-imprimir_horizontal([tablero, final], ["Inicio", "Resultado"])
+print()
+print("El caballo inicia en", entrada)
+print("Desde ahi puede saltar a:", ", ".join(saltos[entrada]))
 
-estados = [tablero]
-titulos = ["Estado 0"]
+ruta, regresos = buscar_ruta(entrada)
 
-estado = 0
-while tablero != final:
-    nuevos_negros = []
-    for p in negros:
-        nuevos_negros.append(siguiente(p))
+if ruta is None:
+    print("No se encontro un recorrido completo")
+else:
+    print()
+    print("Tablero (numero = paso en que se visito la casilla):")
+    imprimir_pasos(ruta)
 
-    nuevos_rojos = []
-    for p in rojos:
-        nuevos_rojos.append(siguiente(p))
+    print()
+    print("Recorrido:")
+    renglon = ""
+    for i in range(len(ruta)):
+        renglon = renglon + ruta[i]
+        if i < len(ruta) - 1:
+            renglon = renglon + " -> "
+        if (i + 1) % 8 == 0:
+            print(renglon)
+            renglon = ""
 
-    negros = nuevos_negros
-    rojos = nuevos_rojos
-
-    tablero = armar_tablero(negros, rojos)
-    estado = estado + 1
-
-    estados.append(tablero)
-    titulos.append("Estado " + str(estado))
-
-print("Procedimiento:")
-imprimir_horizontal(estados, titulos)
-
-print("==============================================")
-print("Intercambio logrado en", estado, "estados")
-print("Movimientos de caballos:", estado * 4)
-print("==============================================")
+    print()
+    print("==============================================")
+    print("Casillas visitadas:", len(ruta), "de 64")
+    print("Regresos (backtracking):", regresos)
+    print("==============================================")
