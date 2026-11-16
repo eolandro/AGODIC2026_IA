@@ -1,0 +1,19 @@
+{
+  "descripcion": "Grafo no dirigido visto en clase - Tema 3 Búsqueda local",
+  "inicio": "Ñ",
+  "meta": "A",
+  "aristas": [
+    {"origen": "Ñ", "destino": "O", "costo": 10},
+    {"origen": "O", "destino": "S", "costo": 15},
+    {"origen": "S", "destino": "T", "costo": 6},
+    {"origen": "T", "destino": "U", "costo": 10},
+    {"origen": "U", "destino": "V", "costo": 2},
+    {"origen": "V", "destino": "A", "costo": 10},
+    {"origen": "Ñ", "destino": "V", "costo": 30},
+    {"origen": "Ñ", "destino": "P", "costo": 11},
+    {"origen": "P", "destino": "Q", "costo": 11},
+    {"origen": "P", "destino": "R", "costo": 5},
+    {"origen": "R", "destino": "Q", "costo": 6},
+    {"origen": "Q", "destino": "U", "costo": 12}
+  ]
+}
