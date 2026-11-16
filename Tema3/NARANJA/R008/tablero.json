@@ -1,0 +1,21 @@
+{
+    "simbolos": {
+        "robot": "R",
+        "bomba": "B",
+        "obstaculo": "o",
+        "libre": ".",
+        "camino": "*"
+    },
+    "tablero": [
+        ". . . . . . . . . .",
+        ". R . . o . . . . .",
+        ". . . . o . . . . .",
+        "o o o . o . o o o .",
+        ". . . . o . . . o .",
+        ". o o o o o o . o .",
+        ". . . . . . o . . .",
+        ". o o o o . o o o .",
+        ". . . . o . . . B .",
+        ". . . . o . . . . ."
+    ]
+}
